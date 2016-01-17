@@ -8,10 +8,6 @@
                                  :fetcher github
                                  :repo "walmes/electric-spacing")
                       :upgrade nil)
-    (essh :location (recipe
-                     :fetcher file
-                     :path "~/.emacs.d/private/wz-misc/essh/essh.el")
-          :upgrade nil)
     ))
 
 (defun wz-misc/init-bm ()
@@ -70,25 +66,3 @@
 (defun wz-misc/init-electric-spacing ()
   (use-package electric-spacing)
   (add-hook 'ess-mode-hook #'electric-spacing-mode))
-
-(defun wz-misc/init-essh ()
-  (use-package essh
-    :config
-    (progn
-      (add-hook
-       'sh-mode-hook
-       '(lambda ()
-          (define-key sh-mode-map "\C-c\C-r"
-            'pipe-region-to-shell)
-          (define-key sh-mode-map "\C-c\C-b"
-            'pipe-buffer-to-shell)
-          (define-key sh-mode-map "\C-c\C-j"
-            'pipe-line-to-shell)
-          (define-key sh-mode-map "\C-c\C-n"
-            'pipe-line-to-shell-and-step)
-          (define-key sh-mode-map "\C-c\C-f"
-            'pipe-function-to-shell)
-          (define-key sh-mode-map "\C-c\C-d"
-            'shell-cd-current-directory))))
-    )
-  ) ;; wz-misc/init-essh
