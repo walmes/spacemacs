@@ -185,6 +185,21 @@
   ;;-------------------------------------------
   (add-hook 'emacs-startup-hook 'delete-other-windows)[/code]
   (add-hook 'before-save-hook 'delete-trailing-whitespace)
+  ;;-------------------------------------------
+  ;; org and babel
+  (with-eval-after-load 'org
+    (org-babel-do-load-languages 'org-babel-load-languages
+                                 '((R . t)
+                                   (emacs-lisp . t)
+                                   (sh . t)
+                                   (python . t)))
+    (setq org-confirm-babel-evaluate nil)
+    (setq org-replace-disputed-keys t)
+    (setq org-return-follows-link t)
+    (setq org-src-fontify-natively t) ;; fontify code in code blocks.
+    (setq org-latex-listings t)
+    (add-to-list 'org-latex-packages-alist '("" "listings"))
+    (add-to-list 'org-latex-packages-alist '("" "color")))
   ) ;; dotspacemacs/user-config
 
 ;; Do not write anything past this comment. This is where Emacs will
