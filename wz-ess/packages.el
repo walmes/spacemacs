@@ -43,7 +43,13 @@
     :init
     (progn
       (when (configuration-layer/package-usedp 'company)
-          (add-hook 'ess-mode-hook 'company-mode))))
+        (add-hook 'ess-mode-hook 'company-mode))
+      (add-hook 'ess-mode-hook
+                '(lambda ()
+                   (setq ess-indent-with-fancy-comments nil)
+                   (setq-local comment-add 0)
+                   ))
+      ))
 
   ;; R -----------------------------------------------------------------
   (with-eval-after-load 'ess-site
@@ -53,8 +59,6 @@
           ess-expression-offset 4
           ess-nuke-trailing-whitespace-p t
           ess-default-style 'C++)
-    (setq ess-indent-with-fancy-comments nil)
-    (setq-local comment-add 0)
     (setq-default inferior-R-args
                   "--no-restore-history --no-save ")
     (setq comint-scroll-to-bottom-on-input t)
