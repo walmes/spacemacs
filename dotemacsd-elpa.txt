@@ -17,6 +17,12 @@
 │   ├── [      16476]  ace-window.elc
 │   ├── [        166]  ace-window-pkg.el
 │   └── [        571]  ace-window-pkg.elc
+├── [      14633]  ac-ispell-20151031.1926
+│   ├── [        677]  ac-ispell-autoloads.el
+│   ├── [       4976]  ac-ispell.el
+│   ├── [       4121]  ac-ispell.elc
+│   ├── [        179]  ac-ispell-pkg.el
+│   └── [        584]  ac-ispell-pkg.elc
 ├── [      15851]  adaptive-wrap-0.5
 │   ├── [        578]  adaptive-wrap-autoloads.el
 │   ├── [       6111]  adaptive-wrap.el
@@ -36,12 +42,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519549]  archives
+├── [     519550]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480931]  melpa
-│   │   └── [     476835]  archive-contents
+│   ├── [     480932]  melpa
+│   │   └── [     476836]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -61,12 +67,53 @@
 │   ├── [      30519]  auto-compile.elc
 │   ├── [        232]  auto-compile-pkg.el
 │   └── [        637]  auto-compile-pkg.elc
+├── [     390807]  auto-complete-20160107.8
+│   ├── [       1857]  auto-complete-autoloads.el
+│   ├── [      19578]  auto-complete-config.el
+│   ├── [      16621]  auto-complete-config.elc
+│   ├── [      74623]  auto-complete.el
+│   ├── [      66290]  auto-complete.elc
+│   ├── [        168]  auto-complete-pkg.el
+│   └── [     207574]  dict
+│       ├── [        448]  ada-mode
+│       ├── [       1812]  caml-mode
+│       ├── [       5634]  clojure-mode
+│       ├── [       4256]  clojurescript-mode
+│       ├── [        385]  c-mode
+│       ├── [        701]  c++-mode
+│       ├── [       2513]  coq-mode
+│       ├── [       8988]  css-mode
+│       ├── [       2141]  erlang-mode
+│       ├── [        154]  go-mode
+│       ├── [      10264]  haskell-mode
+│       ├── [        378]  java-mode
+│       ├── [       1144]  js-mode
+│       ├── [        107]  lua-mode
+│       ├── [        500]  octave-mode
+│       ├── [     108127]  php-mode
+│       ├── [       3023]  python-mode
+│       ├── [       1718]  qml-mode
+│       ├── [       1135]  ruby-mode
+│       ├── [      17199]  scala-mode
+│       ├── [       2081]  scheme-mode
+│       ├── [      14058]  sclang-mode
+│       ├── [       1373]  sh-mode
+│       ├── [       1629]  tcl-mode
+│       ├── [       9532]  ts-mode
+│       ├── [       1812]  tuareg-mode
+│       └── [       2366]  verilog-mode
 ├── [     104965]  auto-highlight-symbol-20130313.243
 │   ├── [       1562]  auto-highlight-symbol-autoloads.el
 │   ├── [      53401]  auto-highlight-symbol.el
 │   ├── [      44990]  auto-highlight-symbol.elc
 │   ├── [        256]  auto-highlight-symbol-pkg.el
 │   └── [        660]  auto-highlight-symbol-pkg.elc
+├── [      25603]  auto-yasnippet-20151218.831
+│   ├── [       1677]  auto-yasnippet-autoloads.el
+│   ├── [      11764]  auto-yasnippet.el
+│   ├── [       7341]  auto-yasnippet.elc
+│   ├── [        160]  auto-yasnippet-pkg.el
+│   └── [        565]  auto-yasnippet-pkg.elc
 ├── [      96135]  avy-20160106.723
 │   ├── [       3246]  avy-autoloads.el
 │   ├── [      47927]  avy.el
@@ -124,6 +171,72 @@
 │   ├── [       7977]  clean-aindent-mode.elc
 │   ├── [        220]  clean-aindent-mode-pkg.el
 │   └── [        624]  clean-aindent-mode-pkg.elc
+├── [     496440]  company-20160117.321
+│   ├── [       1623]  company-abbrev.el
+│   ├── [       1172]  company-abbrev.elc
+│   ├── [       8568]  company-autoloads.el
+│   ├── [       2250]  company-bbdb.el
+│   ├── [       1720]  company-bbdb.elc
+│   ├── [       7352]  company-capf.el
+│   ├── [       3498]  company-capf.elc
+│   ├── [      12865]  company-clang.el
+│   ├── [      13457]  company-clang.elc
+│   ├── [       7359]  company-cmake.el
+│   ├── [       5861]  company-cmake.elc
+│   ├── [      19636]  company-css.el
+│   ├── [      17037]  company-css.elc
+│   ├── [       4124]  company-dabbrev-code.el
+│   ├── [       3640]  company-dabbrev-code.elc
+│   ├── [       7665]  company-dabbrev.el
+│   ├── [       7184]  company-dabbrev.elc
+│   ├── [       7111]  company-eclim.el
+│   ├── [       5530]  company-eclim.elc
+│   ├── [     119017]  company.el
+│   ├── [     101020]  company.elc
+│   ├── [       8511]  company-elisp.el
+│   ├── [       7666]  company-elisp.elc
+│   ├── [       3986]  company-etags.el
+│   ├── [       3109]  company-etags.elc
+│   ├── [       4174]  company-files.el
+│   ├── [       3293]  company-files.elc
+│   ├── [       4293]  company-gtags.el
+│   ├── [       3682]  company-gtags.elc
+│   ├── [       2561]  company-ispell.el
+│   ├── [       2063]  company-ispell.elc
+│   ├── [      14336]  company-keywords.el
+│   ├── [      15038]  company-keywords.elc
+│   ├── [       5638]  company-nxml.el
+│   ├── [       4226]  company-nxml.elc
+│   ├── [       2047]  company-oddmuse.el
+│   ├── [       1425]  company-oddmuse.elc
+│   ├── [        256]  company-pkg.el
+│   ├── [       6794]  company-semantic.el
+│   ├── [       5337]  company-semantic.elc
+│   ├── [       8285]  company-template.el
+│   ├── [       6424]  company-template.elc
+│   ├── [       1975]  company-tempo.el
+│   ├── [       1953]  company-tempo.elc
+│   ├── [       4739]  company-xcode.el
+│   ├── [       3759]  company-xcode.elc
+│   ├── [       5517]  company-yasnippet.el
+│   └── [       3568]  company-yasnippet.elc
+├── [      21343]  company-quickhelp-20150804.319
+│   ├── [       1014]  company-quickhelp-autoloads.el
+│   ├── [       8056]  company-quickhelp.el
+│   ├── [       7238]  company-quickhelp.elc
+│   ├── [        267]  company-quickhelp-pkg.el
+│   └── [        672]  company-quickhelp-pkg.elc
+├── [      85385]  company-statistics-0.2.2
+│   ├── [       1375]  ChangeLog
+│   ├── [       1553]  company-statistics-autoloads.el
+│   ├── [      15402]  company-statistics.el
+│   ├── [      12478]  company-statistics.elc
+│   ├── [        290]  company-statistics-pkg.el
+│   ├── [        635]  company-statistics-pkg.elc
+│   ├── [      14782]  company-statistics-tests.el
+│   ├── [      33279]  company-statistics-tests.elc
+│   └── [       1495]  README.org
+├── [        147]  company-statistics-0.2.2.signed
 ├── [     226358]  ctable-20140304.1659
 │   ├── [        363]  ctable-autoloads.el
 │   ├── [      73537]  ctable.el
@@ -809,6 +922,12 @@
 │   ├── [      38815]  helm-ag.elc
 │   ├── [        165]  helm-ag-pkg.el
 │   └── [        570]  helm-ag-pkg.elc
+├── [      17738]  helm-company-20151216.9
+│   ├── [        583]  helm-company-autoloads.el
+│   ├── [       6307]  helm-company.el
+│   ├── [       6023]  helm-company.elc
+│   ├── [        162]  helm-company-pkg.el
+│   └── [        567]  helm-company-pkg.elc
 ├── [     592963]  helm-core-20160116.2343
 │   ├── [       6288]  helm-core-autoloads.el
 │   ├── [        223]  helm-core-pkg.el
@@ -820,6 +939,12 @@
 │   ├── [      14243]  helm-multi-match.elc
 │   ├── [      37694]  helm-source.el
 │   └── [      32420]  helm-source.elc
+├── [      41028]  helm-c-yasnippet-20151231.10
+│   ├── [        832]  helm-c-yasnippet-autoloads.el
+│   ├── [      19806]  helm-c-yasnippet.el
+│   ├── [      15543]  helm-c-yasnippet.elc
+│   ├── [        173]  helm-c-yasnippet-pkg.el
+│   └── [        578]  helm-c-yasnippet-pkg.elc
 ├── [      26538]  helm-descbinds-20160108.1947
 │   ├── [       1988]  helm-descbinds-autoloads.el
 │   ├── [      10669]  helm-descbinds.el
@@ -1070,6 +1195,12 @@
 │   ├── [      40335]  popwin.elc
 │   ├── [         97]  popwin-pkg.el
 │   └── [        501]  popwin-pkg.elc
+├── [      65824]  pos-tip-20150318.813
+│   ├── [        366]  pos-tip-autoloads.el
+│   ├── [      35282]  pos-tip.el
+│   ├── [      25488]  pos-tip.elc
+│   ├── [         94]  pos-tip-pkg.el
+│   └── [        498]  pos-tip-pkg.elc
 ├── [     110607]  powerline-20151008.1449
 │   ├── [       2402]  powerline-autoloads.el
 │   ├── [      19916]  powerline.el
@@ -1219,11 +1350,1032 @@
 │   ├── [      11846]  ws-butler.elc
 │   ├── [        136]  ws-butler-pkg.el
 │   └── [        540]  ws-butler-pkg.elc
-└── [      21021]  yafolding-20141202.2056
-    ├── [        784]  yafolding-autoloads.el
-    ├── [       8111]  yafolding.el
-    ├── [       7396]  yafolding.elc
-    ├── [        115]  yafolding-pkg.el
-    └── [        519]  yafolding-pkg.elc
+├── [      21021]  yafolding-20141202.2056
+│   ├── [        784]  yafolding-autoloads.el
+│   ├── [       8111]  yafolding.el
+│   ├── [       7396]  yafolding.elc
+│   ├── [        115]  yafolding-pkg.el
+│   └── [        519]  yafolding-pkg.elc
+└── [     755076]  yasnippet-20160104.129
+    ├── [     362796]  snippets
+    │   ├── [       4461]  antlr-mode
+    │   │   ├── [        138]  project
+    │   │   ├── [        109]  property
+    │   │   └── [        118]  target
+    │   ├── [       4096]  applescript-mode
+    │   ├── [       7041]  cc-mode
+    │   │   ├── [        208]  case
+    │   │   ├── [         83]  do
+    │   │   ├── [         83]  else
+    │   │   ├── [        276]  file_description
+    │   │   ├── [        117]  fopen
+    │   │   ├── [        102]  for
+    │   │   ├── [        148]  for_n
+    │   │   ├── [        272]  function_description
+    │   │   ├── [        100]  if
+    │   │   ├── [         91]  ifdef
+    │   │   ├── [         79]  inc
+    │   │   ├── [         79]  inc.1
+    │   │   ├── [        117]  main
+    │   │   ├── [         74]  math
+    │   │   ├── [        180]  member_description
+    │   │   ├── [        186]  once
+    │   │   ├── [        176]  printf
+    │   │   ├── [         74]  struct
+    │   │   ├── [        230]  switch
+    │   │   ├── [         90]  ternary
+    │   │   ├── [         89]  typedef
+    │   │   └── [         91]  while
+    │   ├── [      12044]  chef-mode
+    │   │   ├── [         78]  action
+    │   │   ├── [        219]  bash
+    │   │   ├── [        196]  cookbook_file
+    │   │   ├── [        139]  cron
+    │   │   ├── [        302]  cronf
+    │   │   ├── [        594]  deploy
+    │   │   ├── [        155]  directory
+    │   │   ├── [        225]  directoryf
+    │   │   ├── [        105]  env
+    │   │   ├── [        162]  execute
+    │   │   ├── [        374]  executef
+    │   │   ├── [        139]  file
+    │   │   ├── [        226]  filef
+    │   │   ├── [        244]  git
+    │   │   ├── [        147]  group
+    │   │   ├── [        150]  http_request
+    │   │   ├── [        254]  http_requestp
+    │   │   ├── [         98]  ignore_failure
+    │   │   ├── [         89]  inc
+    │   │   ├── [        108]  link
+    │   │   ├── [        177]  linkf
+    │   │   ├── [        105]  log
+    │   │   ├── [        176]  machine
+    │   │   ├── [        331]  meta
+    │   │   ├── [         71]  not_if
+    │   │   ├── [        111]  notifies
+    │   │   ├── [         74]  only_if
+    │   │   ├── [        124]  pac
+    │   │   ├── [        124]  pak
+    │   │   ├── [        109]  provider
+    │   │   ├── [        160]  python
+    │   │   ├── [        253]  remote_file
+    │   │   ├── [         93]  retries
+    │   │   ├── [        235]  role
+    │   │   ├── [        175]  ruby
+    │   │   ├── [        244]  script
+    │   │   ├── [        201]  service
+    │   │   ├── [        224]  servicep
+    │   │   ├── [        118]  subscribes
+    │   │   ├── [        139]  supports
+    │   │   ├── [        161]  template
+    │   │   ├── [        227]  templatev
+    │   │   └── [        312]  user
+    │   ├── [          0]  cider-repl-mode
+    │   ├── [       6536]  clojure-mode
+    │   │   ├── [         95]  bench
+    │   │   ├── [         45]  bp
+    │   │   ├── [         37]  def
+    │   │   ├── [         73]  defm
+    │   │   ├── [         65]  defn
+    │   │   ├── [         82]  defr
+    │   │   ├── [         77]  deft
+    │   │   ├── [         57]  doseq
+    │   │   ├── [         43]  fn
+    │   │   ├── [         49]  for
+    │   │   ├── [         75]  if
+    │   │   ├── [         78]  ifl
+    │   │   ├── [         50]  import
+    │   │   ├── [         65]  is
+    │   │   ├── [         78]  let
+    │   │   ├── [         63]  map
+    │   │   ├── [         75]  map.lambda
+    │   │   ├── [         66]  mdoc
+    │   │   ├── [        561]  ns
+    │   │   ├── [         66]  opts
+    │   │   ├── [         61]  pr
+    │   │   ├── [         71]  print
+    │   │   ├── [         89]  reduce
+    │   │   ├── [         60]  require
+    │   │   ├── [         66]  test
+    │   │   ├── [         72]  try
+    │   │   ├── [         53]  use
+    │   │   ├── [         80]  when
+    │   │   └── [         88]  whenl
+    │   ├── [       5337]  cmake-mode
+    │   │   ├── [        124]  add_executable
+    │   │   ├── [        119]  add_library
+    │   │   ├── [        111]  cmake_minimum_required
+    │   │   ├── [        113]  foreach
+    │   │   ├── [        103]  function
+    │   │   ├── [         77]  if
+    │   │   ├── [        113]  ifelse
+    │   │   ├── [         61]  include
+    │   │   ├── [         94]  macro
+    │   │   ├── [         81]  message
+    │   │   ├── [        100]  option
+    │   │   ├── [         69]  project
+    │   │   └── [         76]  set
+    │   ├── [       5028]  c-mode
+    │   │   ├── [         77]  assert
+    │   │   ├── [        127]  compile
+    │   │   ├── [         63]  define
+    │   │   ├── [         94]  malloc
+    │   │   ├── [         87]  packed
+    │   │   ├── [         95]  printf
+    │   │   ├── [         71]  stdio
+    │   │   ├── [         75]  stdlib
+    │   │   ├── [         74]  string
+    │   │   ├── [         95]  union
+    │   │   └── [         74]  unistd
+    │   ├── [      11193]  c++-mode
+    │   │   ├── [         66]  assert
+    │   │   ├── [         95]  beginend
+    │   │   ├── [        112]  boost_require
+    │   │   ├── [         65]  cerr
+    │   │   ├── [         62]  cin
+    │   │   ├── [        187]  class
+    │   │   ├── [        120]  const_[]
+    │   │   ├── [        117]  constructor
+    │   │   ├── [        262]  cout
+    │   │   ├── [        137]  cpp
+    │   │   ├── [         72]  cstd
+    │   │   ├── [         94]  d+=
+    │   │   ├── [         74]  delete
+    │   │   ├── [         75]  delete[]
+    │   │   ├── [         65]  doc
+    │   │   ├── [        126]  d_operator
+    │   │   ├── [         97]  d_operator[]
+    │   │   ├── [        116]  d_operator[]_const
+    │   │   ├── [        126]  d_operator_istream
+    │   │   ├── [        126]  d_operator_ostream
+    │   │   ├── [        103]  dynamic_casting
+    │   │   ├── [         75]  enum
+    │   │   ├── [        141]  fixture
+    │   │   ├── [        129]  fori
+    │   │   ├── [         64]  friend
+    │   │   ├── [        123]  function
+    │   │   ├── [        104]  fun_declaration
+    │   │   ├── [         97]  gtest
+    │   │   ├── [        130]  ignore
+    │   │   ├── [         63]  inline
+    │   │   ├── [         69]  io
+    │   │   ├── [        106]  iterator
+    │   │   ├── [         84]  map
+    │   │   ├── [        104]  module
+    │   │   ├── [        124]  namespace
+    │   │   ├── [         47]  ns
+    │   │   ├── [        271]  operator=
+    │   │   ├── [        152]  operator==
+    │   │   ├── [        174]  operator!=
+    │   │   ├── [        140]  operator[]
+    │   │   ├── [        196]  operator+
+    │   │   ├── [        161]  operator+=
+    │   │   ├── [        185]  operator_istream
+    │   │   ├── [        192]  operator_ostream
+    │   │   ├── [         73]  ostream
+    │   │   ├── [         99]  pack
+    │   │   ├── [         74]  private
+    │   │   ├── [         78]  protected
+    │   │   ├── [         72]  public
+    │   │   ├── [         75]  sstream
+    │   │   ├── [         72]  std
+    │   │   ├── [         60]  std_colon
+    │   │   ├── [         69]  str
+    │   │   ├── [        125]  template
+    │   │   ├── [        127]  test case
+    │   │   ├── [        193]  test_main
+    │   │   ├── [        149]  test_suite
+    │   │   ├── [         56]  this
+    │   │   ├── [         79]  throw
+    │   │   ├── [        152]  try
+    │   │   ├── [        133]  tryw
+    │   │   ├── [         73]  using
+    │   │   └── [        110]  vector
+    │   ├── [       4219]  conf-unix-mode
+    │   │   └── [        123]  section
+    │   ├── [        119]  CONTRIBUTORS.txt
+    │   ├── [       4096]  cperl-mode
+    │   ├── [       4859]  cpp-omnet-mode
+    │   │   ├── [         93]  emit_signal
+    │   │   ├── [         72]  EV
+    │   │   ├── [         88]  intuniform
+    │   │   ├── [         70]  math
+    │   │   ├── [         65]  nan
+    │   │   ├── [         76]  omnet
+    │   │   ├── [         93]  parameter_omnetpp
+    │   │   ├── [        104]  scheduleAt
+    │   │   └── [        102]  uniform
+    │   ├── [       7730]  csharp-mode
+    │   │   ├── [        171]  attrib
+    │   │   ├── [        360]  attrib.1
+    │   │   ├── [        783]  attrib.2
+    │   │   ├── [        394]  class
+    │   │   ├── [        162]  comment
+    │   │   ├── [        165]  comment.1
+    │   │   ├── [        159]  comment.2
+    │   │   ├── [        181]  comment.3
+    │   │   ├── [        335]  method
+    │   │   ├── [        140]  namespace
+    │   │   ├── [        271]  prop
+    │   │   ├── [        144]  region
+    │   │   ├── [        116]  using
+    │   │   ├── [        123]  using.1
+    │   │   └── [        130]  using.2
+    │   ├── [       6195]  css-mode
+    │   │   ├── [         63]  bg
+    │   │   ├── [         61]  bg.1
+    │   │   ├── [         75]  bor
+    │   │   ├── [         82]  cl
+    │   │   ├── [         91]  disp.block
+    │   │   ├── [         93]  disp.inline
+    │   │   ├── [         89]  disp.none
+    │   │   ├── [         94]  ff
+    │   │   ├── [         95]  fs
+    │   │   ├── [         98]  mar.bottom
+    │   │   ├── [         94]  mar.left
+    │   │   ├── [         84]  mar.mar
+    │   │   ├── [        132]  mar.margin
+    │   │   ├── [         96]  mar.right
+    │   │   ├── [         92]  mar.top
+    │   │   ├── [        100]  pad.bottom
+    │   │   ├── [         96]  pad.left
+    │   │   ├── [         86]  pad.pad
+    │   │   ├── [        135]  pad.padding
+    │   │   ├── [         98]  pad.right
+    │   │   ├── [         94]  pad.top
+    │   │   └── [        151]  v
+    │   ├── [       4820]  elixir-mode
+    │   │   ├── [         74]  case
+    │   │   ├── [         71]  cond
+    │   │   ├── [         96]  def
+    │   │   ├── [         85]  defmacro
+    │   │   ├── [         88]  defmacrop
+    │   │   ├── [         88]  defmodule
+    │   │   ├── [         73]  defp
+    │   │   ├── [         68]  doc
+    │   │   └── [         81]  mdoc
+    │   ├── [      26031]  emacs-lisp-mode
+    │   │   ├── [        106]  add-hook
+    │   │   ├── [         77]  and
+    │   │   ├── [         79]  append
+    │   │   ├── [         76]  apply
+    │   │   ├── [         83]  aref
+    │   │   ├── [         88]  aset
+    │   │   ├── [         80]  assq
+    │   │   ├── [        143]  autoload
+    │   │   ├── [        108]  backward-char
+    │   │   ├── [        118]  beginning-of-line
+    │   │   ├── [        239]  bounds-of-thing-at-point
+    │   │   ├── [        115]  buffer-file-name
+    │   │   ├── [        121]  buffer-modified-p
+    │   │   ├── [        126]  buffer-substring
+    │   │   ├── [        170]  buffer-substring-no-properties
+    │   │   ├── [         69]  car
+    │   │   ├── [         69]  cdr
+    │   │   ├── [         78]  concat
+    │   │   ├── [        106]  cond
+    │   │   ├── [        112]  condition-case
+    │   │   ├── [         72]  cons
+    │   │   ├── [         76]  consp
+    │   │   ├── [        147]  copy-directory
+    │   │   ├── [        166]  copy-file
+    │   │   ├── [        108]  current-buffer
+    │   │   ├── [        141]  custom-autoload
+    │   │   ├── [        123]  defalias
+    │   │   ├── [        114]  defcustom
+    │   │   ├── [        131]  define-key
+    │   │   ├── [         85]  defsubst
+    │   │   ├── [        117]  defun
+    │   │   ├── [         85]  defvar
+    │   │   ├── [        102]  delete-char
+    │   │   ├── [        137]  delete-directory
+    │   │   ├── [        102]  delete-file
+    │   │   ├── [        109]  delete-region
+    │   │   ├── [        142]  directory-files
+    │   │   ├── [        455]  dired.process_marked
+    │   │   ├── [         79]  dolist
+    │   │   ├── [        100]  end-of-line
+    │   │   ├── [         66]  eq
+    │   │   ├── [         75]  equal
+    │   │   ├── [         92]  error
+    │   │   ├── [        129]  ert-deftest
+    │   │   ├── [        119]  expand-file-name
+    │   │   ├── [         98]  f
+    │   │   ├── [         83]  fboundp
+    │   │   ├── [        127]  file-name-directory
+    │   │   ├── [        144]  file-name-extension
+    │   │   ├── [        137]  file-name-nondirectory
+    │   │   ├── [        143]  file-name-sans-extension
+    │   │   ├── [        578]  file.process
+    │   │   ├── [        355]  file.read-lines
+    │   │   ├── [        125]  file-relative-name
+    │   │   ├── [         97]  find-file
+    │   │   ├── [        574]  find-replace
+    │   │   ├── [         98]  format
+    │   │   ├── [        105]  forward-char
+    │   │   ├── [        106]  forward-line
+    │   │   ├── [         81]  funcall
+    │   │   ├── [         85]  function
+    │   │   ├── [         84]  get
+    │   │   ├── [        131]  global-set-key
+    │   │   ├── [         96]  goto-char
+    │   │   ├── [        121]  grabstring
+    │   │   ├── [         94]  grabthing
+    │   │   ├── [         82]  hash
+    │   │   ├── [         66]  if
+    │   │   ├── [         86]  insert
+    │   │   ├── [        162]  insert-file-contents
+    │   │   ├── [         90]  interactive
+    │   │   ├── [         71]  kbd
+    │   │   ├── [        102]  kill-buffer
+    │   │   ├── [        111]  lambda
+    │   │   ├── [         78]  length
+    │   │   ├── [         85]  let
+    │   │   ├── [        136]  line-beginning-position
+    │   │   ├── [        118]  line-end-position
+    │   │   ├── [         72]  list
+    │   │   ├── [         99]  looking-at
+    │   │   ├── [        129]  make-directory
+    │   │   ├── [        127]  make-local-variable
+    │   │   ├── [         82]  mapc
+    │   │   ├── [         79]  mapcar
+    │   │   ├── [        115]  match-beginning
+    │   │   ├── [         97]  match-end
+    │   │   ├── [        106]  match-string
+    │   │   ├── [         80]  memq
+    │   │   ├── [        118]  message
+    │   │   ├── [        467]  minor_mode
+    │   │   ├── [         78]  not
+    │   │   ├── [         75]  nth
+    │   │   ├── [         72]  null
+    │   │   ├── [        118]  number-to-string
+    │   │   ├── [         75]  or
+    │   │   ├── [         80]  point
+    │   │   ├── [         84]  point-max
+    │   │   ├── [         93]  point-min
+    │   │   ├── [         75]  princ
+    │   │   ├── [         75]  print
+    │   │   ├── [         75]  progn
+    │   │   ├── [         73]  push
+    │   │   ├── [         84]  put
+    │   │   ├── [        112]  region-active-p
+    │   │   ├── [        114]  region-beginning
+    │   │   ├── [         96]  region-end
+    │   │   ├── [        145]  rename-file
+    │   │   ├── [         79]  repeat
+    │   │   ├── [        157]  replace-regexp
+    │   │   ├── [        201]  replace-regexp-in-string
+    │   │   ├── [         82]  require
+    │   │   ├── [        160]  re-search-backward
+    │   │   ├── [        157]  re-search-forward
+    │   │   ├── [        102]  save-buffer
+    │   │   ├── [        111]  save-excursion
+    │   │   ├── [        146]  search-backward
+    │   │   ├── [        168]  search-backward-regexp
+    │   │   ├── [        143]  search-forward
+    │   │   ├── [        165]  search-forward-regexp
+    │   │   ├── [         70]  set
+    │   │   ├── [        100]  set-buffer
+    │   │   ├── [        117]  set-file-modes
+    │   │   ├── [         93]  set-mark
+    │   │   ├── [         81]  setq
+    │   │   ├── [         97]  should
+    │   │   ├── [        143]  skip-chars-backward
+    │   │   ├── [        140]  skip-chars-forward
+    │   │   ├── [        137]  split-string
+    │   │   ├── [         79]  string
+    │   │   ├── [         82]  string=
+    │   │   ├── [        138]  string-match
+    │   │   ├── [         81]  stringp
+    │   │   ├── [        120]  string-to-number
+    │   │   ├── [        111]  substring
+    │   │   ├── [        207]  thing-at-point
+    │   │   ├── [        191]  traverse_dir
+    │   │   ├── [         78]  unless
+    │   │   ├── [         86]  vector
+    │   │   ├── [         72]  when
+    │   │   ├── [         75]  while
+    │   │   ├── [        100]  widget-get
+    │   │   ├── [        128]  with-current-buffer
+    │   │   ├── [        937]  word-or-region
+    │   │   ├── [         77]  word_regexp
+    │   │   ├── [        480]  x-dired.process_marked
+    │   │   ├── [        602]  x-file.process
+    │   │   ├── [        380]  x-file.read-lines
+    │   │   ├── [        606]  x-find-replace
+    │   │   ├── [        151]  x-grabstring
+    │   │   ├── [        123]  x-grabthing
+    │   │   ├── [        223]  x-traverse_dir
+    │   │   ├── [        971]  x-word-or-region
+    │   │   ├── [        102]  yes-or-no-p
+    │   │   └── [        107]  y-or-n-p
+    │   ├── [          0]  enh-ruby-mode
+    │   ├── [          0]  ensime-mode
+    │   ├── [       4212]  erc-mode
+    │   │   ├── [         58]  blist
+    │   │   └── [         58]  help
+    │   ├── [       5617]  erlang-mode
+    │   │   ├── [         45]  after
+    │   │   ├── [         44]  begin
+    │   │   ├── [         62]  beh
+    │   │   ├── [         55]  case
+    │   │   ├── [         60]  compile
+    │   │   ├── [         50]  def
+    │   │   ├── [        102]  exp
+    │   │   ├── [         53]  fun
+    │   │   ├── [         81]  if
+    │   │   ├── [         61]  ifdef
+    │   │   ├── [         63]  ifndef
+    │   │   ├── [        119]  imp
+    │   │   ├── [         49]  inc
+    │   │   ├── [         57]  inc.lib
+    │   │   ├── [        118]  loop
+    │   │   ├── [        196]  mod
+    │   │   ├── [         61]  rcv
+    │   │   ├── [         73]  rcv.after
+    │   │   ├── [         54]  rec
+    │   │   ├── [         77]  try
+    │   │   └── [         41]  undef
+    │   ├── [       7422]  f90-mode
+    │   │   ├── [         83]  bd
+    │   │   ├── [         79]  c
+    │   │   ├── [         81]  ch
+    │   │   ├── [         77]  cx
+    │   │   ├── [         91]  dc
+    │   │   ├── [        137]  do
+    │   │   ├── [         95]  dp
+    │   │   ├── [        158]  forall
+    │   │   ├── [        238]  function
+    │   │   ├── [        113]  if
+    │   │   ├── [         86]  in
+    │   │   ├── [         77]  inc
+    │   │   ├── [         81]  intr
+    │   │   ├── [         77]  l
+    │   │   ├── [        179]  module
+    │   │   ├── [         81]  pa
+    │   │   ├── [        190]  program
+    │   │   ├── [        249]  puref
+    │   │   ├── [        239]  pures
+    │   │   ├── [         93]  re
+    │   │   ├── [        224]  subroutine
+    │   │   ├── [        170]  until
+    │   │   ├── [        167]  where
+    │   │   ├── [        166]  while
+    │   │   └── [         95]  wr
+    │   ├── [       4096]  fundamental-mode
+    │   ├── [       4244]  git-commit-mode
+    │   │   ├── [         69]  fixes
+    │   │   └── [         79]  references
+    │   ├── [       6581]  go-mode
+    │   │   ├── [        155]  benchmark
+    │   │   ├── [         89]  const
+    │   │   ├── [         98]  const(
+    │   │   ├── [        110]  dd
+    │   │   ├── [         67]  default
+    │   │   ├── [         66]  else
+    │   │   ├── [         99]  error
+    │   │   ├── [        109]  example
+    │   │   ├── [         67]  for
+    │   │   ├── [        137]  forrange
+    │   │   ├── [        106]  func
+    │   │   ├── [         64]  if
+    │   │   ├── [         81]  iferr
+    │   │   ├── [         68]  import
+    │   │   ├── [         78]  import(
+    │   │   ├── [         92]  lambda
+    │   │   ├── [         81]  main
+    │   │   ├── [         76]  map
+    │   │   ├── [        100]  printf
+    │   │   ├── [         79]  select
+    │   │   ├── [         81]  switch
+    │   │   ├── [        110]  test
+    │   │   ├── [        234]  testmain
+    │   │   ├── [         73]  type
+    │   │   ├── [         78]  var
+    │   │   └── [         87]  var(
+    │   ├── [       4638]  groovy-mode
+    │   │   ├── [         85]  class
+    │   │   ├── [         89]  def
+    │   │   ├── [         91]  dict
+    │   │   ├── [         91]  for
+    │   │   ├── [         79]  println
+    │   │   └── [        107]  times
+    │   ├── [       5393]  haskell-mode
+    │   │   ├── [        136]  case
+    │   │   ├── [         71]  data
+    │   │   ├── [         60]  doc
+    │   │   ├── [        121]  efix
+    │   │   ├── [        104]  function
+    │   │   ├── [        120]  functione
+    │   │   ├── [        124]  import
+    │   │   ├── [        120]  instance
+    │   │   ├── [        130]  main
+    │   │   ├── [         82]  module
+    │   │   ├── [         96]  new class
+    │   │   ├── [         72]  pragma
+    │   │   └── [         61]  print
+    │   ├── [       7252]  html-mode
+    │   │   ├── [        107]  dd
+    │   │   ├── [        114]  dl
+    │   │   ├── [        142]  doctype
+    │   │   ├── [         58]  doctype.html5
+    │   │   ├── [        167]  doctype.xhtml1
+    │   │   ├── [        142]  doctype.xhtml1_1
+    │   │   ├── [        161]  doctype.xhtml1_strict
+    │   │   ├── [        179]  doctype.xhtml1_transitional
+    │   │   ├── [        107]  dt
+    │   │   ├── [        168]  form
+    │   │   ├── [        107]  html
+    │   │   ├── [        190]  html.xmlns
+    │   │   ├── [        180]  link.stylesheet
+    │   │   ├── [        232]  link.stylesheet-ie
+    │   │   ├── [        129]  mailto
+    │   │   ├── [        169]  meta
+    │   │   ├── [        203]  meta.http-equiv
+    │   │   ├── [        159]  script.javascript
+    │   │   ├── [        167]  script.javascript-src
+    │   │   ├── [        166]  textarea
+    │   │   └── [        109]  th
+    │   ├── [       7900]  java-mode
+    │   │   ├── [        116]  apr_assert
+    │   │   ├── [        105]  assert
+    │   │   ├── [        133]  assertEquals
+    │   │   ├── [         81]  cls
+    │   │   ├── [        129]  constructor
+    │   │   ├── [        156]  define test method
+    │   │   ├── [         80]  doc
+    │   │   ├── [        107]  equals
+    │   │   ├── [        188]  file_class
+    │   │   ├── [        105]  for
+    │   │   ├── [        102]  fori
+    │   │   ├── [        142]  getter
+    │   │   ├── [         79]  if
+    │   │   ├── [         94]  ife
+    │   │   ├── [         78]  import
+    │   │   ├── [        114]  iterator
+    │   │   ├── [         72]  javadoc
+    │   │   ├── [        112]  lambda
+    │   │   ├── [        106]  main
+    │   │   ├── [        221]  main_class
+    │   │   ├── [        142]  method
+    │   │   ├── [        103]  new
+    │   │   ├── [         95]  override
+    │   │   ├── [         80]  param
+    │   │   ├── [         84]  printf
+    │   │   ├── [         90]  println
+    │   │   ├── [         90]  return
+    │   │   ├── [        102]  test
+    │   │   ├── [        216]  testClass
+    │   │   ├── [         95]  this
+    │   │   ├── [         97]  toString
+    │   │   ├── [        181]  try
+    │   │   └── [        109]  value
+    │   ├── [          0]  js2-mode
+    │   ├── [       5503]  js-mode
+    │   │   ├── [         53]  al
+    │   │   ├── [        114]  class
+    │   │   ├── [         69]  com
+    │   │   ├── [         94]  debugger
+    │   │   ├── [         86]  each
+    │   │   ├── [         55]  el
+    │   │   ├── [         92]  ev.add
+    │   │   ├── [         62]  ev.fire
+    │   │   ├── [        109]  for
+    │   │   ├── [        127]  function
+    │   │   ├── [         68]  if
+    │   │   ├── [         82]  init
+    │   │   ├── [         65]  log
+    │   │   ├── [        184]  req.html
+    │   │   └── [        147]  req.json
+    │   ├── [       7984]  latex-mode
+    │   │   ├── [        114]  acronym
+    │   │   ├── [        108]  alertblock
+    │   │   ├── [         93]  alg
+    │   │   ├── [         92]  begin
+    │   │   ├── [         93]  block
+    │   │   ├── [         66]  capgls
+    │   │   ├── [         67]  caption
+    │   │   ├── [         63]  cite
+    │   │   ├── [         92]  code
+    │   │   ├── [        195]  columns
+    │   │   ├── [         62]  emph
+    │   │   ├── [        101]  enumerate
+    │   │   ├── [        194]  figure
+    │   │   ├── [         95]  frac
+    │   │   ├── [        127]  frame
+    │   │   ├── [         66]  gls
+    │   │   ├── [         71]  glspl
+    │   │   ├── [         89]  if
+    │   │   ├── [         92]  includegraphics
+    │   │   ├── [         59]  item
+    │   │   ├── [         93]  itemize
+    │   │   ├── [         64]  label
+    │   │   ├── [        156]  listing
+    │   │   ├── [        355]  movie
+    │   │   ├── [        100]  newcommand
+    │   │   ├── [        150]  newglossaryentry
+    │   │   ├── [         61]  note
+    │   │   ├── [        134]  python
+    │   │   ├── [         68]  question
+    │   │   ├── [        102]  section
+    │   │   ├── [        162]  subf
+    │   │   ├── [        257]  subfigure
+    │   │   ├── [        107]  subsec
+    │   │   ├── [         66]  textbf
+    │   │   └── [         74]  usepackage
+    │   ├── [       1023]  LICENSE
+    │   ├── [       4191]  lisp-interaction-mode
+    │   │   └── [         95]  defun
+    │   ├── [       6205]  lisp-mode
+    │   │   ├── [        140]  class
+    │   │   ├── [         89]  comment
+    │   │   ├── [        256]  defpackage
+    │   │   ├── [        206]  do
+    │   │   ├── [        110]  for
+    │   │   ├── [        111]  foreach
+    │   │   ├── [         79]  format
+    │   │   ├── [        103]  if
+    │   │   ├── [        138]  ifelse
+    │   │   ├── [        131]  ifnot
+    │   │   ├── [        494]  slot
+    │   │   ├── [        159]  switch
+    │   │   └── [         93]  typecast
+    │   ├── [       4194]  lua-mode
+    │   │   └── [         98]  fun
+    │   ├── [       4187]  m4-mode
+    │   │   └── [         91]  def
+    │   ├── [       4181]  makefile-automake-mode
+    │   │   └── [         85]  noinst_HEADERS
+    │   ├── [       4550]  makefile-bsdmake-mode
+    │   │   ├── [         85]  echo
+    │   │   ├── [        157]  gen
+    │   │   ├── [         83]  if
+    │   │   ├── [         66]  PHONY
+    │   │   └── [         63]  var
+    │   ├── [       5646]  makefile-gmake-mode
+    │   │   ├── [        140]  abspath
+    │   │   ├── [        162]  addprefix
+    │   │   ├── [        156]  addsuffix
+    │   │   ├── [        130]  dir
+    │   │   ├── [        109]  make
+    │   │   ├── [        137]  notdir
+    │   │   ├── [         94]  patsubst
+    │   │   ├── [         64]  phony
+    │   │   ├── [        105]  shell
+    │   │   ├── [        146]  special
+    │   │   ├── [        237]  template
+    │   │   └── [         70]  wildcard
+    │   ├── [       4323]  makefile-mode
+    │   │   ├── [         67]  all
+    │   │   └── [        160]  clean
+    │   ├── [       4202]  malabar-mode
+    │   │   └── [        106]  variable
+    │   ├── [       6490]  markdown-mode
+    │   │   ├── [         87]  `
+    │   │   ├── [         82]  _
+    │   │   ├── [         82]  __
+    │   │   ├── [         89]  -
+    │   │   ├── [         89]  +
+    │   │   ├── [         93]  h1.1
+    │   │   ├── [        137]  h1.2
+    │   │   ├── [         96]  h2.1
+    │   │   ├── [        137]  h2.2
+    │   │   ├── [         93]  h3
+    │   │   ├── [         95]  h4
+    │   │   ├── [         97]  h5
+    │   │   ├── [         99]  h6
+    │   │   ├── [        142]  highlight
+    │   │   ├── [         94]  hr.1
+    │   │   ├── [         91]  hr.2
+    │   │   ├── [         97]  img
+    │   │   ├── [         96]  link
+    │   │   ├── [        151]  ol
+    │   │   ├── [         99]  rimg
+    │   │   ├── [        107]  rlb
+    │   │   ├── [         97]  rlink
+    │   │   └── [        144]  utf8
+    │   ├── [       4845]  ned-mode
+    │   │   ├── [        115]  chan
+    │   │   ├── [        114]  connections
+    │   │   ├── [        101]  for
+    │   │   ├── [         79]  import
+    │   │   ├── [        146]  network
+    │   │   ├── [        118]  simple
+    │   │   └── [         76]  submodules
+    │   ├── [       5253]  nesc-mode
+    │   │   ├── [         96]  command
+    │   │   ├── [        107]  dbg
+    │   │   ├── [        102]  event
+    │   │   ├── [         99]  ifdef
+    │   │   ├── [         99]  interface
+    │   │   ├── [        127]  module
+    │   │   ├── [         78]  nx
+    │   │   ├── [         96]  provides
+    │   │   ├── [         82]  sim
+    │   │   ├── [         90]  TOSSIM
+    │   │   ├── [         75]  uint8_t
+    │   │   └── [        106]  uses
+    │   ├── [       5041]  nsis-mode
+    │   │   ├── [         87]  define
+    │   │   ├── [         99]  function
+    │   │   ├── [        109]  if
+    │   │   ├── [         81]  include
+    │   │   ├── [         93]  insert_macro
+    │   │   ├── [         62]  instdir
+    │   │   ├── [         89]  macro
+    │   │   ├── [         85]  message
+    │   │   ├── [         60]  outdir
+    │   │   ├── [         80]  outfile
+    │   │   └── [        100]  section
+    │   ├── [       6758]  nxml-mode
+    │   │   ├── [        111]  body
+    │   │   ├── [         84]  br
+    │   │   ├── [        197]  doctype
+    │   │   ├── [        216]  doctype_xhtml1_strict
+    │   │   ├── [        234]  doctype_xhtml1_transitional
+    │   │   ├── [        155]  form
+    │   │   ├── [        121]  href
+    │   │   ├── [        194]  html
+    │   │   ├── [        124]  img
+    │   │   ├── [        125]  input
+    │   │   ├── [        184]  link
+    │   │   ├── [        173]  meta
+    │   │   ├── [        107]  name
+    │   │   ├── [        133]  quote
+    │   │   ├── [        177]  style
+    │   │   ├── [        110]  tag
+    │   │   ├── [         97]  tag_closing
+    │   │   └── [        120]  tag_newline
+    │   ├── [       4419]  octave-mode
+    │   │   ├── [         90]  for
+    │   │   ├── [        130]  function
+    │   │   └── [        103]  if
+    │   ├── [       5364]  org-mode
+    │   │   ├── [         97]  code
+    │   │   ├── [        172]  dot
+    │   │   ├── [        104]  elisp
+    │   │   ├── [         99]  embedded
+    │   │   ├── [        130]  entry
+    │   │   ├── [        134]  figure
+    │   │   ├── [        143]  img
+    │   │   ├── [         85]  latex
+    │   │   ├── [        211]  matrix
+    │   │   └── [         93]  verse
+    │   ├── [       5244]  perl-mode
+    │   │   ├── [        138]  eval
+    │   │   ├── [        120]  for
+    │   │   ├── [        101]  fore
+    │   │   ├── [         58]  if
+    │   │   ├── [         88]  ife
+    │   │   ├── [        129]  ifee
+    │   │   ├── [         73]  sub
+    │   │   ├── [         70]  unless
+    │   │   ├── [         67]  while
+    │   │   ├── [         78]  xfore
+    │   │   ├── [         68]  xif
+    │   │   ├── [         80]  xunless
+    │   │   └── [         78]  xwhile
+    │   ├── [       4381]  prog-mode
+    │   │   ├── [        127]  fixme
+    │   │   ├── [         80]  todo
+    │   │   └── [         78]  xxx
+    │   ├── [      13545]  python-mode
+    │   │   ├── [         70]  all
+    │   │   ├── [        130]  arg
+    │   │   ├── [        121]  arg_positional
+    │   │   ├── [         81]  ass
+    │   │   ├── [        100]  assertEqual
+    │   │   ├── [         96]  assertFalse
+    │   │   ├── [        115]  assertIn
+    │   │   ├── [        107]  assertNotEqual
+    │   │   ├── [        120]  assertNotIn
+    │   │   ├── [        120]  assertRaises
+    │   │   ├── [        107]  assertRaises.with
+    │   │   ├── [         94]  assertTrue
+    │   │   ├── [        121]  celery_pdb
+    │   │   ├── [        125]  classmethod
+    │   │   ├── [        104]  cls
+    │   │   ├── [        120]  __contains__
+    │   │   ├── [        229]  dec
+    │   │   ├── [        109]  deftest
+    │   │   ├── [        149]  django_test_class
+    │   │   ├── [         59]  doc
+    │   │   ├── [        119]  doctest
+    │   │   ├── [        126]  __enter__
+    │   │   ├── [        133]  eq
+    │   │   ├── [        130]  __exit__
+    │   │   ├── [        108]  for
+    │   │   ├── [        102]  from
+    │   │   ├── [        108]  function
+    │   │   ├── [        173]  function_docstring
+    │   │   ├── [        125]  __getitem__
+    │   │   ├── [         99]  if
+    │   │   ├── [        107]  ife
+    │   │   ├── [         97]  ifmain
+    │   │   ├── [        110]  import
+    │   │   ├── [        139]  init
+    │   │   ├── [        173]  init_docstring
+    │   │   ├── [         99]  interact
+    │   │   ├── [        131]  ipdbdebug
+    │   │   ├── [        126]  iter
+    │   │   ├── [         72]  lambda
+    │   │   ├── [        105]  __len__
+    │   │   ├── [        106]  list
+    │   │   ├── [        100]  logger_name
+    │   │   ├── [        132]  logging
+    │   │   ├── [         72]  main
+    │   │   ├── [        102]  metaclass
+    │   │   ├── [        116]  method
+    │   │   ├── [        179]  method_docstring
+    │   │   ├── [        172]  __new__
+    │   │   ├── [         87]  not_impl
+    │   │   ├── [         89]  np
+    │   │   ├── [        195]  parse_args
+    │   │   ├── [        128]  parser
+    │   │   ├── [         56]  pass
+    │   │   ├── [        113]  pl
+    │   │   ├── [         61]  print
+    │   │   ├── [        304]  prop
+    │   │   ├── [        111]  reg
+    │   │   ├── [        108]  repr
+    │   │   ├── [         62]  return
+    │   │   ├── [        141]  script
+    │   │   ├── [         83]  self
+    │   │   ├── [         95]  selfassign
+    │   │   ├── [         92]  self_without_dot
+    │   │   ├── [        110]  setdef
+    │   │   ├── [        135]  __setitem__
+    │   │   ├── [        255]  setup
+    │   │   ├── [         71]  size
+    │   │   ├── [         87]  static
+    │   │   ├── [        105]  str
+    │   │   ├── [        189]  super
+    │   │   ├── [        131]  test_class
+    │   │   ├── [        176]  test_file
+    │   │   ├── [         95]  trace
+    │   │   ├── [         93]  try
+    │   │   ├── [         98]  tryelse
+    │   │   ├── [        112]  unicode
+    │   │   ├── [         88]  utf8
+    │   │   ├── [        103]  while
+    │   │   ├── [        123]  with
+    │   │   └── [        115]  with_statement
+    │   ├── [       2020]  README.md
+    │   ├── [        813]  rename_add_contr.py
+    │   ├── [       5746]  rst-mode
+    │   │   ├── [        107]  autoclass
+    │   │   ├── [         82]  autofunction
+    │   │   ├── [         92]  automodule
+    │   │   ├── [         67]  class
+    │   │   ├── [         75]  code
+    │   │   ├── [         80]  digraph
+    │   │   ├── [         73]  function
+    │   │   ├── [         76]  graph
+    │   │   ├── [         79]  graphviz
+    │   │   ├── [        145]  image
+    │   │   ├── [         87]  inheritance
+    │   │   ├── [         95]  literal_include
+    │   │   ├── [         64]  meta
+    │   │   ├── [         67]  module
+    │   │   ├── [         88]  parsed_literal
+    │   │   ├── [         96]  pause
+    │   │   ├── [         66]  term
+    │   │   ├── [         76]  url
+    │   │   ├── [         61]  verbatim
+    │   │   └── [         74]  warning
+    │   ├── [       9020]  ruby-mode
+    │   │   ├── [         40]  #
+    │   │   ├── [         71]  all
+    │   │   ├── [         95]  am
+    │   │   ├── [         71]  any
+    │   │   ├── [        104]  app
+    │   │   ├── [         71]  attribute
+    │   │   ├── [         72]  =b
+    │   │   ├── [        148]  bench
+    │   │   ├── [        100]  bm
+    │   │   ├── [         88]  case
+    │   │   ├── [         81]  cla
+    │   │   ├── [        352]  cls
+    │   │   ├── [         77]  collect
+    │   │   ├── [        112]  Comp
+    │   │   ├── [         75]  dee
+    │   │   ├── [        102]  def
+    │   │   ├── [         81]  deli
+    │   │   ├── [         75]  det
+    │   │   ├── [         92]  dow
+    │   │   ├── [         71]  ea
+    │   │   ├── [         98]  eac
+    │   │   ├── [         81]  eai
+    │   │   ├── [         85]  eav
+    │   │   ├── [        100]  eawi
+    │   │   ├── [         93]  for
+    │   │   ├── [        108]  forin
+    │   │   ├── [        220]  formula
+    │   │   ├── [         68]  GLOB
+    │   │   ├── [         77]  if
+    │   │   ├── [         96]  ife
+    │   │   ├── [         90]  init
+    │   │   ├── [        112]  inject
+    │   │   ├── [         69]  map
+    │   │   ├── [        103]  mm
+    │   │   ├── [         63]  r
+    │   │   ├── [         68]  rb
+    │   │   ├── [        115]  red
+    │   │   ├── [         83]  reject
+    │   │   ├── [         68]  rel
+    │   │   ├── [         56]  req
+    │   │   ├── [         67]  rw
+    │   │   ├── [         83]  select
+    │   │   ├── [         55]  str
+    │   │   ├── [        113]  test class
+    │   │   ├── [         77]  tim
+    │   │   ├── [         85]  to_
+    │   │   ├── [         69]  tu
+    │   │   ├── [         80]  until
+    │   │   ├── [         88]  upt
+    │   │   ├── [         63]  w
+    │   │   ├── [         79]  when
+    │   │   ├── [         81]  while
+    │   │   ├── [         67]  y
+    │   │   └── [         86]  zip
+    │   ├── [       6350]  scala-mode
+    │   │   ├── [        168]  app
+    │   │   ├── [        129]  case
+    │   │   ├── [        136]  cc
+    │   │   ├── [        131]  co
+    │   │   ├── [        149]  cons
+    │   │   ├── [        165]  def
+    │   │   ├── [        151]  doc
+    │   │   ├── [        132]  for
+    │   │   ├── [        138]  if
+    │   │   ├── [        131]  ls
+    │   │   ├── [        174]  main
+    │   │   ├── [        155]  match
+    │   │   ├── [        152]  ob
+    │   │   ├── [        153]  throw
+    │   │   └── [        190]  try
+    │   ├── [       4636]  sh-mode
+    │   │   ├── [         87]  args
+    │   │   ├── [         73]  bang
+    │   │   ├── [         99]  for loop
+    │   │   ├── [         89]  function
+    │   │   ├── [         90]  if
+    │   │   └── [        102]  ife
+    │   ├── [       4800]  snippet-mode
+    │   │   ├── [         85]  cont
+    │   │   ├── [         58]  elisp
+    │   │   ├── [        123]  field
+    │   │   ├── [         76]  group
+    │   │   ├── [        126]  mirror
+    │   │   └── [        236]  vars
+    │   ├── [      12717]  snippets
+    │   │   └── [       8621]  ruby-mode
+    │   │       └── [       4525]  definitions
+    │   │           └── [        429]  mod
+    │   ├── [       5238]  sql-mode
+    │   │   ├── [        159]  column
+    │   │   ├── [        189]  constraint
+    │   │   ├── [        189]  constraint.1
+    │   │   ├── [        259]  create
+    │   │   ├── [        203]  create.1
+    │   │   └── [        143]  references
+    │   ├── [       4096]  text-mode
+    │   ├── [       5767]  tuareg-mode
+    │   │   ├── [         65]  assert
+    │   │   ├── [         64]  docstring
+    │   │   ├── [         80]  for
+    │   │   ├── [         71]  fun
+    │   │   ├── [         70]  guard
+    │   │   ├── [         78]  ifthen
+    │   │   ├── [         97]  ifthenelse
+    │   │   ├── [         67]  let
+    │   │   ├── [         78]  list_comprehension
+    │   │   ├── [         68]  main
+    │   │   ├── [        108]  match
+    │   │   ├── [        156]  module
+    │   │   ├── [         68]  open
+    │   │   ├── [         93]  printf
+    │   │   ├── [         87]  rec
+    │   │   ├── [         82]  try
+    │   │   ├── [        100]  type
+    │   │   ├── [         85]  type_type
+    │   │   ├── [         69]  val
+    │   │   └── [         85]  while
+    │   ├── [          0]  typerex-mode
+    │   ├── [       4494]  udev-mode
+    │   │   ├── [         69]  add
+    │   │   ├── [         62]  env$
+    │   │   ├── [         61]  ENV
+    │   │   ├── [         78]  GOTO
+    │   │   ├── [         67]  KERNEL
+    │   │   └── [         61]  run
+    │   └── [       4314]  yaml-mode
+    │       ├── [         81]  entry
+    │       ├── [         61]  list
+    │       └── [         76]  section
+    ├── [       1675]  yasnippet-autoloads.el
+    ├── [     185485]  yasnippet.el
+    ├── [     200793]  yasnippet.elc
+    └── [        231]  yasnippet-pkg.el
 
-    20535176 bytes used in 130 directories, 1096 files
+    22457393 bytes used in 201 directories, 2177 files
