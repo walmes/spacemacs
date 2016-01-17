@@ -171,6 +171,8 @@
   (setq whitespace-style '(face lines-tail trailing spaces tabs empty))
   (global-whitespace-mode +1)
   ;;-------------------------------------------
+  (global-set-key (kbd "<S-f11>") 'spacemacs/toggle-menu-bar)
+  (global-set-key (kbd "<S-f12>") 'spacemacs/toggle-tool-bar)
   (global-set-key [(control tab)] 'other-window)
   (global-set-key (kbd "C-<next>") 'next-buffer)
   (global-set-key (kbd "C-<prior>") 'previous-buffer)
