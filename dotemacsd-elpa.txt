@@ -42,12 +42,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519549]  archives
+├── [     519547]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480931]  melpa
-│   │   └── [     476835]  archive-contents
+│   ├── [     480929]  melpa
+│   │   └── [     476833]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -262,6 +262,12 @@
 │   ├── [       4634]  diminish.elc
 │   ├── [        211]  diminish-pkg.el
 │   └── [        615]  diminish-pkg.elc
+├── [      29720]  electric-spacing-20151209.1336
+│   ├── [        988]  electric-spacing-autoloads.el
+│   ├── [      13374]  electric-spacing.el
+│   ├── [      10642]  electric-spacing.elc
+│   ├── [        108]  electric-spacing-pkg.el
+│   └── [        512]  electric-spacing-pkg.elc
 ├── [      14799]  elisp-slime-nav-20150805.1248
 │   ├── [       1393]  elisp-slime-nav-autoloads.el
 │   ├── [       4201]  elisp-slime-nav.el
@@ -2853,4 +2859,4 @@
     ├── [     200793]  yasnippet.elc
     └── [        231]  yasnippet-pkg.el
 
-    35942850 bytes used in 224 directories, 2629 files
+    35972568 bytes used in 225 directories, 2634 files
