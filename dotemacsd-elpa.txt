@@ -36,12 +36,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519548]  archives
+├── [     519549]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480930]  melpa
-│   │   └── [     476834]  archive-contents
+│   ├── [     480931]  melpa
+│   │   └── [     476835]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -93,6 +93,25 @@
 │   ├── [      35052]  bm.elc
 │   ├── [        169]  bm-pkg.el
 │   └── [        573]  bm-pkg.elc
+├── [    2453180]  bookmark+-20151231.1219
+│   ├── [     628471]  bookmark+-1.el
+│   ├── [     505845]  bookmark+-1.elc
+│   ├── [      26813]  bookmark+-autoloads.el
+│   ├── [     351447]  bookmark+-bmu.el
+│   ├── [     283378]  bookmark+-bmu.elc
+│   ├── [     193477]  bookmark+-chg.el
+│   ├── [        430]  bookmark+-chg.elc
+│   ├── [     181828]  bookmark+-doc.el
+│   ├── [        430]  bookmark+-doc.elc
+│   ├── [       7820]  bookmark+.el
+│   ├── [        821]  bookmark+.elc
+│   ├── [      69863]  bookmark+-key.el
+│   ├── [      40692]  bookmark+-key.elc
+│   ├── [      73761]  bookmark+-lit.el
+│   ├── [      47426]  bookmark+-lit.elc
+│   ├── [      23304]  bookmark+-mac.el
+│   ├── [      12960]  bookmark+-mac.elc
+│   └── [        318]  bookmark+-pkg.el
 ├── [      15415]  buffer-move-20160108.708
 │   ├── [       1485]  buffer-move-autoloads.el
 │   ├── [       5889]  buffer-move.el
@@ -1194,11 +1213,17 @@
 │   ├── [       8304]  window-numbering.elc
 │   ├── [        174]  window-numbering-pkg.el
 │   └── [        578]  window-numbering-pkg.elc
-└── [      27472]  ws-butler-20150126.759
-    ├── [       1440]  ws-butler-autoloads.el
-    ├── [       9414]  ws-butler.el
-    ├── [      11846]  ws-butler.elc
-    ├── [        136]  ws-butler-pkg.el
-    └── [        540]  ws-butler-pkg.elc
+├── [      27472]  ws-butler-20150126.759
+│   ├── [       1440]  ws-butler-autoloads.el
+│   ├── [       9414]  ws-butler.el
+│   ├── [      11846]  ws-butler.elc
+│   ├── [        136]  ws-butler-pkg.el
+│   └── [        540]  ws-butler-pkg.elc
+└── [      21021]  yafolding-20141202.2056
+    ├── [        784]  yafolding-autoloads.el
+    ├── [       8111]  yafolding.el
+    ├── [       7396]  yafolding.elc
+    ├── [        115]  yafolding-pkg.el
+    └── [        519]  yafolding-pkg.elc
 
-    18060974 bytes used in 128 directories, 1073 files
+    20535176 bytes used in 130 directories, 1096 files
