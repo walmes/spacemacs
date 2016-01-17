@@ -52,7 +52,49 @@
           ess-continued-statement-offset 0
           ess-expression-offset 4
           ess-nuke-trailing-whitespace-p t
-          ess-default-style 'DEFAULT)
+          ess-default-style 'C++)
+    (setq ess-indent-with-fancy-comments nil)
+    (setq-local comment-add 0)
+    (setq-default inferior-R-args
+                  "--no-restore-history --no-save ")
+    (setq comint-scroll-to-bottom-on-input t)
+    (setq comint-scroll-to-bottom-on-output t)
+    (setq comint-move-point-for-output t)
+    (setq ess-R-font-lock-keywords
+          '((ess-R-fl-keyword:modifiers . t)
+            (ess-R-fl-keyword:fun-defs . t)
+            (ess-R-fl-keyword:keywords . t)
+            (ess-R-fl-keyword:assign-ops . t)
+            (ess-R-fl-keyword:constants . t)
+            (ess-fl-keyword:fun-calls . t)
+            (ess-fl-keyword:numbers . t)
+            (ess-fl-keyword:operators . t)
+            (ess-fl-keyword:delimiters . t)
+            (ess-fl-keyword:= . t)
+            (ess-R-fl-keyword:F&T . t)))
+    (setq inferior-R-font-lock-keywords
+          '((ess-S-fl-keyword:prompt . t)
+            (ess-R-fl-keyword:messages . t)
+            (ess-R-fl-keyword:modifiers . t)
+            (ess-R-fl-keyword:fun-defs . t)
+            (ess-R-fl-keyword:keywords . t)
+            (ess-R-fl-keyword:assign-ops . t)
+            (ess-R-fl-keyword:constants . t)
+            (ess-fl-keyword:matrix-labels . t)
+            (ess-fl-keyword:fun-calls . t)
+            (ess-fl-keyword:numbers . t)
+            (ess-fl-keyword:operators . t)
+            (ess-fl-keyword:delimiters . t)
+            (ess-fl-keyword:= . t)
+            (ess-R-fl-keyword:F&T . t)))
+    (defadvice ess-eval-buffer (before really-eval-buffer compile activate)
+      "Prevent call ess-eval-buffer by accident, frequently by
+       hitting C-c C-b instead of C-c C-n."
+      (if (yes-or-no-p
+           (format "Are you sure you want to evaluate the %s buffer?"
+                   buffer-file-name))
+          (message "ess-eval-buffer started.")
+        (error "ess-eval-buffer canceled!")))
 
     (defun spacemacs/ess-start-repl ()
       "Start a REPL corresponding to the ess-language of the current buffer."
@@ -86,7 +128,20 @@
       )
     (define-key ess-mode-map (kbd "<s-return>") 'ess-eval-line)
     (define-key inferior-ess-mode-map (kbd "C-j") 'comint-next-input)
-    (define-key inferior-ess-mode-map (kbd "C-k") 'comint-previous-input)))
+    (define-key inferior-ess-mode-map (kbd "C-k") 'comint-previous-input)
+    ;; Movement across chunks in Rnw files.
+    (global-set-key (kbd "C-S-<f5>") 'ess-eval-chunk)
+    (global-set-key (kbd "C-S-<f6>") 'ess-eval-chunk-and-step)
+    (global-set-key (kbd "C-S-<f7>") 'ess-noweb-next-code-chunk)
+    (global-set-key (kbd "C-S-<f8>") 'ess-noweb-previous-code-chunk)
+    (global-set-key (kbd "C-S-<f9>") 'ess-noweb-goto-chunk)
+    ;; Easy navigation in s-exp.
+    (global-set-key (kbd "<M-S-up>") 'backward-up-list)
+    (global-set-key (kbd "<M-S-down>") 'down-list)
+    (global-set-key (kbd "<M-right>") 'forward-sexp)
+    (global-set-key (kbd "<M-left>") 'bakward-sexp)
+    (global-set-key (kbd "<M-up>") 'backward-list)
+    (global-set-key (kbd "<M-down>") 'forward-list)))
 
 (defun wz-ess/init-ess-R-data-view ())
 
