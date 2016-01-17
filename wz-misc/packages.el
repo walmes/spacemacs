@@ -4,6 +4,9 @@
     yafolding
     bookmark+
     smartparens
+    (electric-spacing :location (recipe
+                                 :fetcher github
+                                 :repo "walmes/electric-spacing"))
     ))
 
 (defun wz-misc/init-bm ()
@@ -58,3 +61,7 @@
   (smartparens-global-mode 1)
   (sp-pair "\"" nil :unless '(sp-point-after-word-p))
   (sp-pair "'" nil :unless '(sp-point-after-word-p)))
+
+(defun wz-misc/init-electric-spacing ()
+  (use-package electric-spacing)
+  (add-hook 'ess-mode-hook #'electric-spacing-mode))
