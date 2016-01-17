@@ -1,6 +1,6 @@
 (setq wz-polymode-packages
   '(
-    polymode
+    (polymode :upgrade nil)
     ))
 
 (defun wz-polymode/init-polymode ()
