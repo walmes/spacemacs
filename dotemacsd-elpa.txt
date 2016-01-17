@@ -42,12 +42,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519550]  archives
+├── [     519549]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480932]  melpa
-│   │   └── [     476836]  archive-contents
+│   ├── [     480931]  melpa
+│   │   └── [     476835]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -171,10 +171,10 @@
 │   ├── [       7977]  clean-aindent-mode.elc
 │   ├── [        220]  clean-aindent-mode-pkg.el
 │   └── [        624]  clean-aindent-mode-pkg.elc
-├── [     496440]  company-20160117.321
+├── [     496434]  company-20160117.321
 │   ├── [       1623]  company-abbrev.el
 │   ├── [       1172]  company-abbrev.elc
-│   ├── [       8568]  company-autoloads.el
+│   ├── [       8562]  company-autoloads.el
 │   ├── [       2250]  company-bbdb.el
 │   ├── [       1720]  company-bbdb.elc
 │   ├── [       7352]  company-capf.el
@@ -220,8 +220,8 @@
 │   ├── [       3759]  company-xcode.elc
 │   ├── [       5517]  company-yasnippet.el
 │   └── [       3568]  company-yasnippet.elc
-├── [      21343]  company-quickhelp-20150804.319
-│   ├── [       1014]  company-quickhelp-autoloads.el
+├── [      21342]  company-quickhelp-20150804.319
+│   ├── [       1013]  company-quickhelp-autoloads.el
 │   ├── [       8056]  company-quickhelp.el
 │   ├── [       7238]  company-quickhelp.elc
 │   ├── [        267]  company-quickhelp-pkg.el
@@ -805,6 +805,12 @@
 │   ├── [       8440]  flx-ido.elc
 │   ├── [        136]  flx-ido-pkg.el
 │   └── [        541]  flx-ido-pkg.elc
+├── [      17551]  gh-md-20151207.940
+│   ├── [        966]  gh-md-autoloads.el
+│   ├── [       6894]  gh-md.el
+│   ├── [       4858]  gh-md.elc
+│   ├── [        166]  gh-md-pkg.el
+│   └── [        571]  gh-md-pkg.elc
 ├── [       6295]  gnupg
 │   ├── [        999]  pubring.gpg
 │   ├── [          0]  pubring.gpg~
@@ -922,8 +928,8 @@
 │   ├── [      38815]  helm-ag.elc
 │   ├── [        165]  helm-ag-pkg.el
 │   └── [        570]  helm-ag-pkg.elc
-├── [      17738]  helm-company-20151216.9
-│   ├── [        583]  helm-company-autoloads.el
+├── [      17737]  helm-company-20151216.9
+│   ├── [        582]  helm-company-autoloads.el
 │   ├── [       6307]  helm-company.el
 │   ├── [       6023]  helm-company.elc
 │   ├── [        162]  helm-company-pkg.el
@@ -939,8 +945,8 @@
 │   ├── [      14243]  helm-multi-match.elc
 │   ├── [      37694]  helm-source.el
 │   └── [      32420]  helm-source.elc
-├── [      41028]  helm-c-yasnippet-20151231.10
-│   ├── [        832]  helm-c-yasnippet-autoloads.el
+├── [      41029]  helm-c-yasnippet-20151231.10
+│   ├── [        833]  helm-c-yasnippet-autoloads.el
 │   ├── [      19806]  helm-c-yasnippet.el
 │   ├── [      15543]  helm-c-yasnippet.elc
 │   ├── [        173]  helm-c-yasnippet-pkg.el
@@ -1104,6 +1110,56 @@
 │   ├── [      45249]  macrostep.el
 │   ├── [      29257]  macrostep.elc
 │   └── [        242]  macrostep-pkg.el
+├── [     443534]  markdown-mode-20160115.2318
+│   ├── [        851]  markdown-mode-autoloads.el
+│   ├── [     261241]  markdown-mode.el
+│   ├── [     176483]  markdown-mode.elc
+│   ├── [        229]  markdown-mode-pkg.el
+│   └── [        634]  markdown-mode-pkg.elc
+├── [      17589]  markdown-toc-20160108.41
+│   ├── [        878]  markdown-toc-autoloads.el
+│   ├── [       7133]  markdown-toc.el
+│   ├── [       5280]  markdown-toc.elc
+│   └── [        202]  markdown-toc-pkg.el
+├── [     439619]  mmm-mode-20150828.1716
+│   ├── [        620]  dir
+│   ├── [       6722]  mmm-auto.el
+│   ├── [       4880]  mmm-auto.elc
+│   ├── [      12378]  mmm-class.el
+│   ├── [      12914]  mmm-class.elc
+│   ├── [      16229]  mmm-cmds.el
+│   ├── [      12443]  mmm-cmds.elc
+│   ├── [       4183]  mmm-compat.el
+│   ├── [       1601]  mmm-compat.elc
+│   ├── [       2711]  mmm-cweb.el
+│   ├── [       1986]  mmm-cweb.elc
+│   ├── [       2043]  mmm-defaults.el
+│   ├── [       1074]  mmm-defaults.elc
+│   ├── [       9742]  mmm-erb.el
+│   ├── [      10955]  mmm-erb.elc
+│   ├── [      93345]  mmm.info
+│   ├── [       5379]  mmm-mason.el
+│   ├── [       4308]  mmm-mason.elc
+│   ├── [       1130]  mmm-mode-autoloads.el
+│   ├── [      11082]  mmm-mode.el
+│   ├── [       6386]  mmm-mode.elc
+│   ├── [        240]  mmm-mode-pkg.el
+│   ├── [       6155]  mmm-myghty.el
+│   ├── [       4730]  mmm-myghty.elc
+│   ├── [      13692]  mmm-noweb.el
+│   ├── [      10375]  mmm-noweb.elc
+│   ├── [      35520]  mmm-region.el
+│   ├── [      26859]  mmm-region.elc
+│   ├── [       2688]  mmm-rpm.el
+│   ├── [       1565]  mmm-rpm.elc
+│   ├── [      12385]  mmm-sample.el
+│   ├── [       6591]  mmm-sample.elc
+│   ├── [       1922]  mmm-univ.el
+│   ├── [       1028]  mmm-univ.elc
+│   ├── [       5422]  mmm-utils.el
+│   ├── [       4361]  mmm-utils.elc
+│   ├── [      42113]  mmm-vars.el
+│   └── [      37766]  mmm-vars.elc
 ├── [      10453]  move-text-20140307.844
 │   ├── [        828]  move-text-autoloads.el
 │   ├── [       3422]  move-text.el
@@ -2378,4 +2434,4 @@
     ├── [     200793]  yasnippet.elc
     └── [        231]  yasnippet-pkg.el
 
-    22457393 bytes used in 201 directories, 2177 files
+    23375678 bytes used in 205 directories, 2229 files
