@@ -184,6 +184,7 @@
   (global-set-key (kbd "<C-dead-tilde>") 'fixup-whitespace)
   ;; "M-~" to joint lines.
   (global-set-key (kbd "<M-dead-tilde>") 'delete-indentation)
+  (global-set-key [?\M--] 'insert-rule-from-point-to-margin)
   ;;-------------------------------------------
   (add-hook 'emacs-startup-hook 'delete-other-windows)[/code]
   (add-hook 'before-save-hook 'delete-trailing-whitespace)
