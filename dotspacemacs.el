@@ -246,6 +246,17 @@ in `dotspacemacs/user-config'."
   (setq user-full-name "Walmes Zeviani"
         user-mail-address "walmes@ufpr.com")
   ;;-------------------------------------------
+  ;; Font type and size.
+  (cond
+   ((string-equal system-name "brother")
+    (set-default-font "Ubuntu Mono-16"))
+   ((string-equal system-name "youngest")
+    (set-default-font "Ubuntu Mono-16"))
+   ((string-equal system-name "first")
+    (set-default-font "Ubuntu Mono-14"))
+   ((string-equal system-name "class")
+    (set-default-font "Ubuntu Mono-14")))
+  ;;-------------------------------------------
   ;; Font for especial words.
   (make-face 'special-words)
   (set-face-attribute 'special-words nil
