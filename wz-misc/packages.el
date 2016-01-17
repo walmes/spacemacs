@@ -6,8 +6,7 @@
     smartparens
     (electric-spacing :location (recipe
                                  :fetcher github
-                                 :repo "walmes/electric-spacing")
-                      :upgrade nil)
+                                 :repo "walmes/electric-spacing"))
     ))
 
 (defun wz-misc/init-bm ()
