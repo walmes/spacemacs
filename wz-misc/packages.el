@@ -3,6 +3,7 @@
     bm
     yafolding
     bookmark+
+    auto-complete
     ))
 
 (defun wz-misc/init-bm ()
@@ -52,3 +53,30 @@
        (kbd "<S-f3>") 'bmkp-toggle-temporary-bookmark))
     )
   ) ;; wz-misc/init-bookmark+
+
+(defun auto-completion/post-init-auto-complete ()
+  (use-package auto-complete
+    :defer t
+    :init
+    (setq ac-auto-start 0
+          ac-delay 0.2
+          ac-quick-help-delay 1.
+          ac-use-fuzzy t
+          ac-fuzzy-enable t
+          ac-comphist-file (concat
+                            spacemacs-cache-directory "ac-comphist.dat")
+          ;; use 'complete when auto-complete is disabled
+          tab-always-indent 'complete
+          ac-dwim t)
+    :config
+    (progn
+      (require 'auto-complete-config)
+      (ac-config-default)
+      (setq-default ac-sources '(ac-source-abbrev
+                                 ac-source-dictionary
+                                 ac-source-words-in-same-mode-buffers))
+      (add-to-list 'completion-styles 'initials t)
+      ;; Change 'ac-complete from ENTER to TAB.
+      (define-key ac-completing-map "\r" nil)
+      (define-key ac-completing-map "\t" 'ac-complete)
+      (spacemacs|diminish auto-complete-mode " ⓐ" " a"))))
