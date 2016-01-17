@@ -1,0 +1,932 @@
+/home/walmes/.emacs.d/elpa/
+├── [      12652]  ace-jump-helm-line-20151113.1100
+│   ├── [        719]  ace-jump-helm-line-autoloads.el
+│   ├── [       5007]  ace-jump-helm-line.el
+│   ├── [       2005]  ace-jump-helm-line.elc
+│   ├── [        210]  ace-jump-helm-line-pkg.el
+│   └── [        615]  ace-jump-helm-line-pkg.elc
+├── [      23901]  ace-link-20160105.2154
+│   ├── [       1490]  ace-link-autoloads.el
+│   ├── [      10359]  ace-link.el
+│   ├── [       7227]  ace-link.elc
+│   ├── [        162]  ace-link-pkg.el
+│   └── [        567]  ace-link-pkg.elc
+├── [      41475]  ace-window-20150803.837
+│   ├── [       1740]  ace-window-autoloads.el
+│   ├── [      18426]  ace-window.el
+│   ├── [      16476]  ace-window.elc
+│   ├── [        166]  ace-window-pkg.el
+│   └── [        571]  ace-window-pkg.elc
+├── [      15851]  adaptive-wrap-0.5
+│   ├── [        578]  adaptive-wrap-autoloads.el
+│   ├── [       6111]  adaptive-wrap.el
+│   ├── [       4358]  adaptive-wrap.elc
+│   ├── [        152]  adaptive-wrap-pkg.el
+│   └── [        556]  adaptive-wrap-pkg.elc
+├── [        147]  adaptive-wrap-0.5.signed
+├── [      41687]  aggressive-indent-20160115.1414
+│   ├── [       2270]  aggressive-indent-autoloads.el
+│   ├── [      16532]  aggressive-indent.el
+│   ├── [      17884]  aggressive-indent.elc
+│   ├── [        250]  aggressive-indent-pkg.el
+│   └── [        655]  aggressive-indent-pkg.elc
+├── [      72825]  anzu-20160115.2238
+│   ├── [       1572]  anzu-autoloads.el
+│   ├── [      30969]  anzu.el
+│   ├── [      35445]  anzu.elc
+│   ├── [        169]  anzu-pkg.el
+│   └── [        574]  anzu-pkg.elc
+├── [     519550]  archives
+│   ├── [      30241]  gnu
+│   │   ├── [      25998]  archive-contents
+│   │   └── [        147]  archive-contents.signed
+│   ├── [     480932]  melpa
+│   │   └── [     476836]  archive-contents
+│   └── [       4281]  org
+│       └── [        185]  archive-contents
+├── [      68947]  async-20160108.1249
+│   ├── [       4284]  async-autoloads.el
+│   ├── [       7843]  async-bytecomp.el
+│   ├── [       6497]  async-bytecomp.elc
+│   ├── [      11335]  async.el
+│   ├── [       9156]  async.elc
+│   ├── [        203]  async-pkg.el
+│   ├── [      11783]  dired-async.el
+│   ├── [       9713]  dired-async.elc
+│   ├── [       2530]  smtpmail-async.el
+│   └── [       1507]  smtpmail-async.elc
+├── [      70340]  auto-compile-20151107.1408
+│   ├── [       3957]  auto-compile-autoloads.el
+│   ├── [      30899]  auto-compile.el
+│   ├── [      30519]  auto-compile.elc
+│   ├── [        232]  auto-compile-pkg.el
+│   └── [        637]  auto-compile-pkg.elc
+├── [     104965]  auto-highlight-symbol-20130313.243
+│   ├── [       1562]  auto-highlight-symbol-autoloads.el
+│   ├── [      53401]  auto-highlight-symbol.el
+│   ├── [      44990]  auto-highlight-symbol.elc
+│   ├── [        256]  auto-highlight-symbol-pkg.el
+│   └── [        660]  auto-highlight-symbol-pkg.elc
+├── [      96135]  avy-20160106.723
+│   ├── [       3246]  avy-autoloads.el
+│   ├── [      47927]  avy.el
+│   ├── [      40133]  avy.elc
+│   ├── [        164]  avy-pkg.el
+│   └── [        569]  avy-pkg.elc
+├── [      30913]  bind-key-20160112.758
+│   ├── [       2288]  bind-key-autoloads.el
+│   ├── [        288]  bind-key-autoloads.el~
+│   ├── [      14113]  bind-key.el
+│   ├── [       9336]  bind-key.elc
+│   ├── [        194]  bind-key-pkg.el
+│   └── [        598]  bind-key-pkg.elc
+├── [      33541]  bind-map-20151217.829
+│   ├── [       4026]  bind-map-autoloads.el
+│   ├── [        288]  bind-map-autoloads.el~
+│   ├── [      15225]  bind-map.el
+│   ├── [       9189]  bind-map.elc
+│   ├── [        156]  bind-map-pkg.el
+│   └── [        561]  bind-map-pkg.elc
+├── [      15415]  buffer-move-20160108.708
+│   ├── [       1485]  buffer-move-autoloads.el
+│   ├── [       5889]  buffer-move.el
+│   ├── [       3237]  buffer-move.elc
+│   ├── [        152]  buffer-move-pkg.el
+│   └── [        556]  buffer-move-pkg.elc
+├── [      25538]  clean-aindent-mode-20150816.2029
+│   ├── [       1635]  clean-aindent-mode-autoloads.el
+│   ├── [      10986]  clean-aindent-mode.el
+│   ├── [       7977]  clean-aindent-mode.elc
+│   ├── [        220]  clean-aindent-mode-pkg.el
+│   └── [        624]  clean-aindent-mode-pkg.elc
+├── [     165927]  dash-20151216.1315
+│   ├── [        356]  dash-autoloads.el
+│   ├── [      82609]  dash.el
+│   ├── [      78262]  dash.elc
+│   ├── [        100]  dash-pkg.el
+│   └── [        504]  dash-pkg.elc
+├── [      12081]  define-word-20150709.1223
+│   ├── [        699]  define-word-autoloads.el
+│   ├── [       3817]  define-word.el
+│   ├── [       2676]  define-word.elc
+│   ├── [        194]  define-word-pkg.el
+│   └── [        599]  define-word-pkg.elc
+├── [      26961]  diminish-20151215.915
+│   ├── [       2385]  diminish-autoloads.el
+│   ├── [        288]  diminish-autoloads.el~
+│   ├── [      14732]  diminish.el
+│   ├── [       4634]  diminish.elc
+│   ├── [        211]  diminish-pkg.el
+│   └── [        615]  diminish-pkg.elc
+├── [      14799]  elisp-slime-nav-20150805.1248
+│   ├── [       1393]  elisp-slime-nav-autoloads.el
+│   ├── [       4201]  elisp-slime-nav.el
+│   ├── [       4273]  elisp-slime-nav.elc
+│   ├── [        216]  elisp-slime-nav-pkg.el
+│   └── [        620]  elisp-slime-nav-pkg.elc
+├── [      64249]  epl-20150517.433
+│   ├── [        354]  epl-autoloads.el
+│   ├── [      25533]  epl.el
+│   ├── [      33579]  epl.elc
+│   ├── [        141]  epl-pkg.el
+│   └── [        546]  epl-pkg.elc
+├── [      47919]  eval-sexp-fu-20131230.1351
+│   ├── [        389]  eval-sexp-fu-autoloads.el
+│   ├── [      22294]  eval-sexp-fu.el
+│   ├── [      20397]  eval-sexp-fu.elc
+│   ├── [        169]  eval-sexp-fu-pkg.el
+│   └── [        574]  eval-sexp-fu-pkg.elc
+├── [    1522235]  evil-20160116.33
+│   ├── [        611]  dir
+│   ├── [       1452]  evil-autoloads.el
+│   ├── [        280]  evil-autoloads.el~
+│   ├── [     153791]  evil-commands.el
+│   ├── [     248862]  evil-commands.elc
+│   ├── [       6110]  evil-command-window.el
+│   ├── [       6993]  evil-command-window.elc
+│   ├── [     152019]  evil-common.el
+│   ├── [     113421]  evil-common.elc
+│   ├── [      46556]  evil-core.el
+│   ├── [      33811]  evil-core.elc
+│   ├── [      42056]  evil-digraphs.el
+│   ├── [      30830]  evil-digraphs.elc
+│   ├── [       5196]  evil.el
+│   ├── [       4338]  evil.elc
+│   ├── [      45757]  evil-ex.el
+│   ├── [      32485]  evil-ex.elc
+│   ├── [      49610]  evil.info
+│   ├── [      18649]  evil-integration.el
+│   ├── [      27847]  evil-integration.elc
+│   ├── [      31559]  evil-macros.el
+│   ├── [      20925]  evil-macros.elc
+│   ├── [      27950]  evil-maps.el
+│   ├── [      22304]  evil-maps.elc
+│   ├── [        167]  evil-pkg.el
+│   ├── [      25153]  evil-repeat.el
+│   ├── [      16940]  evil-repeat.elc
+│   ├── [      53587]  evil-search.el
+│   ├── [      40661]  evil-search.elc
+│   ├── [      32929]  evil-states.el
+│   ├── [      55880]  evil-states.elc
+│   ├── [      12914]  evil-types.el
+│   ├── [      17052]  evil-types.elc
+│   ├── [      57254]  evil-vars.el
+│   ├── [      56920]  evil-vars.elc
+│   ├── [      25062]  fdl-1.3.info
+│   ├── [        103]  macros.info
+│   └── [        105]  version.info
+├── [       8937]  evil-anzu-20150124.1609
+│   ├── [        372]  evil-anzu-autoloads.el
+│   ├── [       2189]  evil-anzu.el
+│   ├── [       1581]  evil-anzu.elc
+│   ├── [        147]  evil-anzu-pkg.el
+│   └── [        552]  evil-anzu-pkg.elc
+├── [      22165]  evil-args-20140329.1429
+│   ├── [        849]  evil-args-autoloads.el
+│   ├── [       8185]  evil-args.el
+│   ├── [       8226]  evil-args.elc
+│   ├── [        202]  evil-args-pkg.el
+│   └── [        607]  evil-args-pkg.elc
+├── [      27178]  evil-escape-20151214.1111
+│   ├── [        958]  evil-escape-autoloads.el
+│   ├── [      11437]  evil-escape.el
+│   ├── [       9802]  evil-escape.elc
+│   ├── [        240]  evil-escape-pkg.el
+│   └── [        645]  evil-escape-pkg.elc
+├── [      16930]  evil-exchange-20160115.232
+│   ├── [        741]  evil-exchange-autoloads.el
+│   ├── [       6683]  evil-exchange.el
+│   ├── [       4609]  evil-exchange.elc
+│   ├── [        198]  evil-exchange-pkg.el
+│   └── [        603]  evil-exchange-pkg.elc
+├── [      32419]  evil-iedit-state-20141217.1734
+│   ├── [        400]  evil-iedit-state-autoloads.el
+│   ├── [       9425]  evil-iedit-state.el
+│   ├── [      17615]  evil-iedit-state.elc
+│   ├── [        239]  evil-iedit-state-pkg.el
+│   └── [        644]  evil-iedit-state-pkg.elc
+├── [      29981]  evil-indent-plus-20151109.1106
+│   ├── [        998]  evil-indent-plus-autoloads.el
+│   ├── [       8510]  evil-indent-plus.el
+│   ├── [      15566]  evil-indent-plus.elc
+│   ├── [        203]  evil-indent-plus-pkg.el
+│   └── [        608]  evil-indent-plus-pkg.elc
+├── [      33055]  evil-jumper-20160114.1229
+│   ├── [       1178]  evil-jumper-autoloads.el
+│   ├── [      11048]  evil-jumper.el
+│   ├── [      15938]  evil-jumper.elc
+│   ├── [        195]  evil-jumper-pkg.el
+│   └── [        600]  evil-jumper-pkg.elc
+├── [      35317]  evil-lisp-state-20151201.724
+│   ├── [        397]  evil-lisp-state-autoloads.el
+│   ├── [      11673]  evil-lisp-state.el
+│   ├── [      18214]  evil-lisp-state.elc
+│   ├── [        266]  evil-lisp-state-pkg.el
+│   └── [        671]  evil-lisp-state-pkg.elc
+├── [     128903]  evil-matchit-20151120.335
+│   ├── [       7515]  evil-matchit-autoloads.el
+│   ├── [       1563]  evil-matchit-c.el
+│   ├── [        987]  evil-matchit-c.elc
+│   ├── [       1864]  evil-matchit-cmake.el
+│   ├── [       1087]  evil-matchit-cmake.elc
+│   ├── [      17143]  evil-matchit.el
+│   ├── [      21255]  evil-matchit.elc
+│   ├── [       2478]  evil-matchit-fortran.el
+│   ├── [       1600]  evil-matchit-fortran.elc
+│   ├── [       3125]  evil-matchit-html.el
+│   ├── [       1376]  evil-matchit-html.elc
+│   ├── [       2932]  evil-matchit-javascript.el
+│   ├── [       1582]  evil-matchit-javascript.elc
+│   ├── [       5845]  evil-matchit-latex.el
+│   ├── [       2227]  evil-matchit-latex.elc
+│   ├── [       3471]  evil-matchit-org.el
+│   ├── [       2070]  evil-matchit-org.elc
+│   ├── [        150]  evil-matchit-pkg.el
+│   ├── [       7331]  evil-matchit-python.el
+│   ├── [       3465]  evil-matchit-python.elc
+│   ├── [       1887]  evil-matchit-ruby.el
+│   ├── [       1142]  evil-matchit-ruby.elc
+│   ├── [       2029]  evil-matchit-script.el
+│   ├── [       1250]  evil-matchit-script.elc
+│   ├── [       9709]  evil-matchit-sdk.el
+│   ├── [       4726]  evil-matchit-sdk.elc
+│   ├── [       1787]  evil-matchit-sh.el
+│   ├── [       1023]  evil-matchit-sh.elc
+│   ├── [       3122]  evil-matchit-simple.el
+│   ├── [       1763]  evil-matchit-simple.elc
+│   ├── [       2601]  evil-matchit-sql.el
+│   ├── [       1140]  evil-matchit-sql.elc
+│   ├── [       2167]  evil-matchit-template.el
+│   └── [       1395]  evil-matchit-template.elc
+├── [     233455]  evil-mc-20151230.842
+│   ├── [       1957]  evil-mc-autoloads.el
+│   ├── [      24192]  evil-mc-command-execute.el
+│   ├── [      31306]  evil-mc-command-execute.elc
+│   ├── [       9514]  evil-mc-command-record.el
+│   ├── [       8107]  evil-mc-command-record.elc
+│   ├── [       1834]  evil-mc-common.el
+│   ├── [       1895]  evil-mc-common.elc
+│   ├── [      16599]  evil-mc-cursor-make.el
+│   ├── [      17511]  evil-mc-cursor-make.elc
+│   ├── [       6038]  evil-mc-cursor-state.el
+│   ├── [       6901]  evil-mc-cursor-state.elc
+│   ├── [       6875]  evil-mc.el
+│   ├── [      11863]  evil-mc.elc
+│   ├── [        329]  evil-mc-pkg.el
+│   ├── [       6874]  evil-mc-region.el
+│   ├── [       6830]  evil-mc-region.elc
+│   ├── [       1569]  evil-mc-scratch.el
+│   ├── [       1909]  evil-mc-scratch.elc
+│   ├── [       1753]  evil-mc-setup.el
+│   ├── [       2202]  evil-mc-setup.elc
+│   ├── [       1944]  evil-mc-undo.el
+│   ├── [       2148]  evil-mc-undo.elc
+│   ├── [      29963]  evil-mc-vars.el
+│   └── [      29246]  evil-mc-vars.elc
+├── [      49969]  evil-nerd-commenter-20160111.244
+│   ├── [       3189]  evil-nerd-commenter-autoloads.el
+│   ├── [      24631]  evil-nerd-commenter.el
+│   ├── [      13682]  evil-nerd-commenter.elc
+│   ├── [       2176]  evil-nerd-commenter-operator.el
+│   ├── [       2020]  evil-nerd-commenter-operator.elc
+│   └── [        175]  evil-nerd-commenter-pkg.el
+├── [      17516]  evil-numbers-20140606.551
+│   ├── [       1120]  evil-numbers-autoloads.el
+│   ├── [       7150]  evil-numbers.el
+│   ├── [       4332]  evil-numbers.elc
+│   ├── [        207]  evil-numbers-pkg.el
+│   └── [        611]  evil-numbers-pkg.elc
+├── [      27661]  evil-search-highlight-persist-20151215.238
+│   ├── [       2025]  evil-search-highlight-persist-autoloads.el
+│   ├── [       9175]  evil-search-highlight-persist.el
+│   ├── [      11720]  evil-search-highlight-persist.elc
+│   ├── [        120]  evil-search-highlight-persist-pkg.el
+│   └── [        525]  evil-search-highlight-persist-pkg.elc
+├── [      39238]  evil-surround-20151210.1218
+│   ├── [       2337]  evil-surround-autoloads.el
+│   ├── [      12586]  evil-surround.el
+│   ├── [      19113]  evil-surround.elc
+│   ├── [        351]  evil-surround-pkg.el
+│   └── [        755]  evil-surround-pkg.elc
+├── [      41074]  evil-tutor-20150102.2250
+│   ├── [        665]  evil-tutor-autoloads.el
+│   ├── [       4808]  evil-tutor.el
+│   ├── [       5888]  evil-tutor.elc
+│   ├── [        265]  evil-tutor-pkg.el
+│   └── [      25352]  tutor.txt
+├── [      19220]  evil-visualstar-20150514.1410
+│   ├── [       1680]  evil-visualstar-autoloads.el
+│   ├── [       4175]  evil-visualstar.el
+│   ├── [       8458]  evil-visualstar.elc
+│   ├── [        203]  evil-visualstar-pkg.el
+│   └── [        608]  evil-visualstar-pkg.elc
+├── [      24064]  exec-path-from-shell-20160112.2246
+│   ├── [       1413]  exec-path-from-shell-autoloads.el
+│   ├── [      10411]  exec-path-from-shell.el
+│   ├── [       7340]  exec-path-from-shell.elc
+│   ├── [        200]  exec-path-from-shell-pkg.el
+│   └── [        604]  exec-path-from-shell-pkg.elc
+├── [     190038]  expand-region-20150902.558
+│   ├── [       6886]  cc-mode-expansions.el
+│   ├── [       7676]  cc-mode-expansions.elc
+│   ├── [       3714]  clojure-mode-expansions.el
+│   ├── [       2656]  clojure-mode-expansions.elc
+│   ├── [       2215]  cperl-mode-expansions.el
+│   ├── [       1623]  cperl-mode-expansions.elc
+│   ├── [       1779]  css-mode-expansions.el
+│   ├── [       1120]  css-mode-expansions.elc
+│   ├── [       1608]  enh-ruby-mode-expansions.el
+│   ├── [        901]  enh-ruby-mode-expansions.elc
+│   ├── [       7464]  er-basic-expansions.el
+│   ├── [       6203]  er-basic-expansions.elc
+│   ├── [       1672]  erlang-mode-expansions.el
+│   ├── [        837]  erlang-mode-expansions.elc
+│   ├── [       3654]  expand-region-autoloads.el
+│   ├── [      11162]  expand-region-core.el
+│   ├── [       8128]  expand-region-core.elc
+│   ├── [       3304]  expand-region-custom.el
+│   ├── [       2632]  expand-region-custom.elc
+│   ├── [       8330]  expand-region.el
+│   ├── [       3615]  expand-region.elc
+│   ├── [        149]  expand-region-pkg.el
+│   ├── [       2562]  feature-mode-expansions.el
+│   ├── [       1709]  feature-mode-expansions.elc
+│   ├── [       3516]  html-mode-expansions.el
+│   ├── [       2544]  html-mode-expansions.elc
+│   ├── [       2136]  js2-mode-expansions.el
+│   ├── [       1068]  js2-mode-expansions.elc
+│   ├── [       6136]  js-mode-expansions.el
+│   ├── [       4608]  js-mode-expansions.elc
+│   ├── [       2121]  jsp-expansions.el
+│   ├── [       1170]  jsp-expansions.elc
+│   ├── [       3520]  latex-mode-expansions.el
+│   ├── [       2054]  latex-mode-expansions.elc
+│   ├── [       4113]  nxml-mode-expansions.el
+│   ├── [       3092]  nxml-mode-expansions.elc
+│   ├── [       2967]  octave-expansions.el
+│   ├── [       1688]  octave-expansions.elc
+│   ├── [       3234]  python-el-expansions.el
+│   ├── [       1998]  python-el-expansions.elc
+│   ├── [       7311]  python-el-fgallina-expansions.el
+│   ├── [       4338]  python-el-fgallina-expansions.elc
+│   ├── [       5727]  python-mode-expansions.el
+│   ├── [       3291]  python-mode-expansions.elc
+│   ├── [       7129]  ruby-mode-expansions.el
+│   ├── [       4862]  ruby-mode-expansions.elc
+│   ├── [       2032]  sml-mode-expansions.el
+│   ├── [       1043]  sml-mode-expansions.elc
+│   ├── [       1663]  subword-mode-expansions.el
+│   ├── [       1041]  subword-mode-expansions.elc
+│   ├── [       2150]  text-mode-expansions.el
+│   ├── [       1344]  text-mode-expansions.elc
+│   ├── [       2850]  the-org-mode-expansions.el
+│   ├── [       1766]  the-org-mode-expansions.elc
+│   ├── [       1139]  web-mode-expansions.el
+│   └── [        692]  web-mode-expansions.elc
+├── [      18971]  fancy-battery-20150101.404
+│   ├── [       1433]  fancy-battery-autoloads.el
+│   ├── [       6464]  fancy-battery.el
+│   ├── [       6195]  fancy-battery.elc
+│   ├── [        189]  fancy-battery-pkg.el
+│   └── [        594]  fancy-battery-pkg.elc
+├── [      67430]  fill-column-indicator-20151030.1233
+│   ├── [       1210]  fill-column-indicator-autoloads.el
+│   ├── [      37973]  fill-column-indicator.el
+│   ├── [      23491]  fill-column-indicator.elc
+│   ├── [        128]  fill-column-indicator-pkg.el
+│   └── [        532]  fill-column-indicator-pkg.elc
+├── [      30086]  flx-20151030.1112
+│   ├── [        354]  flx-autoloads.el
+│   ├── [      15892]  flx.el
+│   ├── [       9081]  flx.elc
+│   ├── [        129]  flx-pkg.el
+│   └── [        534]  flx-pkg.elc
+├── [      23934]  flx-ido-20151030.1112
+│   ├── [        688]  flx-ido-autoloads.el
+│   ├── [      10033]  flx-ido.el
+│   ├── [       8440]  flx-ido.elc
+│   ├── [        136]  flx-ido-pkg.el
+│   └── [        541]  flx-ido-pkg.elc
+├── [       6295]  gnupg
+│   ├── [        999]  pubring.gpg
+│   ├── [          0]  pubring.gpg~
+│   ├── [          0]  secring.gpg
+│   └── [       1200]  trustdb.gpg
+├── [      21095]  golden-ratio-20150819.420
+│   ├── [       1065]  golden-ratio-autoloads.el
+│   ├── [       7490]  golden-ratio.el
+│   ├── [       7754]  golden-ratio.elc
+│   ├── [        143]  golden-ratio-pkg.el
+│   └── [        547]  golden-ratio-pkg.elc
+├── [     143123]  google-translate-20160111.654
+│   ├── [       3991]  google-translate-autoloads.el
+│   ├── [       9808]  google-translate-core.el
+│   ├── [       7587]  google-translate-core.elc
+│   ├── [      29473]  google-translate-core-ui.el
+│   ├── [      32483]  google-translate-core-ui.elc
+│   ├── [      11847]  google-translate-default-ui.el
+│   ├── [       6302]  google-translate-default-ui.elc
+│   ├── [       2692]  google-translate.el
+│   ├── [        511]  google-translate.elc
+│   ├── [        145]  google-translate-pkg.el
+│   ├── [      15263]  google-translate-smooth-ui.el
+│   ├── [       9333]  google-translate-smooth-ui.elc
+│   ├── [       5546]  google-translate-tk.el
+│   └── [       4046]  google-translate-tk.elc
+├── [      27377]  goto-chg-20131228.659
+│   ├── [       2013]  goto-chg-autoloads.el
+│   ├── [        288]  goto-chg-autoloads.el~
+│   ├── [      13549]  goto-chg.el
+│   ├── [       6817]  goto-chg.elc
+│   ├── [        105]  goto-chg-pkg.el
+│   └── [        509]  goto-chg-pkg.elc
+├── [    1423089]  helm-20160115.2200
+│   ├── [       3920]  emacs-helm.sh
+│   ├── [      11132]  helm-adaptive.el
+│   ├── [       7370]  helm-adaptive.elc
+│   ├── [      10666]  helm-apt.el
+│   ├── [      11830]  helm-apt.elc
+│   ├── [      26555]  helm-autoloads.el
+│   ├── [      30696]  helm-bookmark.el
+│   ├── [      23828]  helm-bookmark.elc
+│   ├── [      35454]  helm-buffers.el
+│   ├── [      29852]  helm-buffers.elc
+│   ├── [       5212]  helm-color.el
+│   ├── [       5669]  helm-color.elc
+│   ├── [      10226]  helm-command.el
+│   ├── [       8490]  helm-command.elc
+│   ├── [       6770]  helm-config.el
+│   ├── [       4967]  helm-config.elc
+│   ├── [      16209]  helm-dabbrev.el
+│   ├── [      14792]  helm-dabbrev.elc
+│   ├── [       3142]  helm-easymenu.el
+│   ├── [       2420]  helm-easymenu.elc
+│   ├── [      36752]  helm-elisp.el
+│   ├── [      32103]  helm-elisp.elc
+│   ├── [      16775]  helm-elisp-package.el
+│   ├── [      14698]  helm-elisp-package.elc
+│   ├── [       3803]  helm-elscreen.el
+│   ├── [       2718]  helm-elscreen.elc
+│   ├── [      10974]  helm-eshell.el
+│   ├── [       8029]  helm-eshell.elc
+│   ├── [       8346]  helm-eval.el
+│   ├── [       6835]  helm-eval.elc
+│   ├── [       9651]  helm-external.el
+│   ├── [       6843]  helm-external.elc
+│   ├── [     154464]  helm-files.el
+│   ├── [     124811]  helm-files.elc
+│   ├── [       6320]  helm-font.el
+│   ├── [       5712]  helm-font.elc
+│   ├── [      56201]  helm-grep.el
+│   ├── [      45274]  helm-grep.elc
+│   ├── [      53253]  helm-help.el
+│   ├── [      51705]  helm-help.elc
+│   ├── [       5042]  helm-id-utils.el
+│   ├── [       4253]  helm-id-utils.elc
+│   ├── [      10279]  helm-imenu.el
+│   ├── [       8047]  helm-imenu.elc
+│   ├── [       8508]  helm-info.el
+│   ├── [       7664]  helm-info.elc
+│   ├── [      16762]  helm-locate.el
+│   ├── [      13763]  helm-locate.elc
+│   ├── [       4250]  helm-man.el
+│   ├── [       3149]  helm-man.elc
+│   ├── [      11542]  helm-misc.el
+│   ├── [      10126]  helm-misc.elc
+│   ├── [      54897]  helm-mode.el
+│   ├── [      37234]  helm-mode.elc
+│   ├── [      13644]  helm-multi-match.el
+│   ├── [      14243]  helm-multi-match.elc
+│   ├── [      19594]  helm-net.el
+│   ├── [      17169]  helm-net.elc
+│   ├── [       8363]  helm-org.el
+│   ├── [       6467]  helm-org.elc
+│   ├── [        268]  helm-pkg.el
+│   ├── [       4457]  helm-plugin.el
+│   ├── [       3718]  helm-plugin.elc
+│   ├── [      25365]  helm-regexp.el
+│   ├── [      23197]  helm-regexp.elc
+│   ├── [      18523]  helm-ring.el
+│   ├── [      14955]  helm-ring.elc
+│   ├── [       8657]  helm-semantic.el
+│   ├── [       6636]  helm-semantic.elc
+│   ├── [      10263]  helm-sys.el
+│   ├── [       8969]  helm-sys.elc
+│   ├── [      13738]  helm-tags.el
+│   ├── [      11678]  helm-tags.elc
+│   ├── [      11044]  helm-types.el
+│   ├── [      11504]  helm-types.elc
+│   ├── [      25050]  helm-utils.el
+│   └── [      21508]  helm-utils.elc
+├── [      85109]  helm-ag-20160116.1651
+│   ├── [       1189]  helm-ag-autoloads.el
+│   ├── [      40274]  helm-ag.el
+│   ├── [      38815]  helm-ag.elc
+│   ├── [        165]  helm-ag-pkg.el
+│   └── [        570]  helm-ag-pkg.elc
+├── [     592963]  helm-core-20160116.2343
+│   ├── [       6288]  helm-core-autoloads.el
+│   ├── [        223]  helm-core-pkg.el
+│   ├── [     236802]  helm.el
+│   ├── [     198639]  helm.elc
+│   ├── [      24965]  helm-lib.el
+│   ├── [      23949]  helm-lib.elc
+│   ├── [      13644]  helm-multi-match.el
+│   ├── [      14243]  helm-multi-match.elc
+│   ├── [      37694]  helm-source.el
+│   └── [      32420]  helm-source.elc
+├── [      26538]  helm-descbinds-20160108.1947
+│   ├── [       1988]  helm-descbinds-autoloads.el
+│   ├── [      10669]  helm-descbinds.el
+│   ├── [       8996]  helm-descbinds.elc
+│   ├── [        192]  helm-descbinds-pkg.el
+│   └── [        597]  helm-descbinds-pkg.elc
+├── [      20085]  helm-flx-20160105.1218
+│   ├── [        852]  helm-flx-autoloads.el
+│   ├── [       7913]  helm-flx.el
+│   ├── [       6383]  helm-flx.elc
+│   ├── [        218]  helm-flx-pkg.el
+│   └── [        623]  helm-flx-pkg.elc
+├── [      18449]  helm-make-20151117.920
+│   ├── [        980]  helm-make-autoloads.el
+│   ├── [       7136]  helm-make.el
+│   ├── [       5454]  helm-make.elc
+│   ├── [        189]  helm-make-pkg.el
+│   └── [        594]  helm-make-pkg.elc
+├── [      12379]  helm-mode-manager-20151124.138
+│   ├── [        690]  helm-mode-manager-autoloads.el
+│   ├── [       4560]  helm-mode-manager.el
+│   ├── [       2284]  helm-mode-manager.elc
+│   ├── [        172]  helm-mode-manager-pkg.el
+│   └── [        577]  helm-mode-manager-pkg.elc
+├── [      83567]  helm-projectile-20151220.221
+│   ├── [       2115]  helm-projectile-autoloads.el
+│   ├── [      40170]  helm-projectile.el
+│   ├── [      36309]  helm-projectile.elc
+│   ├── [        236]  helm-projectile-pkg.el
+│   └── [        641]  helm-projectile-pkg.elc
+├── [     125950]  helm-swoop-20151022.1750
+│   ├── [       1832]  helm-swoop-autoloads.el
+│   ├── [      67151]  helm-swoop.el
+│   ├── [      51978]  helm-swoop.elc
+│   ├── [        244]  helm-swoop-pkg.el
+│   └── [        649]  helm-swoop-pkg.elc
+├── [       9242]  helm-themes-20151008.2321
+│   ├── [        530]  helm-themes-autoloads.el
+│   ├── [       2243]  helm-themes.el
+│   ├── [       1638]  helm-themes.elc
+│   ├── [        165]  helm-themes-pkg.el
+│   └── [        570]  helm-themes-pkg.elc
+├── [     264163]  help-fns+-20151215.637
+│   ├── [       2705]  help-fns+-autoloads.el
+│   ├── [     167245]  help-fns+.el
+│   ├── [      89331]  help-fns+.elc
+│   ├── [        191]  help-fns+-pkg.el
+│   └── [        595]  help-fns+-pkg.elc
+├── [     274005]  highlight-20151231.1337
+│   ├── [      23342]  highlight-autoloads.el
+│   ├── [     160961]  highlight.el
+│   ├── [      84890]  highlight.elc
+│   ├── [        156]  highlight-pkg.el
+│   └── [        560]  highlight-pkg.elc
+├── [      26767]  highlight-indentation-20150307.208
+│   ├── [       1099]  highlight-indentation-autoloads.el
+│   ├── [      10418]  highlight-indentation.el
+│   ├── [      10412]  highlight-indentation.elc
+│   ├── [        169]  highlight-indentation-pkg.el
+│   └── [        573]  highlight-indentation-pkg.elc
+├── [      19551]  highlight-numbers-20150531.607
+│   ├── [        860]  highlight-numbers-autoloads.el
+│   ├── [       8514]  highlight-numbers.el
+│   ├── [       5328]  highlight-numbers.elc
+│   ├── [        174]  highlight-numbers-pkg.el
+│   └── [        579]  highlight-numbers-pkg.elc
+├── [      22797]  highlight-parentheses-20151107.2316
+│   ├── [       1610]  highlight-parentheses-autoloads.el
+│   ├── [       6254]  highlight-parentheses.el
+│   ├── [      10061]  highlight-parentheses.elc
+│   ├── [        186]  highlight-parentheses-pkg.el
+│   └── [        590]  highlight-parentheses-pkg.elc
+├── [      17862]  hl-todo-20151025.1220
+│   ├── [       1310]  hl-todo-autoloads.el
+│   ├── [       4241]  hl-todo.el
+│   ├── [       7527]  hl-todo.elc
+│   ├── [        142]  hl-todo-pkg.el
+│   └── [        546]  hl-todo-pkg.elc
+├── [      27036]  hungry-delete-20151203.1314
+│   ├── [       3115]  hungry-delete-autoloads.el
+│   ├── [       8434]  hungry-delete.el
+│   ├── [      10733]  hungry-delete.elc
+│   ├── [        127]  hungry-delete-pkg.el
+│   └── [        531]  hungry-delete-pkg.elc
+├── [     249662]  hydra-20151214.417
+│   ├── [       2391]  hydra-autoloads.el
+│   ├── [      43785]  hydra.el
+│   ├── [      33104]  hydra.elc
+│   ├── [      11289]  hydra-examples.el
+│   ├── [     105072]  hydra-examples.elc
+│   ├── [       3767]  hydra-ox.el
+│   ├── [      39008]  hydra-ox.elc
+│   ├── [        213]  hydra-pkg.el
+│   ├── [       3956]  lv.el
+│   └── [       2981]  lv.elc
+├── [      29607]  ido-vertical-mode-20151003.1833
+│   ├── [        954]  ido-vertical-mode-autoloads.el
+│   ├── [      14514]  ido-vertical-mode.el
+│   ├── [       9281]  ido-vertical-mode.elc
+│   ├── [        179]  ido-vertical-mode-pkg.el
+│   └── [        583]  ido-vertical-mode-pkg.elc
+├── [     131563]  iedit-20150915.2022
+│   ├── [       3161]  iedit-autoloads.el
+│   ├── [      25658]  iedit.el
+│   ├── [      21432]  iedit.elc
+│   ├── [      38905]  iedit-lib.el
+│   ├── [      27738]  iedit-lib.elc
+│   ├── [        262]  iedit-pkg.el
+│   ├── [       6465]  iedit-rect.el
+│   └── [       3846]  iedit-rect.elc
+├── [      28469]  indent-guide-20151119.717
+│   ├── [       1478]  indent-guide-autoloads.el
+│   ├── [      11552]  indent-guide.el
+│   ├── [      10681]  indent-guide.elc
+│   ├── [        129]  indent-guide-pkg.el
+│   └── [        533]  indent-guide-pkg.elc
+├── [     313337]  info+-20151231.1403
+│   ├── [      10208]  info+-autoloads.el
+│   ├── [     203425]  info+.el
+│   ├── [      94900]  info+.elc
+│   ├── [        152]  info+-pkg.el
+│   └── [        556]  info+-pkg.elc
+├── [      14906]  let-alist-1.0.4
+│   ├── [       1392]  let-alist-autoloads.el
+│   ├── [       5652]  let-alist.el
+│   ├── [       2996]  let-alist.elc
+│   ├── [        183]  let-alist-pkg.el
+│   └── [        587]  let-alist-pkg.elc
+├── [        147]  let-alist-1.0.4.signed
+├── [      57995]  leuven-theme-20160115.742
+│   ├── [        605]  leuven-theme-autoloads.el
+│   ├── [      52524]  leuven-theme.el
+│   ├── [        183]  leuven-theme-pkg.el
+│   └── [        587]  leuven-theme-pkg.elc
+├── [      22682]  linum-relative-20151205.1756
+│   ├── [       1570]  linum-relative-autoloads.el
+│   ├── [       6893]  linum-relative.el
+│   ├── [       9377]  linum-relative.elc
+│   ├── [        171]  linum-relative-pkg.el
+│   └── [        575]  linum-relative-pkg.elc
+├── [      19598]  lorem-ipsum-20140911.1408
+│   ├── [       1277]  lorem-ipsum-autoloads.el
+│   ├── [       8031]  lorem-ipsum.el
+│   ├── [       5526]  lorem-ipsum.elc
+│   ├── [        132]  lorem-ipsum-pkg.el
+│   └── [        536]  lorem-ipsum-pkg.elc
+├── [      92206]  macrostep-20151213.145
+│   ├── [       1851]  macrostep-autoloads.el
+│   ├── [       6623]  macrostep-c.el
+│   ├── [       4888]  macrostep-c.elc
+│   ├── [      45249]  macrostep.el
+│   ├── [      29257]  macrostep.elc
+│   └── [        242]  macrostep-pkg.el
+├── [      10453]  move-text-20140307.844
+│   ├── [        828]  move-text-autoloads.el
+│   ├── [       3422]  move-text.el
+│   ├── [       1463]  move-text.elc
+│   ├── [        120]  move-text-pkg.el
+│   └── [        524]  move-text-pkg.elc
+├── [     144537]  neotree-20160111.2358
+│   ├── [       6139]  icons
+│   │   ├── [        717]  close.xpm
+│   │   ├── [        625]  leaf.xpm
+│   │   └── [        701]  open.xpm
+│   ├── [       1383]  neotree-autoloads.el
+│   ├── [      68527]  neotree.el
+│   ├── [      64209]  neotree.elc
+│   └── [        183]  neotree-pkg.el
+├── [      13880]  open-junk-file-20130130.2320
+│   ├── [        395]  open-junk-file-autoloads.el
+│   ├── [       6088]  open-junk-file.el
+│   ├── [       2487]  open-junk-file.elc
+│   ├── [        205]  open-junk-file-pkg.el
+│   └── [        609]  open-junk-file-pkg.elc
+├── [     130710]  package-build-20160112.122
+│   ├── [       1670]  package-build-autoloads.el
+│   ├── [        298]  package-build-autoloads.el~
+│   ├── [      67906]  package-build.el
+│   ├── [      56079]  package-build.elc
+│   ├── [        128]  package-build-pkg.el
+│   └── [        533]  package-build-pkg.elc
+├── [      57626]  packed-20150723.438
+│   ├── [        363]  packed-autoloads.el
+│   ├── [      26671]  packed.el
+│   ├── [      25619]  packed.elc
+│   ├── [        236]  packed-pkg.el
+│   └── [        641]  packed-pkg.elc
+├── [      21743]  page-break-lines-20160109.1813
+│   ├── [       2099]  page-break-lines-autoloads.el
+│   ├── [       5827]  page-break-lines.el
+│   ├── [       8921]  page-break-lines.elc
+│   ├── [        198]  page-break-lines-pkg.el
+│   └── [        602]  page-break-lines-pkg.elc
+├── [     210623]  paradox-20151211.1317
+│   ├── [       2433]  paradox-autoloads.el
+│   ├── [       8561]  paradox-commit-list.el
+│   ├── [      10215]  paradox-commit-list.elc
+│   ├── [       5600]  paradox-core.el
+│   ├── [       5368]  paradox-core.elc
+│   ├── [       8914]  paradox.el
+│   ├── [       5069]  paradox.elc
+│   ├── [      15285]  paradox-execute.el
+│   ├── [      13569]  paradox-execute.elc
+│   ├── [      15413]  paradox-github.el
+│   ├── [      15806]  paradox-github.elc
+│   ├── [      38196]  paradox-menu.el
+│   ├── [      61711]  paradox-menu.elc
+│   └── [        387]  paradox-pkg.el
+├── [       9794]  parent-mode-20150824.1600
+│   ├── [        386]  parent-mode-autoloads.el
+│   ├── [       3065]  parent-mode.el
+│   ├── [       1585]  parent-mode.elc
+│   ├── [        129]  parent-mode-pkg.el
+│   └── [        533]  parent-mode-pkg.elc
+├── [     277474]  pcre2el-20151213.234
+│   ├── [       6656]  pcre2el-autoloads.el
+│   ├── [     117254]  pcre2el.el
+│   ├── [     148783]  pcre2el.elc
+│   ├── [        140]  pcre2el-pkg.el
+│   └── [        545]  pcre2el-pkg.elc
+├── [     149570]  persp-mode-20151209.2249
+│   ├── [        955]  persp-mode-autoloads.el
+│   ├── [      69019]  persp-mode.el
+│   ├── [      74780]  persp-mode.elc
+│   ├── [        158]  persp-mode-pkg.el
+│   └── [        562]  persp-mode-pkg.elc
+├── [      31150]  pkg-info-20150517.443
+│   ├── [       3895]  pkg-info-autoloads.el
+│   ├── [      12121]  pkg-info.el
+│   ├── [      10309]  pkg-info.elc
+│   ├── [        162]  pkg-info-pkg.el
+│   └── [        567]  pkg-info-pkg.elc
+├── [     136083]  popup-20151222.1339
+│   ├── [        358]  popup-autoloads.el
+│   ├── [      55197]  popup.el
+│   ├── [      75809]  popup.elc
+│   ├── [        109]  popup-pkg.el
+│   └── [        514]  popup-pkg.elc
+├── [      91301]  popwin-20150315.600
+│   ├── [       2452]  popwin-autoloads.el
+│   ├── [      43820]  popwin.el
+│   ├── [      40335]  popwin.elc
+│   ├── [         97]  popwin-pkg.el
+│   └── [        501]  popwin-pkg.elc
+├── [     110607]  powerline-20151008.1449
+│   ├── [       2402]  powerline-autoloads.el
+│   ├── [      19916]  powerline.el
+│   ├── [      39530]  powerline.elc
+│   ├── [        216]  powerline-pkg.el
+│   ├── [      13355]  powerline-separators.el
+│   ├── [      10330]  powerline-separators.elc
+│   ├── [      11676]  powerline-themes.el
+│   └── [       9086]  powerline-themes.elc
+├── [     245711]  projectile-20160115.23
+│   ├── [       8544]  projectile-autoloads.el
+│   ├── [     117650]  projectile.el
+│   ├── [     114598]  projectile.elc
+│   ├── [        209]  projectile-pkg.el
+│   └── [        614]  projectile-pkg.elc
+├── [      60919]  quelpa-20151203.105
+│   ├── [       2009]  bootstrap.el
+│   ├── [       1559]  bootstrap.elc
+│   ├── [       1598]  quelpa-autoloads.el
+│   ├── [        284]  quelpa-autoloads.el~
+│   ├── [      23060]  quelpa.el
+│   ├── [      28025]  quelpa.elc
+│   └── [        288]  quelpa-pkg.el
+├── [      27380]  rainbow-delimiters-20150320.17
+│   ├── [        877]  rainbow-delimiters-autoloads.el
+│   ├── [      12623]  rainbow-delimiters.el
+│   ├── [       8970]  rainbow-delimiters.elc
+│   ├── [        205]  rainbow-delimiters-pkg.el
+│   └── [        609]  rainbow-delimiters-pkg.elc
+├── [      17400]  restart-emacs-20151203.835
+│   ├── [        948]  restart-emacs-autoloads.el
+│   ├── [       6687]  restart-emacs.el
+│   ├── [       4933]  restart-emacs.elc
+│   ├── [        166]  restart-emacs-pkg.el
+│   └── [        570]  restart-emacs-pkg.elc
+├── [      43351]  s-20160115.58
+│   ├── [        348]  s-autoloads.el
+│   ├── [      19513]  s.el
+│   ├── [      18762]  s.elc
+│   ├── [        114]  s-pkg.el
+│   └── [        518]  s-pkg.elc
+├── [      40772]  seq-1.11
+│   ├── [        353]  seq-autoloads.el
+│   ├── [      19242]  seq.el
+│   ├── [      16399]  seq.elc
+│   ├── [        139]  seq-pkg.el
+│   └── [        543]  seq-pkg.elc
+├── [        147]  seq-1.11.signed
+├── [     678512]  smartparens-20160108.1403
+│   ├── [       6680]  smartparens-autoloads.el
+│   ├── [       5073]  smartparens-config.el
+│   ├── [       2567]  smartparens-config.elc
+│   ├── [     325593]  smartparens.el
+│   ├── [     270460]  smartparens.elc
+│   ├── [       3280]  smartparens-haskell.el
+│   ├── [       1959]  smartparens-haskell.elc
+│   ├── [       5847]  smartparens-html.el
+│   ├── [       3326]  smartparens-html.elc
+│   ├── [       6266]  smartparens-latex.el
+│   ├── [       4173]  smartparens-latex.elc
+│   ├── [       2715]  smartparens-lua.el
+│   ├── [       1180]  smartparens-lua.elc
+│   ├── [        222]  smartparens-pkg.el
+│   ├── [       2597]  smartparens-python.el
+│   ├── [       1182]  smartparens-python.elc
+│   ├── [       1743]  smartparens-racket.el
+│   ├── [        619]  smartparens-racket.elc
+│   ├── [      13228]  smartparens-ruby.el
+│   ├── [       9072]  smartparens-ruby.elc
+│   ├── [       2669]  smartparens-rust.el
+│   ├── [       1456]  smartparens-rust.elc
+│   ├── [       1854]  smartparens-scala.el
+│   └── [        655]  smartparens-scala.elc
+├── [      23442]  smooth-scrolling-20131219.2039
+│   ├── [       3780]  smooth-scrolling-autoloads.el
+│   ├── [      10112]  smooth-scrolling.el
+│   ├── [       4722]  smooth-scrolling.elc
+│   ├── [        164]  smooth-scrolling-pkg.el
+│   └── [        568]  smooth-scrolling-pkg.elc
+├── [     138807]  spaceline-20160107.626
+│   ├── [        453]  spaceline-autoloads.el
+│   ├── [       6477]  spaceline-config.el
+│   ├── [       6387]  spaceline-config.elc
+│   ├── [      22514]  spaceline.el
+│   ├── [      27024]  spaceline.elc
+│   ├── [        334]  spaceline-pkg.el
+│   ├── [      20847]  spaceline-segments.el
+│   └── [      50675]  spaceline-segments.elc
+├── [      46681]  spacemacs-theme-20160115.1410
+│   ├── [      39660]  spacemacs-common.el
+│   ├── [        172]  spacemacs-dark-theme.el
+│   ├── [        649]  spacemacs-dark-theme.elc
+│   ├── [        177]  spacemacs-light-theme.el
+│   ├── [        653]  spacemacs-light-theme.elc
+│   ├── [        737]  spacemacs-theme-autoloads.el
+│   ├── [        302]  spacemacs-theme-autoloads.el~
+│   └── [        235]  spacemacs-theme-pkg.el
+├── [      38626]  spinner-1.4
+│   ├── [       2559]  spinner-autoloads.el
+│   ├── [      14187]  spinner.el
+│   ├── [      16990]  spinner.elc
+│   ├── [        195]  spinner-pkg.el
+│   └── [        599]  spinner-pkg.elc
+├── [        147]  spinner-1.4.signed
+├── [     306674]  undo-tree-20140509.522
+│   ├── [       1790]  undo-tree-autoloads.el
+│   ├── [        290]  undo-tree-autoloads.el~
+│   ├── [     171353]  undo-tree.el
+│   ├── [     128367]  undo-tree.elc
+│   ├── [        187]  undo-tree-pkg.el
+│   └── [        591]  undo-tree-pkg.elc
+├── [      80208]  use-package-20160112.1301
+│   ├── [        377]  use-package-autoloads.el
+│   ├── [        294]  use-package-autoloads.el~
+│   ├── [      40565]  use-package.el
+│   ├── [      33973]  use-package.elc
+│   ├── [        249]  use-package-pkg.el
+│   └── [        654]  use-package-pkg.elc
+├── [      16104]  vi-tilde-fringe-20141027.1942
+│   ├── [       1503]  vi-tilde-fringe-autoloads.el
+│   ├── [       2940]  vi-tilde-fringe.el
+│   ├── [       6762]  vi-tilde-fringe.elc
+│   ├── [        199]  vi-tilde-fringe-pkg.el
+│   └── [        604]  vi-tilde-fringe-pkg.elc
+├── [      57372]  volatile-highlights-20141004.2240
+│   ├── [        410]  volatile-highlights-autoloads.el
+│   ├── [      30526]  volatile-highlights.el
+│   ├── [      21480]  volatile-highlights.elc
+│   ├── [        228]  volatile-highlights-pkg.el
+│   └── [        632]  volatile-highlights-pkg.elc
+├── [     163662]  which-key-20160111.656
+│   ├── [       4849]  which-key-autoloads.el
+│   ├── [        290]  which-key-autoloads.el~
+│   ├── [      85969]  which-key.el
+│   ├── [      67747]  which-key.elc
+│   ├── [        153]  which-key-pkg.el
+│   └── [        558]  which-key-pkg.elc
+├── [      23656]  window-numbering-20150228.1247
+│   ├── [        987]  window-numbering-autoloads.el
+│   ├── [       9517]  window-numbering.el
+│   ├── [       8304]  window-numbering.elc
+│   ├── [        174]  window-numbering-pkg.el
+│   └── [        578]  window-numbering-pkg.elc
+└── [      27472]  ws-butler-20150126.759
+    ├── [       1440]  ws-butler-autoloads.el
+    ├── [       9414]  ws-butler.el
+    ├── [      11846]  ws-butler.elc
+    ├── [        136]  ws-butler-pkg.el
+    └── [        540]  ws-butler-pkg.elc
+
+    11789898 bytes used in 111 directories, 818 files
