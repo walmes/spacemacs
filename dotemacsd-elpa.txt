@@ -42,12 +42,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519547]  archives
+├── [     519546]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480929]  melpa
-│   │   └── [     476833]  archive-contents
+│   ├── [     480928]  melpa
+│   │   └── [     476832]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -61,6 +61,566 @@
 │   ├── [       9713]  dired-async.elc
 │   ├── [       2530]  smtpmail-async.el
 │   └── [       1507]  smtpmail-async.elc
+├── [    6950140]  auctex-11.89
+│   ├── [      10727]  auctex-autoloads.el
+│   ├── [       1233]  auctex.el
+│   ├── [        552]  auctex.elc
+│   ├── [     380538]  auctex.info
+│   ├── [        179]  auctex-pkg.el
+│   ├── [        535]  auctex-pkg.elc
+│   ├── [     107414]  bib-cite.el
+│   ├── [      49333]  bib-cite.elc
+│   ├── [      19678]  build-aux
+│   │   └── [      15582]  gitlog-to-changelog
+│   ├── [    1222860]  ChangeLog
+│   ├── [     605169]  ChangeLog.1
+│   ├── [      61447]  ChangeLog-preview
+│   ├── [     129209]  ChangeLog-preview.1
+│   ├── [      12894]  circ.tex
+│   ├── [      62301]  context.el
+│   ├── [      50306]  context.elc
+│   ├── [       8153]  context-en.el
+│   ├── [       6836]  context-en.elc
+│   ├── [       7689]  context-nl.el
+│   ├── [       6539]  context-nl.elc
+│   ├── [      35147]  COPYING
+│   ├── [        901]  dir
+│   ├── [     489472]  doc
+│   │   ├── [     201655]  auctex.texi
+│   │   ├── [      33530]  changes.texi
+│   │   ├── [       2154]  copying.texi
+│   │   ├── [       6349]  faq.texi
+│   │   ├── [      23546]  fdl.texi
+│   │   ├── [      60013]  history.texi
+│   │   ├── [      22821]  install.texi
+│   │   ├── [       3969]  intro.texi
+│   │   ├── [       1644]  macros.texi
+│   │   ├── [       4466]  preview-dtxdoc.pl
+│   │   ├── [      13432]  preview-faq.texi
+│   │   ├── [      35525]  preview-latex.texi
+│   │   ├── [       5785]  preview-problems.texi
+│   │   ├── [       9558]  preview-readme.texi
+│   │   ├── [       4566]  preview-todo.texi
+│   │   ├── [      12815]  quickstart.texi
+│   │   ├── [      19336]  tex-ref.tex
+│   │   ├── [       9069]  todo.texi
+│   │   └── [      15143]  wininstall.texi
+│   ├── [      81283]  font-latex.el
+│   ├── [      59200]  font-latex.elc
+│   ├── [       2953]  GNUmakefile
+│   ├── [      68005]  images
+│   │   ├── [       4207]  amstex.xpm
+│   │   ├── [       1577]  bibtex.xpm
+│   │   ├── [        460]  dropdown.xpm
+│   │   ├── [       1321]  dvipdf.xpm
+│   │   ├── [       1681]  dvips.xpm
+│   │   ├── [        870]  error.xpm
+│   │   ├── [       2932]  execbibtex.xpm
+│   │   ├── [       1130]  execdvips.xpm
+│   │   ├── [       1085]  execerror.xpm
+│   │   ├── [       4181]  execpdftex.xpm
+│   │   ├── [       4146]  exectex.xpm
+│   │   ├── [       1042]  execviewdvi.xpm
+│   │   ├── [        981]  execviewpdf.xpm
+│   │   ├── [        981]  execviewps.xpm
+│   │   ├── [       1364]  exec.xpm
+│   │   ├── [       3420]  gv.xpm
+│   │   ├── [       1458]  jumpdvi.xpm
+│   │   ├── [       1061]  ltx-symb-turn-off.xpm
+│   │   ├── [       1045]  ltx-symb-turn-on.xpm
+│   │   ├── [       4193]  pdftex.xpm
+│   │   ├── [        555]  prverr16.xpm
+│   │   ├── [        715]  prverr20.xpm
+│   │   ├── [        534]  prverr24.xbm
+│   │   ├── [        907]  prverr24.xpm
+│   │   ├── [        277]  prvtex12.xbm
+│   │   ├── [        503]  prvtex12.xpm
+│   │   ├── [        328]  prvtex16.xbm
+│   │   ├── [        631]  prvtex16.xpm
+│   │   ├── [        791]  prvtex20.xpm
+│   │   ├── [        571]  prvtex24.xbm
+│   │   ├── [        876]  prvtex24.xpm
+│   │   ├── [       1512]  prvtex-cap-up.xpm
+│   │   ├── [        501]  prvwrk12.xpm
+│   │   ├── [        561]  prvwrk14.xpm
+│   │   ├── [        629]  prvwrk16.xpm
+│   │   ├── [        789]  prvwrk20.xpm
+│   │   ├── [        628]  prvwrk24.xbm
+│   │   ├── [        981]  prvwrk24.xpm
+│   │   ├── [       1590]  pspdf.xpm
+│   │   ├── [        223]  sep.xpm
+│   │   ├── [       1279]  spell.xpm
+│   │   ├── [       5053]  tex.xpm
+│   │   ├── [       1218]  viewdvi.xpm
+│   │   ├── [       1157]  viewpdf.xpm
+│   │   ├── [       1156]  viewps.xpm
+│   │   └── [        809]  view.xpm
+│   ├── [     115167]  latex
+│   │   ├── [        121]  bootstrap.ins
+│   │   ├── [       1476]  prauctex.cfg
+│   │   ├── [       1631]  prauctex.def
+│   │   ├── [       1349]  prcounters.def
+│   │   ├── [      79136]  preview.dtx
+│   │   ├── [      13687]  preview.sty
+│   │   ├── [        903]  prfootnotes.def
+│   │   ├── [       1058]  prlyx.def
+│   │   ├── [       1020]  prshowbox.def
+│   │   ├── [       2264]  prshowlabels.def
+│   │   ├── [       4841]  prtightpage.def
+│   │   ├── [       1013]  prtracingall.def
+│   │   └── [       2572]  README
+│   ├── [     247777]  latex.el
+│   ├── [     201615]  latex.elc
+│   ├── [       8108]  multi-prompt.el
+│   ├── [       5216]  multi-prompt.elc
+│   ├── [       9025]  plain-tex.el
+│   ├── [       8599]  plain-tex.elc
+│   ├── [     127788]  preview.el
+│   ├── [     106189]  preview.elc
+│   ├── [     120617]  preview-latex.info
+│   ├── [      21890]  prv-emacs.el
+│   ├── [      19093]  prv-emacs.elc
+│   ├── [      27202]  prv-xemacs.el
+│   ├── [      19935]  prv-xemacs.elc
+│   ├── [      11116]  README
+│   ├── [       1253]  README.GIT
+│   ├── [       7452]  RELEASE
+│   ├── [    1266430]  style
+│   │   ├── [      10406]  acro.el
+│   │   ├── [      10287]  acro.elc
+│   │   ├── [       6473]  acronym.el
+│   │   ├── [       6561]  acronym.elc
+│   │   ├── [       1251]  afterpage.el
+│   │   ├── [        604]  afterpage.elc
+│   │   ├── [       3090]  Alegreya.el
+│   │   ├── [       1894]  Alegreya.elc
+│   │   ├── [       3740]  AlegreyaSans.el
+│   │   ├── [       2316]  AlegreyaSans.elc
+│   │   ├── [       1764]  alltt.el
+│   │   ├── [        948]  alltt.elc
+│   │   ├── [       3324]  alphanum.el
+│   │   ├── [       1551]  alphanum.elc
+│   │   ├── [        265]  amsart.el
+│   │   ├── [        567]  amsart.elc
+│   │   ├── [        265]  amsbook.el
+│   │   ├── [        568]  amsbook.elc
+│   │   ├── [        408]  amsbsy.el
+│   │   ├── [        637]  amsbsy.elc
+│   │   ├── [       8326]  amsmath.el
+│   │   ├── [       6859]  amsmath.elc
+│   │   ├── [       1759]  amsopn.el
+│   │   ├── [       1011]  amsopn.elc
+│   │   ├── [       4694]  amssymb.el
+│   │   ├── [       4446]  amssymb.elc
+│   │   ├── [       2114]  amstex.el
+│   │   ├── [        864]  amstex.elc
+│   │   ├── [        365]  amstext.el
+│   │   ├── [        605]  amstext.elc
+│   │   ├── [       5704]  amsthm.el
+│   │   ├── [       7437]  amsthm.elc
+│   │   ├── [       2189]  AnonymousPro.el
+│   │   ├── [       1409]  AnonymousPro.elc
+│   │   ├── [       3298]  array.el
+│   │   ├── [       3940]  array.elc
+│   │   ├── [        711]  article.el
+│   │   ├── [       1077]  article.elc
+│   │   ├── [       3527]  attachfile.el
+│   │   ├── [       2144]  attachfile.elc
+│   │   ├── [       1226]  austrian.el
+│   │   ├── [        507]  austrian.elc
+│   │   ├── [       6612]  babel.el
+│   │   ├── [       4417]  babel.elc
+│   │   ├── [       2693]  baskervaldx.el
+│   │   ├── [       1383]  baskervaldx.elc
+│   │   ├── [      13507]  beamer.el
+│   │   ├── [      11347]  beamer.elc
+│   │   ├── [      23104]  biblatex.el
+│   │   ├── [      18412]  biblatex.elc
+│   │   ├── [       1253]  bidibeamer.el
+│   │   ├── [        509]  bidibeamer.elc
+│   │   ├── [       1743]  bigdelim.el
+│   │   ├── [       1109]  bigdelim.elc
+│   │   ├── [       1570]  bigstrut.el
+│   │   ├── [        964]  bigstrut.elc
+│   │   ├── [       1750]  bm.el
+│   │   ├── [       1072]  bm.elc
+│   │   ├── [        687]  book.el
+│   │   ├── [       1058]  book.elc
+│   │   ├── [       2670]  booktabs.el
+│   │   ├── [       1607]  booktabs.elc
+│   │   ├── [       1875]  bulgarian.el
+│   │   ├── [       1091]  bulgarian.elc
+│   │   ├── [       1479]  captcont.el
+│   │   ├── [        832]  captcont.elc
+│   │   ├── [      14651]  caption.el
+│   │   ├── [      11936]  caption.elc
+│   │   ├── [       2770]  CJK.el
+│   │   ├── [       2030]  CJK.elc
+│   │   ├── [       1169]  CJKutf8.el
+│   │   ├── [        503]  CJKutf8.elc
+│   │   ├── [       4269]  cleveref.el
+│   │   ├── [       3018]  cleveref.elc
+│   │   ├── [      13444]  color.el
+│   │   ├── [       9434]  color.elc
+│   │   ├── [       2355]  colortbl.el
+│   │   ├── [       1327]  colortbl.elc
+│   │   ├── [       2384]  comment.el
+│   │   ├── [       1348]  comment.elc
+│   │   ├── [       9709]  csquotes.el
+│   │   ├── [       7637]  csquotes.elc
+│   │   ├── [       3097]  currvita.el
+│   │   ├── [       1791]  currvita.elc
+│   │   ├── [        279]  czech.el
+│   │   ├── [        604]  czech.elc
+│   │   ├── [        544]  danish.el
+│   │   ├── [        745]  danish.elc
+│   │   ├── [       9226]  dinbrief.el
+│   │   ├── [       6447]  dinbrief.elc
+│   │   ├── [       1957]  dk-bib.el
+│   │   ├── [       1158]  dk-bib.elc
+│   │   ├── [        188]  dk.el
+│   │   ├── [        503]  dk.elc
+│   │   ├── [       4051]  doc.el
+│   │   ├── [       3317]  doc.elc
+│   │   ├── [        196]  dutch.el
+│   │   ├── [        506]  dutch.elc
+│   │   ├── [       3004]  emp.el
+│   │   ├── [       1884]  emp.elc
+│   │   ├── [        193]  english.el
+│   │   ├── [        508]  english.elc
+│   │   ├── [      15945]  enumitem.el
+│   │   ├── [      13432]  enumitem.elc
+│   │   ├── [       4201]  environ.el
+│   │   ├── [       2621]  environ.elc
+│   │   ├── [       2144]  epigraph.el
+│   │   ├── [       1480]  epigraph.elc
+│   │   ├── [       1185]  epsf.el
+│   │   ├── [       1314]  epsf.elc
+│   │   ├── [       2865]  erewhon.el
+│   │   ├── [       1517]  erewhon.elc
+│   │   ├── [       2677]  eso-pic.el
+│   │   ├── [       1669]  eso-pic.elc
+│   │   ├── [       1393]  everysel.el
+│   │   ├── [        647]  everysel.elc
+│   │   ├── [       1777]  exercise.el
+│   │   ├── [       1131]  exercise.elc
+│   │   ├── [       1644]  expl3.el
+│   │   ├── [        861]  expl3.elc
+│   │   ├── [       4418]  fancyhdr.el
+│   │   ├── [       2625]  fancyhdr.elc
+│   │   ├── [       1352]  fancynum.el
+│   │   ├── [        726]  fancynum.elc
+│   │   ├── [       4267]  fancyref.el
+│   │   ├── [       2793]  fancyref.elc
+│   │   ├── [       7674]  fancyvrb.el
+│   │   ├── [       5627]  fancyvrb.elc
+│   │   ├── [       2473]  fbb.el
+│   │   ├── [       1281]  fbb.elc
+│   │   ├── [       2076]  filecontents.el
+│   │   ├── [       1137]  filecontents.elc
+│   │   ├── [       1889]  flashcards.el
+│   │   ├── [       1151]  flashcards.elc
+│   │   ├── [       2330]  foils.el
+│   │   ├── [       1594]  foils.elc
+│   │   ├── [       4121]  fontaxes.el
+│   │   ├── [       2144]  fontaxes.elc
+│   │   ├── [       1722]  fontenc.el
+│   │   ├── [        857]  fontenc.elc
+│   │   ├── [       7175]  fontspec.el
+│   │   ├── [       5404]  fontspec.elc
+│   │   ├── [       2600]  footmisc.el
+│   │   ├── [       1530]  footmisc.elc
+│   │   ├── [       1359]  francais.el
+│   │   ├── [        508]  francais.elc
+│   │   ├── [       2336]  frenchb.el
+│   │   ├── [       1054]  frenchb.elc
+│   │   ├── [       1657]  french.el
+│   │   ├── [        624]  french.elc
+│   │   ├── [       6104]  geometry.el
+│   │   ├── [       6523]  geometry.elc
+│   │   ├── [       1761]  german.el
+│   │   ├── [       1400]  german.elc
+│   │   ├── [       2383]  gloss-italian.el
+│   │   ├── [       1421]  gloss-italian.elc
+│   │   ├── [        209]  graphics.el
+│   │   ├── [        509]  graphics.elc
+│   │   ├── [      10443]  graphicx.el
+│   │   ├── [       5994]  graphicx.elc
+│   │   ├── [       4668]  harvard.el
+│   │   ├── [       3642]  harvard.elc
+│   │   ├── [       6158]  hologo.el
+│   │   ├── [       4382]  hologo.elc
+│   │   ├── [      10675]  hyperref.el
+│   │   ├── [       7707]  hyperref.elc
+│   │   ├── [       1850]  icelandic.el
+│   │   ├── [       1074]  icelandic.elc
+│   │   ├── [       1813]  ifluatex.el
+│   │   ├── [       1181]  ifluatex.elc
+│   │   ├── [       3169]  imakeidx.el
+│   │   ├── [       2149]  imakeidx.elc
+│   │   ├── [       2708]  index.el
+│   │   ├── [       1529]  index.elc
+│   │   ├── [       2725]  inputenc.el
+│   │   ├── [       1511]  inputenc.elc
+│   │   ├── [       2136]  italian.el
+│   │   ├── [        913]  italian.elc
+│   │   ├── [        194]  j-article.el
+│   │   ├── [        190]  jarticle.el
+│   │   ├── [        513]  j-article.elc
+│   │   ├── [        512]  jarticle.elc
+│   │   ├── [        182]  j-book.el
+│   │   ├── [        178]  jbook.el
+│   │   ├── [        510]  j-book.elc
+│   │   ├── [        509]  jbook.elc
+│   │   ├── [        190]  j-report.el
+│   │   ├── [        187]  jreport.el
+│   │   ├── [        512]  j-report.elc
+│   │   ├── [        511]  jreport.elc
+│   │   ├── [        194]  jsarticle.el
+│   │   ├── [        513]  jsarticle.elc
+│   │   ├── [        183]  jsbook.el
+│   │   ├── [        510]  jsbook.elc
+│   │   ├── [      15100]  jurabib.el
+│   │   ├── [      14073]  jurabib.elc
+│   │   ├── [       1150]  jura.el
+│   │   ├── [        505]  jura.elc
+│   │   ├── [       1464]  kantlipsum.el
+│   │   ├── [        823]  kantlipsum.elc
+│   │   ├── [      25735]  kpfonts.el
+│   │   ├── [      20771]  kpfonts.elc
+│   │   ├── [       5602]  latexinfo.el
+│   │   ├── [       4234]  latexinfo.elc
+│   │   ├── [       5671]  letter.el
+│   │   ├── [       3692]  letter.elc
+│   │   ├── [       2180]  lettrine.el
+│   │   ├── [       1328]  lettrine.elc
+│   │   ├── [       1422]  lipsum.el
+│   │   ├── [        786]  lipsum.elc
+│   │   ├── [      12296]  listings.el
+│   │   ├── [       9964]  listings.elc
+│   │   ├── [       3230]  longtable.el
+│   │   ├── [       1725]  longtable.elc
+│   │   ├── [       1347]  lscape.el
+│   │   ├── [        662]  lscape.elc
+│   │   ├── [       1598]  ltablex.el
+│   │   ├── [        701]  ltablex.elc
+│   │   ├── [       3055]  ltx-base.el
+│   │   ├── [       2046]  ltx-base.elc
+│   │   ├── [       1189]  ltxdoc.el
+│   │   ├── [        526]  ltxdoc.elc
+│   │   ├── [       1579]  ltxtable.el
+│   │   ├── [        847]  ltxtable.elc
+│   │   ├── [       1776]  luacode.el
+│   │   ├── [       1076]  luacode.elc
+│   │   ├── [       1312]  luatextra.el
+│   │   ├── [        658]  luatextra.elc
+│   │   ├── [       1564]  makeidx.el
+│   │   ├── [        784]  makeidx.elc
+│   │   ├── [       7256]  mathtools.el
+│   │   ├── [       5345]  mathtools.elc
+│   │   ├── [       3015]  mdsymbol.el
+│   │   ├── [       1741]  mdsymbol.elc
+│   │   ├── [       2205]  mdwlist.el
+│   │   ├── [       1328]  mdwlist.elc
+│   │   ├── [       2718]  memoir.el
+│   │   ├── [       1947]  memoir.elc
+│   │   ├── [       2455]  metalogo.el
+│   │   ├── [       1513]  metalogo.elc
+│   │   ├── [       1416]  mflogo.el
+│   │   ├── [        803]  mflogo.elc
+│   │   ├── [       2266]  MinionPro.el
+│   │   ├── [       1277]  MinionPro.elc
+│   │   ├── [       8995]  minted.el
+│   │   ├── [       6671]  minted.elc
+│   │   ├── [       3734]  mn2e.el
+│   │   ├── [       2916]  mn2e.elc
+│   │   ├── [       3491]  mnras.el
+│   │   ├── [       2660]  mnras.elc
+│   │   ├── [       1920]  multicol.el
+│   │   ├── [       1246]  multicol.elc
+│   │   ├── [       1683]  multido.el
+│   │   ├── [        862]  multido.elc
+│   │   ├── [       2124]  multind.el
+│   │   ├── [       1128]  multind.elc
+│   │   ├── [       1584]  multirow.el
+│   │   ├── [        921]  multirow.elc
+│   │   ├── [       2923]  MyriadPro.el
+│   │   ├── [       1615]  MyriadPro.elc
+│   │   ├── [       1697]  nameref.el
+│   │   ├── [        987]  nameref.elc
+│   │   ├── [       4391]  natbib.el
+│   │   ├── [       2726]  natbib.elc
+│   │   ├── [       1232]  naustrian.el
+│   │   ├── [        509]  naustrian.elc
+│   │   ├── [       7941]  newfloat.el
+│   │   ├── [       7136]  newfloat.elc
+│   │   ├── [       1991]  newpxmath.el
+│   │   ├── [       1100]  newpxmath.elc
+│   │   ├── [       2821]  newpxtext.el
+│   │   ├── [       1410]  newpxtext.elc
+│   │   ├── [       2143]  newtxmath.el
+│   │   ├── [       1214]  newtxmath.elc
+│   │   ├── [       1562]  newtxsf.el
+│   │   ├── [        776]  newtxsf.elc
+│   │   ├── [       2810]  newtxtext.el
+│   │   ├── [       1372]  newtxtext.elc
+│   │   ├── [       1828]  newtxttt.el
+│   │   ├── [        988]  newtxttt.elc
+│   │   ├── [       1746]  ngerman.el
+│   │   ├── [       1402]  ngerman.elc
+│   │   ├── [       1510]  nicefrac.el
+│   │   ├── [        832]  nicefrac.elc
+│   │   ├── [       2165]  nomencl.el
+│   │   ├── [       1458]  nomencl.elc
+│   │   ├── [       3782]  paralist.el
+│   │   ├── [       2587]  paralist.elc
+│   │   ├── [       4472]  pdfpages.el
+│   │   ├── [       2657]  pdfpages.elc
+│   │   ├── [       3106]  pdfsync.el
+│   │   ├── [       1925]  pdfsync.elc
+│   │   ├── [       1262]  placeins.el
+│   │   ├── [        639]  placeins.elc
+│   │   ├── [       2736]  plext.el
+│   │   ├── [       1436]  plext.elc
+│   │   ├── [        937]  plfonts.el
+│   │   ├── [       1028]  plfonts.elc
+│   │   ├── [        907]  plhb.el
+│   │   ├── [       1013]  plhb.elc
+│   │   ├── [       1767]  polish.el
+│   │   ├── [       1011]  polish.elc
+│   │   ├── [       1713]  polski.el
+│   │   ├── [        910]  polski.elc
+│   │   ├── [      14291]  polyglossia.el
+│   │   ├── [      11817]  polyglossia.elc
+│   │   ├── [       5981]  prosper.el
+│   │   ├── [       3892]  prosper.elc
+│   │   ├── [       2415]  psfig.el
+│   │   ├── [       2112]  psfig.elc
+│   │   ├── [       2152]  pst-grad.el
+│   │   ├── [       1174]  pst-grad.elc
+│   │   ├── [       8097]  pst-node.el
+│   │   ├── [       7335]  pst-node.elc
+│   │   ├── [       4992]  pst-plot.el
+│   │   ├── [       3712]  pst-plot.elc
+│   │   ├── [      33400]  pstricks.el
+│   │   ├── [      26031]  pstricks.elc
+│   │   ├── [       2187]  pst-slpe.el
+│   │   ├── [       1195]  pst-slpe.elc
+│   │   ├── [       1970]  ragged2e.el
+│   │   ├── [       1323]  ragged2e.elc
+│   │   ├── [       2377]  relsize.el
+│   │   ├── [       1181]  relsize.elc
+│   │   ├── [        741]  report.el
+│   │   ├── [       1111]  report.elc
+│   │   ├── [       1411]  ruby.el
+│   │   ├── [        757]  ruby.elc
+│   │   ├── [        665]  scrartcl.el
+│   │   ├── [        602]  scrartcl.elc
+│   │   ├── [       7900]  scrbase.el
+│   │   ├── [       6038]  scrbase.elc
+│   │   ├── [       2113]  scrbook.el
+│   │   ├── [       1239]  scrbook.elc
+│   │   ├── [       7634]  scrlttr2.el
+│   │   ├── [       6022]  scrlttr2.elc
+│   │   ├── [       4658]  scrpage2.el
+│   │   ├── [       3736]  scrpage2.elc
+│   │   ├── [       2130]  scrreprt.el
+│   │   ├── [       1287]  scrreprt.elc
+│   │   ├── [       1832]  setspace.el
+│   │   ├── [       1183]  setspace.elc
+│   │   ├── [       2893]  shortvrb.el
+│   │   ├── [       1613]  shortvrb.elc
+│   │   ├── [      17164]  siunitx.el
+│   │   ├── [      15727]  siunitx.elc
+│   │   ├── [       1723]  slides.el
+│   │   ├── [        964]  slides.elc
+│   │   ├── [        421]  slovak.el
+│   │   ├── [        712]  slovak.elc
+│   │   ├── [       5881]  subcaption.el
+│   │   ├── [       4113]  subcaption.elc
+│   │   ├── [       2530]  subfigure.el
+│   │   ├── [       1679]  subfigure.elc
+│   │   ├── [        425]  swedish.el
+│   │   ├── [        648]  swedish.elc
+│   │   ├── [       2183]  tabularx.el
+│   │   ├── [        995]  tabularx.elc
+│   │   ├── [       2009]  tabulary.el
+│   │   ├── [       1003]  tabulary.elc
+│   │   ├── [       2232]  tcolorbox.el
+│   │   ├── [       1352]  tcolorbox.elc
+│   │   ├── [      10254]  textcomp.el
+│   │   ├── [       4043]  textcomp.elc
+│   │   ├── [       3723]  textpos.el
+│   │   ├── [       2528]  textpos.elc
+│   │   ├── [       1732]  transparent.el
+│   │   ├── [        944]  transparent.elc
+│   │   ├── [       3425]  ulem.el
+│   │   ├── [       2475]  ulem.elc
+│   │   ├── [       2619]  unicode-math.el
+│   │   ├── [       1944]  unicode-math.elc
+│   │   ├── [       1678]  units.el
+│   │   ├── [        914]  units.elc
+│   │   ├── [       2802]  url.el
+│   │   ├── [       1879]  url.elc
+│   │   ├── [       3236]  varioref.el
+│   │   ├── [       2209]  varioref.elc
+│   │   ├── [       1340]  verbatim.el
+│   │   ├── [        674]  verbatim.elc
+│   │   ├── [       3811]  virtex.el
+│   │   ├── [       5464]  virtex.elc
+│   │   ├── [       2141]  vwcol.el
+│   │   ├── [       1347]  vwcol.elc
+│   │   ├── [       4120]  wrapfig.el
+│   │   ├── [       2398]  wrapfig.elc
+│   │   ├── [       2455]  XCharter.el
+│   │   ├── [       1179]  XCharter.elc
+│   │   ├── [       4268]  xparse.el
+│   │   ├── [       3106]  xparse.elc
+│   │   ├── [       1538]  xspace.el
+│   │   ├── [        867]  xspace.elc
+│   │   ├── [       1830]  zlmtt.el
+│   │   └── [        890]  zlmtt.elc
+│   ├── [      30151]  tests
+│   │   ├── [      16689]  latex
+│   │   │   ├── [        284]  latex-filling-in.tex
+│   │   │   ├── [        284]  latex-filling-out.tex
+│   │   │   ├── [       3773]  latex-test.el
+│   │   │   ├── [       6361]  latex-test.elc
+│   │   │   ├── [        118]  math-indent-in.tex
+│   │   │   ├── [        140]  math-indent-out.tex
+│   │   │   ├── [        641]  tabular-in.tex
+│   │   │   └── [        992]  tabular-out.tex
+│   │   ├── [       2487]  Makefile
+│   │   └── [       6879]  tex
+│   │       ├── [       1280]  command-expansion.el
+│   │       └── [       1503]  command-expansion.elc
+│   ├── [      19456]  tex-bar.el
+│   ├── [      13825]  tex-bar.elc
+│   ├── [     129364]  tex-buf.el
+│   ├── [     107364]  tex-buf.elc
+│   ├── [     231964]  tex.el
+│   ├── [     197435]  tex.elc
+│   ├── [      36391]  tex-fold.el
+│   ├── [      29439]  tex-fold.elc
+│   ├── [       6633]  tex-font.el
+│   ├── [       3293]  tex-font.elc
+│   ├── [      31614]  tex-info.el
+│   ├── [      25429]  tex-info.elc
+│   ├── [      38450]  tex-jp.el
+│   ├── [      34368]  tex-jp.elc
+│   ├── [      16037]  texmathp.el
+│   ├── [       9759]  texmathp.elc
+│   ├── [       2496]  tex-mik.el
+│   ├── [       1075]  tex-mik.elc
+│   ├── [       5679]  tex-site.el
+│   ├── [       4057]  tex-site.elc
+│   ├── [      12612]  tex-style.el
+│   ├── [      10119]  tex-style.elc
+│   ├── [       4147]  tex-wizard.el
+│   ├── [       3183]  tex-wizard.elc
+│   ├── [      83444]  toolbar-x.el
+│   └── [      53235]  toolbar-x.elc
+├── [        147]  auctex-11.89.signed
 ├── [      70340]  auto-compile-20151107.1408
 │   ├── [       3957]  auto-compile-autoloads.el
 │   ├── [      30899]  auto-compile.el
@@ -220,6 +780,12 @@
 │   ├── [       3759]  company-xcode.elc
 │   ├── [       5517]  company-yasnippet.el
 │   └── [       3568]  company-yasnippet.elc
+├── [      26313]  company-auctex-20151102.643
+│   ├── [       1268]  company-auctex-autoloads.el
+│   ├── [      10585]  company-auctex.el
+│   ├── [       9561]  company-auctex.elc
+│   ├── [        199]  company-auctex-pkg.el
+│   └── [        604]  company-auctex-pkg.elc
 ├── [      21342]  company-quickhelp-20150804.319
 │   ├── [       1013]  company-quickhelp-autoloads.el
 │   ├── [       8056]  company-quickhelp.el
@@ -2859,4 +3425,4 @@
     ├── [     200793]  yasnippet.elc
     └── [        231]  yasnippet-pkg.el
 
-    35972568 bytes used in 225 directories, 2634 files
+    42949167 bytes used in 235 directories, 3190 files
