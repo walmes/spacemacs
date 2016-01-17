@@ -3,7 +3,7 @@
     polymode
     ))
 
-(defun wz-misc/init-polymode ()
+(defun wz-polymode/init-polymode ()
   (use-package polymode
     :mode (("\\.Rmd"   . rmd-mode)
            ("\\.Rpres" . rmd-mode))
@@ -17,6 +17,7 @@
         (R-mode)
         (poly-markdown+r-mode))
       ))
+
   (with-eval-after-load 'rmd-mode
     (global-set-key (kbd "S-<f7>") 'polymode-previous-chunk)
     (global-set-key (kbd "S-<f8>") 'polymode-next-chunk)
