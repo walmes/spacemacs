@@ -55,5 +55,6 @@
   ) ;; wz-misc/init-bookmark+
 
 (defun wz-misc/init-smartparens ()
+  (smartparens-global-mode 1)
   (sp-pair "\"" nil :unless '(sp-point-after-word-p))
   (sp-pair "'" nil :unless '(sp-point-after-word-p)))
