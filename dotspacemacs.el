@@ -301,6 +301,8 @@ layers configuration. You are free to put any user code."
   ;; "M-~" to joint lines.
   (global-set-key (kbd "<M-dead-tilde>") 'delete-indentation)
   ;;-------------------------------------------
+  (add-hook 'emacs-startup-hook 'delete-other-windows)[/code]
+  (add-hook 'before-save-hook 'delete-trailing-whitespace)
   ) ;; dotspacemacs/user-config
 
 ;; Do not write anything past this comment. This is where Emacs will
