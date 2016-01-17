@@ -239,13 +239,69 @@ values."
 It is called immediately after `dotspacemacs/init'.  You are free to put almost
 any user code here.  The exception is org related code, which should be placed
 in `dotspacemacs/user-config'."
-  )
+  (setq user-full-name "Walmes Zeviani"
+        user-mail-address "walmes@ufpr.com")
+  ;;-------------------------------------------
+  ;; Font for especial words.
+  (make-face 'special-words)
+  (set-face-attribute 'special-words nil
+                      :foreground "White"
+                      :background "Firebrick")
+  (dolist (mode '(fundamental-mode
+                  gnus-article-mode
+                  lisp-mode
+                  org-mode
+                  shell-mode
+                  sh-mode
+                  muse-mode
+                  ess-mode
+                  polymode-mode
+                  markdown-mode
+                  latex-mode
+                  TeX-mode))
+    (font-lock-add-keywords
+     mode
+     '(("\\<\\(IMPORTANT\\|ATTENTION\\|NOTE\\|OBS\\|TODO\\|DONE\\|STOP\\)"
+        0 'font-lock-warning-face t)
+       ("\\<\\(COMMENT\\|IMPROVE\\|REVIEW\\)"
+        0 'font-lock-warning-face t)
+       ("\\<\\(BUG\\|WARNING\\|DANGER\\|FIXME\\)"
+        0 'special-words t))))
+  ) ;; dotspacemacs/user-init
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
 This function is called at the very end of Spacemacs initialization after
 layers configuration. You are free to put any user code."
-  )
+  ;;-------------------------------------------
+  (add-to-list 'load-path "~/.emacs.d/lisp/")
+  (setq comment-empty-lines t)    ;; comments in empty lines.
+  (setq auto-save-default nil)    ;; no #autosave#.
+  (setq make-backup-files nil)    ;; no backup~.
+  (setq inhibit-startup-screen t) ;; no startup
+  (delete-selection-mode 1)
+  (auto-fill-mode t)
+  (setq-default fill-column 72)
+  (setq-default auto-fill-function 'do-auto-fill)
+  (setq-default tab-width 4)
+  (setq-default indent-tabs-mode nil)
+  (setq whitespace-line-column fill-column)
+  (setq whitespace-style '(face lines-tail trailing spaces tabs empty))
+  (global-whitespace-mode +1)
+  ;;-------------------------------------------
+  (global-set-key [(control tab)] 'other-window)
+  (global-set-key (kbd "C-<next>") 'next-buffer)
+  (global-set-key (kbd "C-<prior>") 'previous-buffer)
+  (global-unset-key "\C-z")     ;; 'undo default is C-/.
+  (global-set-key "\C-z" 'undo) ;; C-z to 'undo;
+  ;; M-. to (un)comment paragraph.
+  (global-set-key [?\M-.] (kbd "M-h M-; M-}"))
+  ;; "C-~" to keep one white space between objects around point.
+  (global-set-key (kbd "<C-dead-tilde>") 'fixup-whitespace)
+  ;; "M-~" to joint lines.
+  (global-set-key (kbd "<M-dead-tilde>") 'delete-indentation)
+  ;;-------------------------------------------
+  ) ;; dotspacemacs/user-config
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
