@@ -99,6 +99,12 @@
 │   ├── [       7977]  clean-aindent-mode.elc
 │   ├── [        220]  clean-aindent-mode-pkg.el
 │   └── [        624]  clean-aindent-mode-pkg.elc
+├── [     226358]  ctable-20140304.1659
+│   ├── [        363]  ctable-autoloads.el
+│   ├── [      73537]  ctable.el
+│   ├── [     147660]  ctable.elc
+│   ├── [        149]  ctable-pkg.el
+│   └── [        553]  ctable-pkg.elc
 ├── [     165927]  dash-20151216.1315
 │   ├── [        356]  dash-autoloads.el
 │   ├── [      82609]  dash.el
@@ -130,6 +136,260 @@
 │   ├── [      33579]  epl.elc
 │   ├── [        141]  epl-pkg.el
 │   └── [        546]  epl-pkg.elc
+├── [    5613652]  ess-20160110.2313
+│   ├── [      77653]  allnews.info
+│   ├── [      47664]  announc.info
+│   ├── [        563]  authors.info
+│   ├── [        768]  bugrept.info
+│   ├── [       1907]  bugs-ms.info
+│   ├── [       3447]  credits.info
+│   ├── [       1509]  currfeat.info
+│   ├── [        757]  dir
+│   ├── [       2562]  ess-autoloads.el
+│   ├── [        974]  ess-autoloads.elc
+│   ├── [        107]  ess-defs.info
+│   ├── [     256275]  ess.info
+│   ├── [        173]  ess-pkg.el
+│   ├── [    2596370]  etc
+│   │   ├── [        810]  backbug5
+│   │   ├── [        530]  BACKBUG5.BAT
+│   │   ├── [        406]  backbug5.sparc
+│   │   ├── [        626]  backbugs
+│   │   ├── [        570]  BACKBUGS.BAT
+│   │   ├── [        409]  backbugs.sparc
+│   │   ├── [       4833]  C-cC-c-probl.R
+│   │   ├── [       2245]  checkTriple.Rd
+│   │   ├── [        695]  chol2inv-ex.Rd
+│   │   ├── [        755]  completion_ideas.R
+│   │   ├── [      46144]  config.guess
+│   │   ├── [       2423]  ess-julia.jl
+│   │   ├── [      38737]  ESSR
+│   │   │   ├── [        553]  BUILDESSR
+│   │   │   ├── [        820]  LOADREMOTE
+│   │   │   ├── [      33263]  R
+│   │   │   │   ├── [       3889]  completion.R
+│   │   │   │   ├── [       7442]  debug.R
+│   │   │   │   ├── [      13812]  developer.R
+│   │   │   │   └── [       4024]  misc.R
+│   │   │   └── [          5]  VERSION
+│   │   ├── [       6732]  ess-roxy-tests.R
+│   │   ├── [        575]  ess-rutils-help-start.R
+│   │   ├── [       1561]  ess-s4.S
+│   │   ├── [       2270]  ess-sas-sh-command
+│   │   ├── [       1552]  ess-sp3.S
+│   │   ├── [       1678]  Extract.factor.Rd
+│   │   ├── [        230]  function-outline.S
+│   │   ├── [       1459]  gpl-check
+│   │   ├── [      34227]  icons
+│   │   │   ├── [        788]  rbuffer.xpm
+│   │   │   ├── [       1186]  README
+│   │   │   ├── [       1016]  rfunction.xpm
+│   │   │   ├── [        786]  rline.xpm
+│   │   │   ├── [        788]  rregion.xpm
+│   │   │   ├── [       4269]  splus_letters_large.png
+│   │   │   ├── [       7965]  splus_letters_large.xpm
+│   │   │   ├── [       3513]  splus_letter_small.xpm
+│   │   │   ├── [        896]  spluslogo.xpm
+│   │   │   ├── [       1015]  spluslogo.xpm.safe
+│   │   │   ├── [       3498]  startr.xpm
+│   │   │   ├── [        942]  switch_ess.xpm
+│   │   │   ├── [       2676]  switchr.xpm
+│   │   │   └── [        793]  switchs.xpm
+│   │   ├── [        558]  in-string-bug-ex.Rnw
+│   │   ├── [       2027]  Makefile
+│   │   ├── [    2261671]  other
+│   │   │   ├── [    2257524]  S-spread
+│   │   │   │   ├── [    2184721]  asaprc.ps
+│   │   │   │   ├── [        271]  gradexmp.s
+│   │   │   │   ├── [       2647]  README
+│   │   │   │   ├── [       8505]  sprd3d.how
+│   │   │   │   ├── [       7545]  sprd-emc.s
+│   │   │   │   ├── [       1207]  sprd-grd.s
+│   │   │   │   ├── [      10892]  sprd-int.el
+│   │   │   │   ├── [       8574]  sprd-int.elc
+│   │   │   │   ├── [       6766]  sprd-spr.s
+│   │   │   │   ├── [       3280]  sprd-txt.s
+│   │   │   │   ├── [      10443]  S-spread.el
+│   │   │   │   └── [       8577]  S-spread.elc
+│   │   │   └── [         51]  test
+│   │   ├── [      14420]  pkg1
+│   │   │   ├── [        214]  DESCRIPTION
+│   │   │   ├── [       5133]  man
+│   │   │   │   └── [       1037]  D1tr.Rd
+│   │   │   ├── [         13]  NAMESPACE
+│   │   │   └── [       4964]  R
+│   │   │       └── [        868]  D1tr.R
+│   │   ├── [        155]  pkg-Maintainers
+│   │   ├── [       2369]  R_error_patterns.R
+│   │   ├── [       3169]  R-ESS-bugs.el
+│   │   ├── [       3008]  R-ESS-bugs.elc
+│   │   ├── [      27818]  R-ESS-bugs.R
+│   │   ├── [        609]  Rnw-ess-bugs.Rnw
+│   │   ├── [       1184]  R-oxygen-ex.R
+│   │   ├── [        459]  R-pager.R
+│   │   ├── [       1071]  SAS-bugs.sas
+│   │   ├── [      16896]  sas-keys.doc
+│   │   ├── [      61635]  sas-keys.ps
+│   │   ├── [      25972]  sas-keys.rtf
+│   │   ├── [       9583]  sje-ess-notes.txt
+│   │   ├── [       2302]  slow-long-output.R
+│   │   └── [       7901]  TODO.org
+│   ├── [       2076]  installation.info
+│   ├── [       1556]  inst_svn.info
+│   ├── [        637]  license.info
+│   ├── [    2483829]  lisp
+│   │   ├── [       3138]  ess-arc-d.el
+│   │   ├── [       1670]  ess-arc-d.elc
+│   │   ├── [      14008]  ess-bugs-d.el
+│   │   ├── [       6047]  ess-bugs-d.elc
+│   │   ├── [      10055]  ess-bugs-l.el
+│   │   ├── [       7746]  ess-bugs-l.elc
+│   │   ├── [      12937]  ess-compat.el
+│   │   ├── [       6250]  ess-compat.elc
+│   │   ├── [       2252]  ess-comp.el
+│   │   ├── [       1022]  ess-comp.elc
+│   │   ├── [     109929]  ess-custom.el
+│   │   ├── [      91705]  ess-custom.elc
+│   │   ├── [       6674]  ess-dde.el
+│   │   ├── [       4148]  ess-dde.elc
+│   │   ├── [       3187]  ess-debug.el
+│   │   ├── [       1523]  ess-debug.elc
+│   │   ├── [       9301]  essd-els.el
+│   │   ├── [       6400]  essd-els.elc
+│   │   ├── [      20047]  ess-developer.el
+│   │   ├── [      14604]  ess-developer.elc
+│   │   ├── [      21750]  ess.el
+│   │   ├── [       9792]  ess.elc
+│   │   ├── [       6342]  ess-eldoc.el
+│   │   ├── [        551]  ess-eldoc.elc
+│   │   ├── [       6742]  ess-font-lock.el
+│   │   ├── [       4218]  ess-font-lock.elc
+│   │   ├── [      25776]  ess-gretl.el
+│   │   ├── [      17120]  ess-gretl.elc
+│   │   ├── [      44481]  ess-help.el
+│   │   ├── [      33061]  ess-help.elc
+│   │   ├── [     149431]  ess-inf.el
+│   │   ├── [      95447]  ess-inf.elc
+│   │   ├── [       8961]  ess-install.el
+│   │   ├── [       3360]  ess-install.elc
+│   │   ├── [      13981]  ess-jags-d.el
+│   │   ├── [       6146]  ess-jags-d.elc
+│   │   ├── [      17617]  ess-julia.el
+│   │   ├── [      14588]  ess-julia.elc
+│   │   ├── [       2846]  ess-lsp-l.el
+│   │   ├── [       1282]  ess-lsp-l.elc
+│   │   ├── [       5404]  ess-menu.el
+│   │   ├── [        486]  ess-menu.elc
+│   │   ├── [      46787]  ess-mode.el
+│   │   ├── [      28258]  ess-mode.elc
+│   │   ├── [      10242]  ess-mouse.el
+│   │   ├── [       6125]  ess-mouse.elc
+│   │   ├── [       4889]  ess-noweb.el
+│   │   ├── [       2436]  ess-noweb.elc
+│   │   ├── [      18632]  ess-noweb-font-lock-mode.el
+│   │   ├── [       7450]  ess-noweb-font-lock-mode.elc
+│   │   ├── [      79471]  ess-noweb-mode.el
+│   │   ├── [      46929]  ess-noweb-mode.elc
+│   │   ├── [       4287]  ess-omg-d.el
+│   │   ├── [       2531]  ess-omg-d.elc
+│   │   ├── [      15181]  ess-omg-l.el
+│   │   ├── [       2923]  ess-omg-l.elc
+│   │   ├── [       5239]  ess-r-a.el
+│   │   ├── [       2772]  ess-r-a.elc
+│   │   ├── [      14323]  ess-r-args.el
+│   │   ├── [       2897]  ess-r-args.elc
+│   │   ├── [      22248]  ess-r-completion.el
+│   │   ├── [      14944]  ess-r-completion.elc
+│   │   ├── [      76597]  ess-r-d.el
+│   │   ├── [      19738]  ess-rd.el
+│   │   ├── [      46921]  ess-r-d.elc
+│   │   ├── [      14053]  ess-rd.elc
+│   │   ├── [      18262]  ess-rdired.el
+│   │   ├── [      10255]  ess-rdired.elc
+│   │   ├── [       8324]  ess-r-gui.el
+│   │   ├── [       5566]  ess-r-gui.elc
+│   │   ├── [      33469]  ess-roxy.el
+│   │   ├── [      24419]  ess-roxy.elc
+│   │   ├── [      32966]  ess-r-syntax.el
+│   │   ├── [      24512]  ess-r-syntax.elc
+│   │   ├── [      17498]  ess-rutils.el
+│   │   ├── [      11719]  ess-rutils.elc
+│   │   ├── [       3286]  ess-s3-d.el
+│   │   ├── [       1782]  ess-s3-d.elc
+│   │   ├── [      10898]  ess-s4-d.el
+│   │   ├── [       1911]  ess-s4-d.elc
+│   │   ├── [      66742]  ess-sas-a.el
+│   │   ├── [      39197]  ess-sas-a.elc
+│   │   ├── [      13164]  ess-sas-d.el
+│   │   ├── [       6530]  ess-sas-d.elc
+│   │   ├── [      80674]  ess-sas-l.el
+│   │   ├── [      41343]  ess-sas-l.elc
+│   │   ├── [       1828]  ess-send2.el
+│   │   ├── [       1283]  ess-send2.elc
+│   │   ├── [       2645]  ess-send.el
+│   │   ├── [       1121]  ess-send.elc
+│   │   ├── [      32866]  ess-site.el
+│   │   ├── [      10123]  ess-site.elc
+│   │   ├── [      38583]  ess-s-l.el
+│   │   ├── [      19027]  ess-s-l.elc
+│   │   ├── [       3362]  ess-sp3-d.el
+│   │   ├── [       1998]  ess-sp3-d.elc
+│   │   ├── [      20003]  ess-sp4-d.el
+│   │   ├── [      10622]  ess-sp4-d.elc
+│   │   ├── [       4207]  ess-sp5-d.el
+│   │   ├── [       2021]  ess-sp5-d.elc
+│   │   ├── [      11388]  ess-sp6-d.el
+│   │   ├── [       7573]  ess-sp6-d.elc
+│   │   ├── [      28765]  ess-sp6w-d.el
+│   │   ├── [      17404]  ess-sp6w-d.elc
+│   │   ├── [       6403]  ess-sta-d.el
+│   │   ├── [       4299]  ess-sta-d.elc
+│   │   ├── [      50384]  ess-sta-l.el
+│   │   ├── [      24377]  ess-sta-l.elc
+│   │   ├── [      16833]  ess-swv.el
+│   │   ├── [      10781]  ess-swv.elc
+│   │   ├── [       9818]  ess-toolbar.el
+│   │   ├── [       6130]  ess-toolbar.elc
+│   │   ├── [     119780]  ess-tracebug.el
+│   │   ├── [      85172]  ess-tracebug.elc
+│   │   ├── [      14581]  ess-trns.el
+│   │   ├── [       8710]  ess-trns.elc
+│   │   ├── [      49491]  ess-utils.el
+│   │   ├── [      29055]  ess-utils.elc
+│   │   ├── [       3117]  ess-vst-d.el
+│   │   ├── [       1612]  ess-vst-d.elc
+│   │   ├── [       3751]  ess-xls-d.el
+│   │   ├── [       2173]  ess-xls-d.elc
+│   │   ├── [      10971]  make-regexp.el
+│   │   ├── [       3253]  make-regexp.elc
+│   │   ├── [      13731]  mouseme.el
+│   │   ├── [       9283]  mouseme.elc
+│   │   ├── [       6584]  msdos.el
+│   │   └── [       4210]  msdos.elc
+│   ├── [        700]  mailing.info
+│   ├── [      39670]  news.info
+│   ├── [      38075]  onews.info
+│   ├── [      50772]  readme.info
+│   ├── [       1029]  requires.info
+│   └── [        483]  stabilty.info
+├── [      13933]  ess-R-data-view-20130509.458
+│   ├── [        588]  ess-R-data-view-autoloads.el
+│   ├── [       5017]  ess-R-data-view.el
+│   ├── [       3375]  ess-R-data-view.elc
+│   ├── [        226]  ess-R-data-view-pkg.el
+│   └── [        631]  ess-R-data-view-pkg.elc
+├── [      10166]  ess-R-object-popup-20130302.336
+│   ├── [        600]  ess-R-object-popup-autoloads.el
+│   ├── [       3343]  ess-R-object-popup.el
+│   ├── [       1280]  ess-R-object-popup.elc
+│   ├── [        221]  ess-R-object-popup-pkg.el
+│   └── [        626]  ess-R-object-popup-pkg.elc
+├── [      23674]  ess-smart-equals-20150201.2201
+│   ├── [       2454]  ess-smart-equals-autoloads.el
+│   ├── [      10301]  ess-smart-equals.el
+│   ├── [       5976]  ess-smart-equals.elc
+│   ├── [        221]  ess-smart-equals-pkg.el
+│   └── [        626]  ess-smart-equals-pkg.elc
 ├── [      47919]  eval-sexp-fu-20131230.1351
 │   ├── [        389]  eval-sexp-fu-autoloads.el
 │   ├── [      22294]  eval-sexp-fu.el
@@ -657,6 +917,12 @@
 │   ├── [      94900]  info+.elc
 │   ├── [        152]  info+-pkg.el
 │   └── [        556]  info+-pkg.elc
+├── [     288333]  julia-mode-20150912.800
+│   ├── [        783]  julia-mode-autoloads.el
+│   ├── [     139227]  julia-mode.el
+│   ├── [     143503]  julia-mode.elc
+│   ├── [        160]  julia-mode-pkg.el
+│   └── [        564]  julia-mode-pkg.elc
 ├── [      14906]  let-alist-1.0.4
 │   ├── [       1392]  let-alist-autoloads.el
 │   ├── [       5652]  let-alist.el
@@ -929,4 +1195,4 @@
     ├── [        136]  ws-butler-pkg.el
     └── [        540]  ws-butler-pkg.elc
 
-    11789898 bytes used in 111 directories, 818 files
+    17966014 bytes used in 127 directories, 1068 files
