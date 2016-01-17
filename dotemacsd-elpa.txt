@@ -36,12 +36,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519550]  archives
+├── [     519548]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480932]  melpa
-│   │   └── [     476836]  archive-contents
+│   ├── [     480930]  melpa
+│   │   └── [     476834]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -87,6 +87,12 @@
 │   ├── [       9189]  bind-map.elc
 │   ├── [        156]  bind-map-pkg.el
 │   └── [        561]  bind-map-pkg.elc
+├── [      94962]  bm-20151222.1603
+│   ├── [       1372]  bm-autoloads.el
+│   ├── [      53700]  bm.el
+│   ├── [      35052]  bm.elc
+│   ├── [        169]  bm-pkg.el
+│   └── [        573]  bm-pkg.elc
 ├── [      15415]  buffer-move-20160108.708
 │   ├── [       1485]  buffer-move-autoloads.el
 │   ├── [       5889]  buffer-move.el
@@ -1195,4 +1201,4 @@
     ├── [        136]  ws-butler-pkg.el
     └── [        540]  ws-butler-pkg.elc
 
-    17966014 bytes used in 127 directories, 1068 files
+    18060974 bytes used in 128 directories, 1073 files
