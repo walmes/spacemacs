@@ -6,10 +6,12 @@
     smartparens
     (electric-spacing :location (recipe
                                  :fetcher github
-                                 :repo "walmes/electric-spacing"))
+                                 :repo "walmes/electric-spacing")
+                      :upgrade nil)
     (essh :location (recipe
                      :fetcher file
-                     :path "~/.emacs.d/private/wz-misc/essh/essh.el"))
+                     :path "~/.emacs.d/private/wz-misc/essh/essh.el")
+          :upgrade nil)
     ))
 
 (defun wz-misc/init-bm ()
