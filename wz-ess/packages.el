@@ -9,7 +9,7 @@
 ;;
 ;;; License: GPLv3
 
-(setq ess-packages
+(setq wz-ess-packages
   '(
     company
     ess
@@ -18,7 +18,7 @@
     ess-smart-equals
     ))
 
-(defun ess/init-ess ()
+(defun wz-ess/init-ess ()
   (use-package ess-site
     :mode (("\\.sp\\'"           . S-mode)
            ("/R/.*\\.q\\'"       . R-mode)
@@ -88,11 +88,11 @@
     (define-key inferior-ess-mode-map (kbd "C-j") 'comint-next-input)
     (define-key inferior-ess-mode-map (kbd "C-k") 'comint-previous-input)))
 
-(defun ess/init-ess-R-data-view ())
+(defun wz-ess/init-ess-R-data-view ())
 
-(defun ess/init-ess-R-object-popup ())
+(defun wz-ess/init-ess-R-object-popup ())
 
-(defun ess/init-ess-smart-equals ()
+(defun wz-ess/init-ess-smart-equals ()
   (use-package ess-smart-equals
     :defer t
     :if ess-enable-smart-equals
