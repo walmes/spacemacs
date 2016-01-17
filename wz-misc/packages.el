@@ -8,8 +8,8 @@
                                  :fetcher github
                                  :repo "walmes/electric-spacing"))
     (essh :location (recipe
-                     :fetcher url
-                     :url "http://www.emacswiki.org/emacs/download/essh.el"))
+                     :fetcher file
+                     :path "~/.emacs.d/private/wz-misc/essh/essh.el"))
     ))
 
 (defun wz-misc/init-bm ()
