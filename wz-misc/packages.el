@@ -54,7 +54,7 @@
     )
   ) ;; wz-misc/init-bookmark+
 
-(defun auto-completion/post-init-auto-complete ()
+(defun auto-completion/init-auto-complete ()
   (use-package auto-complete
     :defer t
     :init
