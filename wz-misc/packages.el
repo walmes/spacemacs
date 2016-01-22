@@ -5,8 +5,8 @@
     bookmark+
     smartparens
     (electric-spacing :location (recipe
-                                 :fetcher github
-                                 :repo "walmes/electric-spacing"))
+                                 :fetcher file
+                                 :path "~/GitLab/electric-spacing/electric-spacing.el"))
     ))
 
 (defun wz-misc/init-bm ()
@@ -59,5 +59,7 @@
   (sp-pair "'" nil :unless '(sp-point-after-word-p)))
 
 (defun wz-misc/init-electric-spacing ()
-  (use-package electric-spacing)
-  (add-hook 'ess-mode-hook #'electric-spacing-mode))
+  (use-package electric-spacing
+    :config
+    (progn
+      (add-hook 'ess-mode-hook #'electric-spacing-mode))))
