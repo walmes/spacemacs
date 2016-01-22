@@ -48,6 +48,8 @@
                 '(lambda ()
                    (setq ess-indent-with-fancy-comments nil)
                    (setq-local comment-add 0)
+                   ;; (ess-R-smart-operators t)
+                   (setq ess-smart-operators t)
                    ))
       ))
 
