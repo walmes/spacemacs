@@ -20,7 +20,7 @@
      ;; better-defaults
      emacs-lisp
      git
-     markdown
+     ;; markdown
      latex
      ;; org
      ;; (shell :variables
@@ -31,6 +31,7 @@
      ;; version-control
      wz-ess
      wz-misc
+     wz-markdown
      wz-polymode
      )
    dotspacemacs-additional-packages '()

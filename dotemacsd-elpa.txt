@@ -42,12 +42,12 @@
 │   ├── [      35445]  anzu.elc
 │   ├── [        169]  anzu-pkg.el
 │   └── [        574]  anzu-pkg.elc
-├── [     519546]  archives
+├── [     519545]  archives
 │   ├── [      30241]  gnu
 │   │   ├── [      25998]  archive-contents
 │   │   └── [        147]  archive-contents.signed
-│   ├── [     480928]  melpa
-│   │   └── [     476832]  archive-contents
+│   ├── [     480927]  melpa
+│   │   └── [     476831]  archive-contents
 │   └── [       4281]  org
 │       └── [        185]  archive-contents
 ├── [      68947]  async-20160108.1249
@@ -1383,12 +1383,6 @@
 │   ├── [       8440]  flx-ido.elc
 │   ├── [        136]  flx-ido-pkg.el
 │   └── [        541]  flx-ido-pkg.elc
-├── [      17551]  gh-md-20151207.940
-│   ├── [        966]  gh-md-autoloads.el
-│   ├── [       6894]  gh-md.el
-│   ├── [       4858]  gh-md.elc
-│   ├── [        166]  gh-md-pkg.el
-│   └── [        571]  gh-md-pkg.elc
 ├── [      23706]  gitattributes-mode-20150330.1048
 │   ├── [        780]  gitattributes-mode-autoloads.el
 │   ├── [       8709]  gitattributes-mode.el
@@ -1796,56 +1790,6 @@
 │   ├── [      55393]  magit-popup.elc
 │   ├── [      28618]  magit-popup.info
 │   └── [        280]  magit-popup-pkg.el
-├── [     443534]  markdown-mode-20160115.2318
-│   ├── [        851]  markdown-mode-autoloads.el
-│   ├── [     261241]  markdown-mode.el
-│   ├── [     176483]  markdown-mode.elc
-│   ├── [        229]  markdown-mode-pkg.el
-│   └── [        634]  markdown-mode-pkg.elc
-├── [      17589]  markdown-toc-20160108.41
-│   ├── [        878]  markdown-toc-autoloads.el
-│   ├── [       7133]  markdown-toc.el
-│   ├── [       5280]  markdown-toc.elc
-│   └── [        202]  markdown-toc-pkg.el
-├── [     439619]  mmm-mode-20150828.1716
-│   ├── [        620]  dir
-│   ├── [       6722]  mmm-auto.el
-│   ├── [       4880]  mmm-auto.elc
-│   ├── [      12378]  mmm-class.el
-│   ├── [      12914]  mmm-class.elc
-│   ├── [      16229]  mmm-cmds.el
-│   ├── [      12443]  mmm-cmds.elc
-│   ├── [       4183]  mmm-compat.el
-│   ├── [       1601]  mmm-compat.elc
-│   ├── [       2711]  mmm-cweb.el
-│   ├── [       1986]  mmm-cweb.elc
-│   ├── [       2043]  mmm-defaults.el
-│   ├── [       1074]  mmm-defaults.elc
-│   ├── [       9742]  mmm-erb.el
-│   ├── [      10955]  mmm-erb.elc
-│   ├── [      93345]  mmm.info
-│   ├── [       5379]  mmm-mason.el
-│   ├── [       4308]  mmm-mason.elc
-│   ├── [       1130]  mmm-mode-autoloads.el
-│   ├── [      11082]  mmm-mode.el
-│   ├── [       6386]  mmm-mode.elc
-│   ├── [        240]  mmm-mode-pkg.el
-│   ├── [       6155]  mmm-myghty.el
-│   ├── [       4730]  mmm-myghty.elc
-│   ├── [      13692]  mmm-noweb.el
-│   ├── [      10375]  mmm-noweb.elc
-│   ├── [      35520]  mmm-region.el
-│   ├── [      26859]  mmm-region.elc
-│   ├── [       2688]  mmm-rpm.el
-│   ├── [       1565]  mmm-rpm.elc
-│   ├── [      12385]  mmm-sample.el
-│   ├── [       6591]  mmm-sample.elc
-│   ├── [       1922]  mmm-univ.el
-│   ├── [       1028]  mmm-univ.elc
-│   ├── [       5422]  mmm-utils.el
-│   ├── [       4361]  mmm-utils.elc
-│   ├── [      42113]  mmm-vars.el
-│   └── [      37766]  mmm-vars.elc
 ├── [      10453]  move-text-20140307.844
 │   ├── [        828]  move-text-autoloads.el
 │   ├── [       3422]  move-text.el
@@ -2176,41 +2120,40 @@
 │   ├── [      10309]  pkg-info.elc
 │   ├── [        162]  pkg-info-pkg.el
 │   └── [        567]  pkg-info-pkg.elc
-├── [     275367]  polymode-20151216.533
+├── [     255884]  polymode-20150729.734
 │   ├── [       2272]  poly-base.el
 │   ├── [       2068]  poly-base.elc
 │   ├── [       1501]  poly-erb.el
 │   ├── [       5479]  poly-erb.elc
-│   ├── [       2489]  poly-markdown.el
-│   ├── [       2690]  poly-markdown.elc
-│   ├── [       3966]  polymode-autoloads.el
-│   ├── [       9881]  polymode-classes.el
-│   ├── [       9837]  polymode-classes.elc
-│   ├── [      12667]  polymode-common.el
-│   ├── [       9042]  polymode-common.elc
-│   ├── [       1272]  polymode-configuration.el
-│   ├── [       1319]  polymode-configuration.elc
-│   ├── [      25834]  polymode.el
-│   ├── [      26058]  polymode.elc
-│   ├── [      15220]  polymode-export.el
-│   ├── [      12836]  polymode-export.elc
-│   ├── [      28877]  polymode-methods.el
-│   ├── [      19319]  polymode-methods.elc
-│   ├── [        228]  polymode-pkg.el
+│   ├── [       2473]  poly-markdown.el
+│   ├── [       2674]  poly-markdown.elc
+│   ├── [       3943]  polymode-autoloads.el
+│   ├── [        288]  polymode-autoloads.el~
+│   ├── [       9631]  polymode-classes.el
+│   ├── [       9583]  polymode-classes.elc
+│   ├── [      13776]  polymode-common.el
+│   ├── [       9805]  polymode-common.elc
+│   ├── [       1125]  polymode-configuration.el
+│   ├── [       1212]  polymode-configuration.elc
+│   ├── [      21228]  polymode.el
+│   ├── [      16963]  polymode.elc
+│   ├── [      15104]  polymode-export.el
+│   ├── [      12792]  polymode-export.elc
+│   ├── [      27893]  polymode-methods.el
+│   ├── [      18672]  polymode-methods.elc
+│   ├── [        251]  polymode-pkg.el
 │   ├── [         72]  polymode-tangle.el
 │   ├── [        486]  polymode-tangle.elc
-│   ├── [      10077]  polymode-weave.el
-│   ├── [       9645]  polymode-weave.elc
-│   ├── [       3277]  poly-noweb.el
-│   ├── [       3328]  poly-noweb.elc
+│   ├── [       9980]  polymode-weave.el
+│   ├── [       9285]  polymode-weave.elc
+│   ├── [       3287]  poly-noweb.el
+│   ├── [       3335]  poly-noweb.elc
 │   ├── [       2191]  poly-org.el
 │   ├── [       2363]  poly-org.elc
-│   ├── [      11730]  poly-R.el
+│   ├── [      11739]  poly-R.el
 │   ├── [      19478]  poly-R.elc
 │   ├── [       3650]  poly-slim.el
-│   ├── [       7189]  poly-slim.elc
-│   ├── [       1876]  poly-verilog.el
-│   └── [       3054]  poly-verilog.elc
+│   └── [       7189]  poly-slim.elc
 ├── [     136083]  popup-20151222.1339
 │   ├── [        358]  popup-autoloads.el
 │   ├── [      55197]  popup.el
@@ -2252,12 +2195,6 @@
 │   ├── [      23060]  quelpa.el
 │   ├── [      28025]  quelpa.elc
 │   └── [        288]  quelpa-pkg.el
-├── [      27380]  rainbow-delimiters-20150320.17
-│   ├── [        877]  rainbow-delimiters-autoloads.el
-│   ├── [      12623]  rainbow-delimiters.el
-│   ├── [       8970]  rainbow-delimiters.elc
-│   ├── [        205]  rainbow-delimiters-pkg.el
-│   └── [        609]  rainbow-delimiters-pkg.elc
 ├── [     133461]  request-20160108.33
 │   ├── [        366]  request-autoloads.el
 │   ├── [      51423]  request.el
@@ -2320,6 +2257,19 @@
 │   ├── [       4722]  smooth-scrolling.elc
 │   ├── [        164]  smooth-scrolling-pkg.el
 │   └── [        568]  smooth-scrolling-pkg.elc
+├── [     142757]  solarized-theme-20160106.15
+│   ├── [        178]  solarized-dark-theme.el
+│   ├── [        655]  solarized-dark-theme.elc
+│   ├── [     130608]  solarized.el
+│   ├── [        183]  solarized-light-theme.el
+│   ├── [        659]  solarized-light-theme.elc
+│   ├── [        811]  solarized-theme-autoloads.el
+│   ├── [        302]  solarized-theme-autoloads.el~
+│   ├── [         48]  solarized-theme.el
+│   ├── [        492]  solarized-theme.elc
+│   ├── [        184]  solarized-theme-pkg.el
+│   ├── [       3055]  solarized-theme-utils.el
+│   └── [       1486]  solarized-theme-utils.elc
 ├── [     138807]  spaceline-20160107.626
 │   ├── [        453]  spaceline-autoloads.el
 │   ├── [       6477]  spaceline-config.el
@@ -3425,4 +3375,4 @@
     ├── [     200793]  yasnippet.elc
     └── [        231]  yasnippet-pkg.el
 
-    42949167 bytes used in 235 directories, 3190 files
+    42126767 bytes used in 231 directories, 3144 files
