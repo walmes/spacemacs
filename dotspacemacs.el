@@ -8,7 +8,7 @@
    modifying the variable values."
   (setq-default
    dotspacemacs-distribution 'spacemacs
-   dotspacemacs-configuration-layer-path '()
+   dotspacemacs-configuration-layer-path '("~/GitLab/spacemacs/")
    dotspacemacs-configuration-layers
    '(
      ;; ----------------------------------------------------------------
