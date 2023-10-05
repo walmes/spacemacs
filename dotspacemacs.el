@@ -58,7 +58,6 @@ values."
      rust
      html
      yaml
-     bm
      ;; For docker, see
      ;; https://develop.spacemacs.org/layers/+tools/docker/README.html
      ;; to install dependencies (hadolint is in AUR)
@@ -69,12 +68,17 @@ values."
      ;; extra-langs
      ;; private layers
      ;; elpy
+     themes-megapack ;; ~95 themes.
+     ;; -------------------------------------
+     ;; My personal layers.
+     ;; -------------------------------------
      (ess :variables
           ;; ess-enable-smart-equals t
           ess-enable-electric-spacing-r t
           ess-r-backend 'lsp
           ess-use-flymake nil
           ess-enable-smartparens t)
+     misc
      funk
      polymode
      )
@@ -90,7 +94,10 @@ values."
                                       poly-R
                                       quarto-mode
                                       poly-noweb
-                                      poly-markdown)
+                                      poly-markdown
+                                      ;; Themes.
+                                      ;; doom-one
+                                      vscode-dark-plus-theme)
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
 
@@ -255,7 +262,8 @@ It should only modify the values of Spacemacs settings."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press `SPC T n' to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(spacemacs-dark
+   dotspacemacs-themes '(doom-one
+                         spacemacs-dark
                          spacemacs-light)
 
    ;; Set the theme for the Spaceline. Supported themes are `spacemacs',
@@ -599,12 +607,12 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-;; Text settings =====================================================
+  ;; Text settings =====================================================
   (setq-default
    ;; Break lines at specified column (<= 80, defaults 72)
    fill-column 72
    ;; Turns on auto-fill-mode to automatically break lines
-   auto-fill-function 'do-auto-fill
+   ;; auto-fill-function 'do-auto-fill
    ;; Makes the kill-ring (emacs clipboard) to store only 4 entries,
    ;; otherwise it may flush memory
    kill-ring-max 2
@@ -637,6 +645,50 @@ you should place your code here."
   (autoload 'imath-mode "imath" "Imath mode for math formula input" t)
   (setq imaxima-use-maxima-mode-flag t)
   (add-to-list 'auto-mode-alist '("\\.ma[cx]" . maxima-mode))
+
+  (setq spacemacs-theme-comment-bg nil)
+
+  (setq user-full-name "Walmes Zeviani"
+        user-mail-address "walmeszeviani")
+
+  ;; TODO: Improve this.
+  ;; (global-whitespace-mode +1)
+  ;; (add-hook 'before-save-hook 'delete-trailing-whitespace)
+  ;; (setq whitespace-line-column fill-column)
+  ;; (setq whitespace-style '(face lines-tail trailing tabs empty))
+
+  ;; -------------------------------------------------------------------
+  ;; Key bindings.
+  ;; -------------------------------------------------------------------
+
+  ;; FIXME: This is not working.
+  ;; C-z to 'undo, the default is C-/.
+  (global-unset-key (kbd "C-z"))
+  (global-set-key (kbd "C-z") 'undo)
+
+  ;; Uses C-/ to complete paths.
+  (global-unset-key (kbd "C-/"))
+  (global-set-key (kbd "C-/") 'company-files)
+
+  ;; M-. to (un)comment paragraph.
+  (global-set-key [?\M-.] (kbd "M-h M-; M-}"))
+
+  ;; M-+ to indent paragraph.
+  (global-set-key [?\M-+] (kbd "M-h C-M-\\"))
+
+  ;; "C-~" to keep one white space between objects around point.
+  (global-set-key (kbd "<C-dead-tilde>") 'fixup-whitespace)
+
+  ;; "M-~" to joint lines.
+  (global-set-key (kbd "<M-dead-tilde>") 'delete-indentation)
+
+  ;; S-F11 and S-F12 to show/hide menu bar and tool bar.
+  (global-set-key (kbd "<S-f11>") 'toggle-menu-bar-mode-from-frame)
+  (global-set-key (kbd "<S-f12>") 'toggle-tool-bar-mode-from-frame)
+
+  ;; (global-auto-revert-mode 1)
+  (global-set-key [f5] 'revert-buffer)
+
   )
 
 ;; Do not write anything past this comment. This is where Emacs will
