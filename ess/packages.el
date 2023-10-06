@@ -267,6 +267,8 @@
   (use-package electric-spacing-r
     ;; :defer t
     :if ess-enable-electric-spacing-r
+    :config
+    (spacemacs|diminish electric-spacing-mode "⚡" "_+_")
     :init
     (progn
       (add-hook 'ess-mode-hook 'electric-spacing-mode))))

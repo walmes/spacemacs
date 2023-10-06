@@ -38,6 +38,7 @@
       ;; Go to the next bookmark in file.
       (global-set-key (kbd "C-}")
                       'yafolding-toggle-element)
+      (spacemacs|diminish yas-minor-mode "🅨" "{}")
       )
     ;; :bind
     ;; (("C-{" . yafolding-hide-parent-element)
@@ -49,6 +50,7 @@
     :defer t
     :config
     (yas-global-mode 1)
+    (spacemacs|diminish yafolding-mode "🅨" "yas")
     )
   )
 ;; (defun misc/post-init-yasnippet ()
@@ -167,6 +169,8 @@
      ("<f3>"   . bmkp-next-bookmark-this-file/buffer-repeat)
      ("<f4>"   . bmkp-previous-bookmark-this-file/buffer-repeat)
      ("<S-f3>" . bmkp-toggle-temporary-bookmark))
+    ;; :config
+    ;; (spacemacs|diminish ?? "Ⓑ" "B+")
     )
   )
 
@@ -179,5 +183,8 @@
                 ("TAB" . 'copilot-accept-completion)
                 ("C-TAB" . 'copilot-accept-completion-by-word)
                 ("C-<tab>" . 'copilot-accept-completion-by-word))
+    :config
+    ;; (spacemacs|diminish copilot-mode "Ⓒ" "C")
+    (spacemacs|diminish copilot-mode "🄲" "C")
     )
   )
