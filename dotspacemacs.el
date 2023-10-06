@@ -71,7 +71,6 @@ values."
      latex
      ;; extra-langs
      ;; private layers
-     ;; elpy
      themes-megapack ;; ~95 themes.
      ;; -------------------------------------
      ;; My personal layers.
@@ -85,6 +84,7 @@ values."
      misc
      funk
      polymode
+     elpy
      )
    ;; List of additional packages that will be installed without being wrapped
    ;; in a layer (generally the packages are installed only and should still be

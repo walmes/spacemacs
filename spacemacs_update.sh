@@ -50,7 +50,7 @@ cp -vrf misc ~/emacs-configs/spacemacs/private/private
 # Downloads `funcs.el`.
 mkdir -p ./funk
 wget "https://raw.githubusercontent.com/walmes/doom-emacs/master/funcs.el" -O ./funk/funcs.el
-# cp -v ~/.doom.d/funcs.el ./funk/funcs.el
+# cp -v ~/.doom.d/funcs.el ./funk
 
 # Copies `funk` to `private`.
 rm -vrf ~/emacs-configs/spacemacs/private/private/funk
@@ -61,6 +61,15 @@ cp -vrf funk ~/emacs-configs/spacemacs/private/private
 
 # Copy snippets.
 cp -rfv ~/.doom.d/snippets ~/emacs-configs/spacemacs
+
+#-----------------------------------------------------------------------
+# Elpy -----------------------------------------------------------------
+
+# Copies `elpy` to `private`.
+rm -vrf ~/emacs-configs/spacemacs/private/private/elpy
+cp -vrf elpy ~/emacs-configs/spacemacs/private/private
+
+# TODO: enable lsp using mspyls.
 
 #-----------------------------------------------------------------------
 # Last step ------------------------------------------------------------
