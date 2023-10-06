@@ -22,6 +22,7 @@ rm -vrf ~/emacs-configs/spacemacs/private/private/ess
 # Downloads `electric-spacing-r.el`.
 mkdir -p ./ess/local/electric-spacing-r
 wget "https://raw.githubusercontent.com/walmes/electric-spacing/master/electric-spacing-r.el" -O ./ess/local/electric-spacing-r/electric-spacing-r.el
+cp -v ~/Projects/electric-spacing/electric-spacing-r.el ./ess/local/electric-spacing-r/electric-spacing-r.el
 
 # Downloads `essh.el`.
 mkdir -p ./ess/local/essh

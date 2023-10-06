@@ -65,13 +65,40 @@ values."
      ;; For docker, see
      ;; https://develop.spacemacs.org/layers/+tools/docker/README.html
      ;; to install dependencies (hadolint is in AUR)
-     (docker :variables docker-dockerfile-backend 'lsp)
+     (docker :variables
+             docker-dockerfile-backend 'lsp)
      ;; version-control
      ;; ess
      latex
      ;; extra-langs
      ;; private layers
      themes-megapack ;; ~95 themes.
+     (python :variables
+             python-backend 'lsp
+             ;; python-lsp-server 'pylsp
+             python-lsp-server 'mspyls
+             python-lsp-git-root "~/Documents/python-language-server"
+             ;; To install .NET and use
+             ;; MS Python Language Server (`mypyls').
+             ;; https://dotnet.microsoft.com/en-us/download
+             ;;
+             ;; $ sudo snap install --classic dotnet-sdk
+             ;;
+             ;; Install `mypyls'.
+             ;; https://develop.spacemacs.org/layers/+lang/python/README.html#microsoft-python-language-server
+             ;;
+             ;; $ cd ~/Documents/
+             ;; $ git clone https://github.com/Microsoft/python-language-server.git
+             ;; $ cd python-language-server/src/LanguageServer/Impl
+             ;; $ dotnet publish -c Release -r linux-x64
+             ;; $ chmod a+x $(git rev-parse --show-toplevel)/output/bin/Release/linux-x64/publish/Microsoft.Python.LanguageServer
+             ;; OBS: replace `linux-x64' by your OS.
+
+             ;; python-test-runner 'pytest
+             python-formatter 'yapf
+             ;; python-enable-yapf-format-on-save t
+             python-pipenv-activate t
+             python-fill-column 72)
      ;; -------------------------------------
      ;; My personal layers.
      ;; -------------------------------------
@@ -84,7 +111,7 @@ values."
      misc
      funk
      polymode
-     elpy
+     ;; elpy
      )
    ;; List of additional packages that will be installed without being wrapped
    ;; in a layer (generally the packages are installed only and should still be
@@ -277,7 +304,7 @@ It should only modify the values of Spacemacs settings."
    ;; refer to the DOCUMENTATION.org for more info on how to create your own
    ;; spaceline theme. Value can be a symbol or list with additional properties.
    ;; (default '(spacemacs :separator wave :separator-scale 1.5))
-   dotspacemacs-mode-line-theme '(spacemacs :separator wave :separator-scale 1.5)
+   dotspacemacs-mode-line-theme '(spacemacs :separator wave :separator-scale 1.25)
 
    ;; If non-nil the cursor color matches the state color in GUI Emacs.
    ;; (default t)
@@ -596,7 +623,7 @@ configuration.
 It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
   ;; (define-key ess-mode-map [?\M--] nil)
-  (setq evil-toggle-key "C-`")
+  (setq evil-toggle-key "C-`") ;; To use C-z for undo.
   )
 
 
@@ -643,6 +670,10 @@ you should place your code here."
      inferior-python-mode-hook
      ))
 
+  ;; -------------------------------------------------------------------
+  ;; My preferences.
+  ;; -------------------------------------------------------------------
+
   (setq spacemacs-theme-comment-bg nil)
 
   (setq user-full-name "Walmes Zeviani"
@@ -657,7 +688,7 @@ you should place your code here."
   ;; (setq whitespace-style '(face lines-tail trailing tabs empty))
 
   ;; -------------------------------------------------------------------
-  ;; Key bindings.
+  ;; My key bindings.
   ;; -------------------------------------------------------------------
 
   ;; FIXME: This is not working.
@@ -687,6 +718,47 @@ you should place your code here."
 
   ;; (global-auto-revert-mode 1)
   (global-set-key [f5] 'revert-buffer)
+
+  ;; Define symbols for minor modes.
+  ;; (spacemacs|diminish lsp-mode "▸" "LSP")
+  (spacemacs|diminish lsp-mode "🅻" "LSP")
+  (spacemacs|diminish yas-minor-mode "🅨" "yas")
+
+  ;; -------------------------------------------------------------------
+  ;; My Python settings.
+  ;; -------------------------------------------------------------------
+
+  ;; Configure the Python interpreter.
+  (setq python-shell-interpreter "python")
+  (setq python-shell-interpreter-args "")
+  (add-to-list 'lsp-disabled-clients 'pyright) ;; To prioritize mspyls.
+
+  ;; Enables yasnippet.
+  (add-hook 'python-mode-hook
+            (lambda ()
+              (yas-global-mode 1)))
+
+  ;; Enable `electric-spacing' for Python.
+  (eval-after-load 'python
+    '(progn
+       (message "Enabling electric-spacing for Python.")
+       ;; `electric-spacing' is installed with `ess' layer.
+       (electric-spacing-mode 1)))
+
+  ;; Define more useful keybinds.
+  (define-key python-mode-map
+    (kbd "C-c C-b") 'python-shell-send-buffer)    ;; C-c C-c
+  (define-key python-mode-map
+    (kbd "C-c C-c") 'python-shell-send-statement) ;; C-c C-e
+  (define-key python-mode-map
+    (kbd "S-<return>") 'python-shell-send-defun)  ;; C-M-x
+  (define-key python-mode-map (kbd "C-<return>")
+    (lambda ()
+      (interactive)
+      (python-shell-send-statement)
+      (python-nav-forward-statement)
+      )
+    )
 
   )
 
