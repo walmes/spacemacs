@@ -127,15 +127,17 @@
 
   (use-package ess
     :bind
+    ("M-="    . ess-cycle-assign)     ;; `Alt + -'  to cycle ` <- | <<- | = ...'.
+    ("S-<f5>" . company-R-args)
+    ("C-<f5>" . company-R-objects)
+    ("<f8>"   . lsp-ui-imenu)
     ("C-<f8>" . lsp-treemacs-symbols)
+    ("<f9>"   . treemacs)
+    ("<f10>"  . imenu-list)
     ;; ("C-<f9>" . lsp-treemacs-errors-list)
     ;; ("C-<f10>" . lsp-treemacs-references)
     ;; ("C-<f11>" . lsp-treemacs-implementations)
     ;; ("C-<f12>" . lsp-treemacs-call-hierarchy)
-    ("<f8>"   . lsp-ui-imenu)
-    ;; ("<f8>"   . lsp-ui-imenu-toggle)
-    ("<f9>"  . treemacs)
-    ("<f10>"  . imenu-list)
     :init
     (progn
       (message "use-package ess :init")
@@ -150,43 +152,20 @@
       (setq-local comment-add 0) ;; Single # as default.
       ;; (setq lsp-diagnostics-provider :none)
       )
+    :hook
+    (ess-mode . (lambda ()
+                  (yas-minor-mode)   ;; Enable yasnippet.
+                  (flycheck-mode -1) ;; Disable flycheck/lintr.
+                  (lsp)              ;; Enable LSP.
+                  (setq lsp-diagnostics-provider :none) ;; Disable flycheck.
+                  ;; (lsp-ui-doc-use-webkit t)
+                  (setq-local comment-add 0) ;; Single # as default.
+                  (setq ess-r-backend 'lsp
+                        ess-style 'RStudio
+                        ess-use-flymake nil
+                        ess-smart-operators t)
+                  ))
     :config
-    (add-hook
-     'ess-mode-hook
-     '(lambda ()
-        (message "use-package ess :config add-hook")
-        ;;-------------------------------------
-        ;; (require 'ess-site)
-        ;; (require 'ess-view-data)
-        ;; (setq ess-view-data-mode t)
-        (flycheck-mode -1)        ;; Disable flycheck/lintr.
-        (setq ess-smart-operators t)
-        (setq-local comment-add 0) ;; Single # as default.
-        ;; https://stackoverflow.com/questions/7502540/make-emacs-ess-follow-r-style-guide
-        ;; (ess-set-style 'C++)
-        (ess-set-style 'RStudio)
-        ;; (setq ess-offset-arguments 'prev-line)
-        ;; (set 'ess-arg-function-offset t)
-        ;;
-        ;;-------------------------------------
-        ;; LSP.
-        ;; https://github.com/emacs-lsp/lsp-ui/issues/367
-        (setq lsp-enable-symbol-highlighting nil)
-        (setq lsp-signature-auto-activate nil)
-        (setq lsp-ui-doc-enable nil)
-        (setq lsp-diagnostics-provider :none)
-        (setq lsp-restart 'ignore)
-        ;; (setq lsp-enable-symbol-highlighting nil) ;; https://github.com/syl20bnr/spacemacs/issues/13934
-        ;;
-        ;; Company. ---------------------------
-        ;; (company-mode 1)
-        ;; (setq ess-use-company 'script-only)
-        ;; `Alt + -'  to cycle `<- | <<- | = ...'.
-        (define-key ess-mode-map [?\M--] 'ess-cycle-assign) ;; FIXME not working.
-        (define-key ess-mode-map [S-f5] 'company-R-args)    ;; S-F5 do show ARGS.
-        (define-key ess-mode-map [C-f5] 'company-R-objects) ;; C-F5 complete objects.
-        )
-     )
     (defadvice ess-eval-buffer (before really-eval-buffer compile activate)
       "Prevent call ess-eval-buffer by accident,
                  frequently by hitting C-c C-b instead of C-c C-n."
@@ -199,41 +178,6 @@
 
   ;; R --------------------------------------------------------------------------
   (with-eval-after-load 'ess-site
-    ;; ESS
-    ;; (add-hook 'ess-mode-hook
-    ;;           (lambda ()
-    ;;             ;; (require 'ess-site)
-    ;;             ;; (require 'ess-view-data)
-    ;;             (setq ess-smart-operators t)
-    ;;             (setq-local comment-add 0) ;; Single # as default.
-    ;;             (ess-toggle-underscore nil)
-    ;;             ;; (ess-set-style 'C++ 'quiet)
-    ;;             (ess-set-style 'RStudio)
-    ;;             ;; Because
-    ;;             ;;                                 DEF GNU BSD K&R C++
-    ;;             ;; ess-indent-level                  2   2   8   5   4
-    ;;             ;; ess-continued-statement-offset    2   2   8   5   4
-    ;;             ;; ess-brace-offset                  0   0  -8  -5  -4
-    ;;             ;; ess-arg-function-offset           2   4   0   0   0
-    ;;             ;; ess-expression-offset             4   2   8   5   4
-    ;;             ;; ess-else-offset                   0   0   0   0   0
-    ;;             ;; ess-close-brace-offset            0   0   0   0   0
-    ;;             ;; `Alt + -'  to cycle `<- | <<- | = ...'.
-    ;;             (define-key ess-mode-map [?\M--] 'ess-cycle-assign)
-    ;;             (define-key ess-mode-map [S-f5] 'company-R-args)    ;; S-F5 do show ARGS.
-    ;;             (define-key ess-mode-map [C-f5] 'company-R-objects) ;; C-F5 complete objects.
-    ;;             (add-hook 'local-write-file-hooks
-    ;;                       (lambda ()
-    ;;                         (ess-nuke-trailing-whitespace))))
-    ;;           (defadvice ess-eval-buffer (before really-eval-buffer compile activate)
-    ;;             "Prevent call ess-eval-buffer by accident,
-    ;;              frequently by hitting C-c C-b instead of C-c C-n."
-    ;;             (if (yes-or-no-p
-    ;;                  (format "Are you sure you want to evaluate the %s buffer?"
-    ;;                          buffer-file-name))
-    ;;                 (message "ess-eval-buffer started.")
-    ;;               (error "ess-eval-buffer canceled!")))
-    ;;           )
     (setq ess-nuke-trailing-whitespace-p 'ask)
     ;; or even
     ;; (setq ess-nuke-trailing-whitespace-p t)

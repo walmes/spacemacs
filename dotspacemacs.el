@@ -42,7 +42,11 @@ values."
      csv
      helm
      treemacs
-     auto-completion
+     ;; auto-completion
+     (auto-completion :variables
+                      auto-completion-enable-help-tooltip t
+                      auto-completion-enable-snippets-in-popup t
+                      auto-completion-enable-sort-by-usage t)
      better-defaults
      emacs-lisp
      git
@@ -590,7 +594,10 @@ See the header of this file for more information."
 This function is called immediately after `dotspacemacs/init', before layer
 configuration.
 It is mostly for variables that should be set before packages are loaded.
-If you are unsure, try setting them in `dotspacemacs/user-config' first.")
+If you are unsure, try setting them in `dotspacemacs/user-config' first."
+  ;; (define-key ess-mode-map [?\M--] nil)
+  (setq evil-toggle-key "C-`")
+  )
 
 
 (defun dotspacemacs/user-load ()
@@ -635,21 +642,13 @@ you should place your code here."
      eshell-mode-hook
      inferior-python-mode-hook
      ))
-  ;; Turn on FCI (Fill Column Indicator) mode
-  ; (turn-on-fci-mode)
-  ;; Maxima mode https://www.emacswiki.org/emacs/MaximaMode
-  ;; (add-to-list 'load-path "/usr/local/share/maxima/5.18.1/emacs/")
-  (autoload 'maxima-mode "maxima" "Maxima mode" t)
-  (autoload 'imaxima "imaxima" "Frontend for maxima with Image support" t)
-  (autoload 'maxima "maxima" "Maxima interaction" t)
-  (autoload 'imath-mode "imath" "Imath mode for math formula input" t)
-  (setq imaxima-use-maxima-mode-flag t)
-  (add-to-list 'auto-mode-alist '("\\.ma[cx]" . maxima-mode))
 
   (setq spacemacs-theme-comment-bg nil)
 
   (setq user-full-name "Walmes Zeviani"
         user-mail-address "walmeszeviani")
+
+  (global-flycheck-mode -1) ;; Turn off Flycheck.
 
   ;; TODO: Improve this.
   ;; (global-whitespace-mode +1)

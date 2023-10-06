@@ -823,6 +823,10 @@
                 (lambda ()
                   (interactive)
                   (wz-insert-rule-from-point-to-margin ?=)))
+(global-set-key (kbd "C-c /")
+                (lambda ()
+                  (interactive)
+                  (wz-insert-rule-from-point-to-margin ?/)))
 
 (add-hook
  'markdown-mode-hook

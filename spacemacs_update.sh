@@ -57,6 +57,12 @@ rm -vrf ~/emacs-configs/spacemacs/private/private/funk
 cp -vrf funk ~/emacs-configs/spacemacs/private/private
 
 #-----------------------------------------------------------------------
+# Snippets -------------------------------------------------------------
+
+# Copy snippets.
+cp -rfv ~/.doom.d/snippets ~/emacs-configs/spacemacs
+
+#-----------------------------------------------------------------------
 # Last step ------------------------------------------------------------
 
 # Transfer the main file.
