@@ -43,10 +43,11 @@ values."
      helm
      treemacs
      ;; auto-completion
-     (auto-completion :variables
-                      auto-completion-enable-help-tooltip t
-                      auto-completion-enable-snippets-in-popup t
-                      auto-completion-enable-sort-by-usage t)
+     ;; (auto-completion :variables
+     ;;                 auto-completion-enable-help-tooltip t
+     ;;                 auto-completion-enable-snippets-in-popup t
+     ;;                 auto-completion-enable-sort-by-usage t)
+     auto-completion
      better-defaults
      emacs-lisp
      git
@@ -126,6 +127,10 @@ values."
                                       quarto-mode
                                       poly-noweb
                                       poly-markdown
+                                      copilot :location (recipe
+                                                         :fetcher github
+                                                         :repo "zerolfx/copilot.el"
+                                                         :files ("*.el" "dist"))
                                       ;; Themes.
                                       ;; doom-one
                                       vscode-dark-plus-theme)
@@ -671,6 +676,24 @@ you should place your code here."
      ))
 
   ;; -------------------------------------------------------------------
+  ;; Copilot.
+  ;; -------------------------------------------------------------------
+
+  (with-eval-after-load 'company
+    ;; disable inline previews
+    (delq 'company-preview-if-just-one-frontend company-frontends))
+
+  (with-eval-after-load 'copilot
+    (global-set-key (kbd "C-=") 'copilot-complete)
+    ;;(define-key copilot-completion-map (kbd "C-=") 'copilot-complete)
+    (define-key copilot-completion-map (kbd "<tab>") 'copilot-accept-completion)
+    (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
+    (define-key copilot-completion-map (kbd "C-TAB") 'copilot-accept-completion-by-word)
+    (define-key copilot-completion-map (kbd "C-<tab>") 'copilot-accept-completion-by-word))
+
+  (add-hook 'prog-mode-hook 'copilot-mode)
+
+  ;; -------------------------------------------------------------------
   ;; My preferences.
   ;; -------------------------------------------------------------------
 
@@ -723,6 +746,12 @@ you should place your code here."
   ;; (spacemacs|diminish lsp-mode "▸" "LSP")
   (spacemacs|diminish lsp-mode "🅻" "LSP")
   (spacemacs|diminish yas-minor-mode "🅨" "yas")
+
+  ;; (defun wz-trigger-copilot-complete ()
+  ;;   "Chama a função `copilot-complete` quando C-= é pressionado."
+  ;;   (interactive)
+  ;;   (copilot-complete))
+  ;; (global-set-key (kbd "C-=") 'wz-trigger-copilot-complete)
 
   ;; -------------------------------------------------------------------
   ;; My Python settings.

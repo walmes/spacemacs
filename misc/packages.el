@@ -18,11 +18,11 @@
      :location (recipe
                 :fetcher github
                 :repo "emacsmirror/bookmark-plus"))
-    (copilot
-     :location (recipe
-                :fetcher github
-                :repo "zerolfx/copilot.el"
-                :files ("*.el" "dist")))
+    ;; (copilot
+    ;;  :location (recipe
+    ;;             :fetcher github
+    ;;             :repo "zerolfx/copilot.el"
+    ;;             :files ("*.el" "dist")))
     )
   )
 
@@ -174,17 +174,17 @@
     )
   )
 
-(defun misc/init-copilot ()
-  (use-package copilot
-    :defer t
-    :hook (prog-mode . copilot-mode)
-    :bind (:map copilot-completion-map
-                ("<tab>" . 'copilot-accept-completion)
-                ("TAB" . 'copilot-accept-completion)
-                ("C-TAB" . 'copilot-accept-completion-by-word)
-                ("C-<tab>" . 'copilot-accept-completion-by-word))
-    :config
-    ;; (spacemacs|diminish copilot-mode "Ⓒ" "C")
-    (spacemacs|diminish copilot-mode "🄲" "C")
-    )
-  )
+;; (defun misc/init-copilot ()
+;;   (use-package copilot
+;;     :defer t
+;;     :hook (prog-mode . copilot-mode)
+;;     :bind (:map copilot-completion-map
+;;                 ("<tab>" . 'copilot-accept-completion)
+;;                 ("TAB" . 'copilot-accept-completion)
+;;                 ("C-TAB" . 'copilot-accept-completion-by-word)
+;;                 ("C-<tab>" . 'copilot-accept-completion-by-word))
+;;     :config
+;;     ;; (spacemacs|diminish copilot-mode "Ⓒ" "C")
+;;     (spacemacs|diminish copilot-mode "🄲" "C")
+;;     )
+;;   )
