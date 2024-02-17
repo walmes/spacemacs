@@ -123,10 +123,10 @@ values."
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
    dotspacemacs-additional-packages '(
-                                      poly-R
-                                      quarto-mode
-                                      poly-noweb
-                                      poly-markdown
+                                      ;; poly-R
+                                      ;; quarto-mode
+                                      ;; poly-noweb
+                                      ;; poly-markdown
                                       copilot :location (recipe
                                                          :fetcher github
                                                          :repo "zerolfx/copilot.el"
@@ -138,7 +138,7 @@ values."
    dotspacemacs-frozen-packages '()
 
    ;; A list of packages that will not be installed and loaded.
-   dotspacemacs-excluded-packages '()
+   dotspacemacs-excluded-packages '(recipe)
 
    ;; Defines the behaviour of Spacemacs when installing packages.
    ;; Possible values are `used-only', `used-but-keep-unused' and `all'.
@@ -629,6 +629,7 @@ It is mostly for variables that should be set before packages are loaded.
 If you are unsure, try setting them in `dotspacemacs/user-config' first."
   ;; (define-key ess-mode-map [?\M--] nil)
   (setq evil-toggle-key "C-`") ;; To use C-z for undo.
+  (setq package-check-signature nil)
   )
 
 

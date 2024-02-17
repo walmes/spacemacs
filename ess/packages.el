@@ -158,7 +158,8 @@
                   (flycheck-mode -1) ;; Disable flycheck/lintr.
                   (lsp)              ;; Enable LSP.
                   (setq lsp-diagnostics-provider :none) ;; Disable flycheck.
-                  ;; (lsp-ui-doc-use-webkit t)
+                  (setq lsp-headerline-breadcrumb-enable-diagnostics nil)
+                  (lsp-ui-doc-use-webkit t)
                   (setq-local comment-add 0) ;; Single # as default.
                   (setq ess-r-backend 'lsp
                         ess-style 'RStudio

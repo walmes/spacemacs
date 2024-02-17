@@ -17,7 +17,7 @@ rm -vrf ~/emacs-configs/spacemacs/private
 # `ess` layer ----------------------------------------------------------
 
 # Delete layer `ess`.
-rm -vrf ~/emacs-configs/spacemacs/private/private/ess
+rm -vrf ~/emacs-configs/spacemacs/private/ess
 
 # Downloads `electric-spacing-r.el`.
 mkdir -p ./ess/local/electric-spacing-r
@@ -29,21 +29,21 @@ mkdir -p ./ess/local/essh
 wget "https://www.emacswiki.org/emacs/download/essh.el" -O ./ess/local/essh/essh.el
 
 # Copies `ess` to `private`.
-cp -vrf ess ~/emacs-configs/spacemacs/private/private
+cp -vrf ess ~/emacs-configs/spacemacs/private/
 
 #-----------------------------------------------------------------------
 # `polymode` layer -----------------------------------------------------
 
 # Copies `polymode` to `private`.
-rm -vrf ~/emacs-configs/spacemacs/private/private/polymode
-cp -vrf polymode ~/emacs-configs/spacemacs/private/private
+rm -vrf ~/emacs-configs/spacemacs/private/polymode
+cp -vrf polymode ~/emacs-configs/spacemacs/private/
 
 #-----------------------------------------------------------------------
 # `misc` layer ---------------------------------------------------------
 
 # Copies `misc` to `private`.
-rm -vrf ~/emacs-configs/spacemacs/private/private/misc
-cp -vrf misc ~/emacs-configs/spacemacs/private/private
+rm -vrf ~/emacs-configs/spacemacs/private/misc
+cp -vrf misc ~/emacs-configs/spacemacs/private/
 
 #-----------------------------------------------------------------------
 # `funk` layer ---------------------------------------------------------
@@ -54,8 +54,8 @@ wget "https://raw.githubusercontent.com/walmes/doom-emacs/master/funcs.el" -O ./
 # cp -v ~/.doom.d/funcs.el ./funk
 
 # Copies `funk` to `private`.
-rm -vrf ~/emacs-configs/spacemacs/private/private/funk
-cp -vrf funk ~/emacs-configs/spacemacs/private/private
+rm -vrf ~/emacs-configs/spacemacs/private/funk
+cp -vrf funk ~/emacs-configs/spacemacs/private/
 
 #-----------------------------------------------------------------------
 # Snippets -------------------------------------------------------------
@@ -66,11 +66,11 @@ cp -rfv ~/.doom.d/snippets ~/emacs-configs/spacemacs
 #-----------------------------------------------------------------------
 # Elpy -----------------------------------------------------------------
 
-# Copies `elpy` to `private`.
-rm -vrf ~/emacs-configs/spacemacs/private/private/elpy
-cp -vrf elpy ~/emacs-configs/spacemacs/private/private
-
-# TODO: enable lsp using mspyls.
+# # Copies `elpy` to `private`.
+# rm -vrf ~/emacs-configs/spacemacs/private/private/elpy
+# cp -vrf elpy ~/emacs-configs/spacemacs/private/private
+#
+# # TODO: enable lsp using mspyls.
 
 #-----------------------------------------------------------------------
 # Last step ------------------------------------------------------------
