@@ -127,10 +127,10 @@ values."
                                       ;; quarto-mode
                                       ;; poly-noweb
                                       ;; poly-markdown
-                                      copilot :location (recipe
-                                                         :fetcher github
-                                                         :repo "zerolfx/copilot.el"
-                                                         :files ("*.el" "dist"))
+                                      (copilot :location (recipe
+                                                          :fetcher github
+                                                          :repo "zerolfx/copilot.el"
+                                                          :files ("*.el" "dist")))
                                       ;; Themes.
                                       ;; doom-one
                                       vscode-dark-plus-theme)

@@ -130,10 +130,10 @@
     ("M-="    . ess-cycle-assign)     ;; `Alt + -'  to cycle ` <- | <<- | = ...'.
     ("S-<f5>" . company-R-args)
     ("C-<f5>" . company-R-objects)
-    ("<f8>"   . lsp-ui-imenu)
-    ("C-<f8>" . lsp-treemacs-symbols)
+    ("<f8>"   . lsp-ui-imenu-toggle)
+    ("C-<f8>" . lsp-treemacs-symbols-toggle)
     ("<f9>"   . treemacs)
-    ("<f10>"  . imenu-list)
+    ("<f12>"  . imenu-list-smart-toggle)
     ;; ("C-<f9>" . lsp-treemacs-errors-list)
     ;; ("C-<f10>" . lsp-treemacs-references)
     ;; ("C-<f11>" . lsp-treemacs-implementations)
