@@ -123,10 +123,10 @@ values."
    ;; `:location' property: '(your-package :location "~/path/to/your-package/")
    ;; Also include the dependencies as they will not be resolved automatically.
    dotspacemacs-additional-packages '(
-                                      ;; poly-R
-                                      ;; quarto-mode
-                                      ;; poly-noweb
-                                      ;; poly-markdown
+                                      poly-R
+                                      quarto-mode
+                                      poly-noweb
+                                      poly-markdown
                                       (copilot :location (recipe
                                                           :fetcher github
                                                           :repo "zerolfx/copilot.el"
@@ -691,7 +691,7 @@ you should place your code here."
     (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
     (define-key copilot-completion-map (kbd "C-TAB") 'copilot-accept-completion-by-word)
     (define-key copilot-completion-map (kbd "C-<tab>") 'copilot-accept-completion-by-word))
-
+  (customize-set-variable 'copilot-enable-predicates nil)
   (add-hook 'prog-mode-hook 'copilot-mode)
 
   ;; -------------------------------------------------------------------
