@@ -691,6 +691,7 @@ you should place your code here."
     (define-key copilot-completion-map (kbd "TAB") 'copilot-accept-completion)
     (define-key copilot-completion-map (kbd "C-TAB") 'copilot-accept-completion-by-word)
     (define-key copilot-completion-map (kbd "C-<tab>") 'copilot-accept-completion-by-word))
+
   (customize-set-variable 'copilot-enable-predicates nil)
   (add-hook 'prog-mode-hook 'copilot-mode)
 
@@ -747,6 +748,9 @@ you should place your code here."
   ;; (spacemacs|diminish lsp-mode "▸" "LSP")
   (spacemacs|diminish lsp-mode "🅻" "LSP")
   (spacemacs|diminish yas-minor-mode "🅨" "yas")
+  ;; (spacemacs|diminish copilot-mode "🄲" "C")
+  ;; (spacemacs|diminish copilot-mode "❖" "C")
+  (spacemacs|diminish copilot-mode "🤖" "C")
 
   ;; (defun wz-trigger-copilot-complete ()
   ;;   "Chama a função `copilot-complete` quando C-= é pressionado."
